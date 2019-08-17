@@ -1,18 +1,43 @@
 'use strict'
 
 const db = require('../server/db')
-const {User} = require('../server/db/models')
+const {User, Favorite, Topic} = require('../server/db/models')
+
+const topics = [
+  {name: 'Science'},
+  {name: 'Sport'},
+  {name: 'Tech'},
+  {name: 'Fashion'},
+  {name: 'Politics'}
+]
+
+const sites = [
+  {website: 'https://www.bbc.com'},
+  {website: 'https://www.huffpost.com/'},
+  {website: 'https://news.yahoo.com/'}
+]
 
 async function seed() {
   await db.sync({force: true})
   console.log('db synced!')
 
-  const users = await Promise.all([
-    User.create({email: 'cody@email.com', password: '123'}),
+  await Promise.all([
+    User.create({email: 'bob@email.com', password: '123'}),
     User.create({email: 'murphy@email.com', password: '123'})
   ])
 
-  console.log(`seeded ${users.length} users`)
+  await Promise.all(
+    sites.map(site => {
+      return Favorite.create(site)
+    })
+  )
+
+  await Promise.all(
+    topics.map(topic => {
+      return Topic.create(topic)
+    })
+  )
+  // console.log(`seeded ${users.length} users`)
   console.log(`seeded successfully`)
 }
 
