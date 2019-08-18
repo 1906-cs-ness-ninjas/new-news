@@ -19,9 +19,24 @@ router.post('/', async (req, res, next) => {
       },
       include: [{model: Topic}]
     })
-    console.log('****FOUND USER', foundUser)
-    await foundUser.addTopics(['1', '2'])
+
+    await foundUser.addTopics(req.body.topics)
     res.sendStatus(202)
+  } catch (error) {
+    next(error)
+  }
+})
+
+router.delete('/edit', async (req, res, next) => {
+  try {
+    const foundUser = await User.findOne({
+      where: {
+        id: req.body.id
+      },
+      include: [{model: Topic}]
+    })
+
+    await foundUser.removeTopics(req.body.topics)
   } catch (error) {
     next(error)
   }
