@@ -20,14 +20,14 @@ router.post('/', async (req, res, next) => {
       include: [{model: Topic}]
     })
 
-    await foundUser.addTopics(req.body.topics)
+    await foundUser.addTopic(req.body.topic)
     res.sendStatus(202)
   } catch (error) {
     next(error)
   }
 })
 
-router.delete('/edit', async (req, res, next) => {
+router.delete('/', async (req, res, next) => {
   try {
     const foundUser = await User.findOne({
       where: {
@@ -36,7 +36,22 @@ router.delete('/edit', async (req, res, next) => {
       include: [{model: Topic}]
     })
 
-    await foundUser.removeTopics(req.body.topics)
+    await foundUser.removeTopic(req.body.topic)
+    res.sendStatus(204)
+  } catch (error) {
+    next(error)
+  }
+})
+
+router.get('/:userId', async (req, res, next) => {
+  try {
+    const foundUser = await User.findOne({
+      where: {
+        id: req.params.userId
+      },
+      include: [{model: Topic}]
+    })
+    res.send(foundUser.topics.map(topic => topic.id))
   } catch (error) {
     next(error)
   }
