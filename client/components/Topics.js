@@ -23,8 +23,8 @@ class Topics extends Component {
           {this.props.topics &&
             this.props.topics.map(topic => {
               return (
-                <div>
-                  <input type="checkbox" key={topic.id} name={topic.id} />
+                <div key={topic.id}>
+                  <input type="checkbox" name={topic.id} />
                   <span key={topic.id}>{topic.name}</span>
                 </div>
               )

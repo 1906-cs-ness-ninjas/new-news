@@ -7,6 +7,7 @@ import history from '../history'
 const GET_TOPICS = 'GET_TOPICS'
 // const REMOVE_TOPIC = 'REMOVE_TOPIC'
 const ADD_FAVS = 'ADD_FAVS'
+const REMOVE_FAVS = 'REMOVE_FAVS'
 
 /**
  * INITIAL STATE
@@ -34,14 +35,20 @@ export const getTopicsThunk = () => async dispatch => {
 }
 export const addFavoriteThunk = topics => async (dispatch, state) => {
   try {
-    console.log('STATE SHOULD BE THERE********', state().user.id)
     await axios.post('/api/topics', {topics, id: state().user.id})
     dispatch()
   } catch (error) {
     console.log(error)
   }
 }
-
+export const removeFavoriteThunk = topics => async (dispatch, state) => {
+  try {
+    await axios.delete('/api/topics/edit', {topics, id: state().user.id})
+    dispatch()
+  } catch (error) {
+    console.log(error)
+  }
+}
 /**
  * REDUCER
  */
