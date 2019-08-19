@@ -53,7 +53,9 @@ class Topics extends Component {
                     onChange={e => this.onChange(e)}
                     type="checkbox"
                     name={topic.id}
-                    checked={this.favoriteTopic && this.isChecked(topic.id)}
+                    checked={
+                      this.props.favoriteTopic && this.isChecked(topic.id)
+                    }
                   />
                   <span key={topic.id}>{topic.name}</span>
                 </div>
