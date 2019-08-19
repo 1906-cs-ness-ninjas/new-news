@@ -57,9 +57,9 @@ export default function(state = favTopics, action) {
     case GET_FAV_TOPICS:
       return action.topics
     case ADD_FAVS:
-      return [...state, action.topic]
+      return [...state, +action.topic]
     case REMOVE_FAVS:
-      return state.filter(topic => topic !== action.topic)
+      return state.filter(topic => topic !== +action.topic)
     default:
       return state
   }

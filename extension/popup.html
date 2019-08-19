@@ -4,6 +4,14 @@
     <title>Test</title>
   </head>
   <body>
-    <h1>Hello World!</h1>
+    <h1 id="changeColor">Hello World!</h1>
+    <button id="app">test</button>
+    <script type="text/javascript">
+      let elem = document.getElementById("changeColor")
+      chrome.storage.sync.get('color', function(data) {
+        changeColor.style.backgroundColor = data.color;
+        changeColor.setAttribute('value', data.color);
+      });
+    </script>
   </body>
 </html>
