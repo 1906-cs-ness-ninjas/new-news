@@ -1,6 +1,7 @@
 const User = require('./user')
 const Favorite = require('./favorite')
 const Topic = require('./topic')
+const bbcArticles = require('./bbcArticles')
 
 /**
  * If we had any associations to make, this would be a great place to put them!
@@ -24,5 +25,6 @@ Topic.belongsToMany(User, {through: 'User_Topic'})
 module.exports = {
   User,
   Favorite,
-  Topic
+  Topic,
+  bbcArticles
 }
