@@ -1,3 +1,27 @@
+/* #header h1,
+h3 {
+  display: inline;
+} */
+
+.heading {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 5em;
+}
+
+.slogan {
+  font-family: 'Libre Caslon Display', serif;
+  font-size: 1em;
+  font-style: italic;
+}
+
+.landing-image {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.9),
+      rgba(255, 255, 255, 0.9)
+    ),
+    url('https://www.wahmedia.in/wp-content/uploads/2018/03/newspaper-background.jpg');
+}
+
 body {
   font-family: sans-serif;
 }

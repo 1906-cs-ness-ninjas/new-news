@@ -10,11 +10,11 @@ const {scrapeHuffPostHeadlines} = require('../server/scrapers/huffPostscraper')
 const {scrapeHuffPostArticles} = require('../server/scrapers/huffPostscraper')
 
 const topics = [
-  {name: 'Science'},
-  {name: 'Sport'},
-  {name: 'Tech'},
-  {name: 'World'},
-  {name: 'Politics'}
+  {name: 'science'},
+  {name: 'sport'},
+  {name: 'tech'},
+  {name: 'world'},
+  {name: 'politics'}
 ]
 
 const sites = [
@@ -27,14 +27,20 @@ async function seed() {
   await db.sync({force: false})
   console.log('db synced!')
 
-  // const browser = await puppeteer.launch({headless: false})
-  // const page = await browser.newPage()
+  const browser = await puppeteer.launch({headless: false})
+  try {
+    const page = await browser.newPage()
 
-  // const HPheadlines = await scrapeHuffPostHeadlines(page)
-  // await scrapeHuffPostArticles(HPheadlines, page)
+    const HPheadlines = await scrapeHuffPostHeadlines(page)
+    await scrapeHuffPostArticles(HPheadlines, page)
 
-  // const BBCheadlines = await srapeBBCHeadlines(page)
-  // await scrapeBBCArticles(BBCheadlines, page)
+    const BBCheadlines = await srapeBBCHeadlines(page)
+    await scrapeBBCArticles(BBCheadlines, page)
+  } catch (error) {
+    console.log(error)
+  } finally {
+    await browser.close()
+  }
 
   await Promise.all([
     User.create({email: 'bob@email.com', password: '123'}),
