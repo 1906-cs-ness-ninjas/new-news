@@ -24,7 +24,7 @@ const sites = [
 ]
 
 async function seed() {
-  await db.sync({force: true})
+  await db.sync({force: false})
   console.log('db synced!')
 
   const browser = await puppeteer.launch({headless: false})

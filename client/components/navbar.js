@@ -4,6 +4,7 @@ import {connect} from 'react-redux'
 import {Link} from 'react-router-dom'
 import {logout} from '../store'
 import Topics from './Topics'
+import Articles from './articles'
 import {Button} from 'semantic-ui-react'
 
 const Navbar = ({handleClick, isLoggedIn}) => (
@@ -25,6 +26,7 @@ const Navbar = ({handleClick, isLoggedIn}) => (
 
           <a>
             <Topics />
+            <Articles />
           </a>
           <a href="#" onClick={handleClick}>
             Logout
