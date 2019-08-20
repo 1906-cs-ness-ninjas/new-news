@@ -12,6 +12,13 @@ const bbcArticles = db.define('articles', {
     type: Sequelize.STRING
   },
   article: {
+    type: Sequelize.TEXT
+  },
+  favorited: {
+    type: Sequelize.BOOLEAN,
+    defaultValue: false
+  },
+  category: {
     type: Sequelize.STRING
   }
 })
