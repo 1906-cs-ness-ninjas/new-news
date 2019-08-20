@@ -24,17 +24,17 @@ const sites = [
 ]
 
 async function seed() {
-  await db.sync({force: true})
+  await db.sync({force: false})
   console.log('db synced!')
 
-  const browser = await puppeteer.launch({headless: false})
-  const page = await browser.newPage()
+  // const browser = await puppeteer.launch({headless: false})
+  // const page = await browser.newPage()
 
-  const HPheadlines = await scrapeHuffPostHeadlines(page)
-  await scrapeHuffPostArticles(HPheadlines, page)
+  // const HPheadlines = await scrapeHuffPostHeadlines(page)
+  // await scrapeHuffPostArticles(HPheadlines, page)
 
-  const BBCheadlines = await srapeBBCHeadlines(page)
-  await scrapeBBCArticles(BBCheadlines, page)
+  // const BBCheadlines = await srapeBBCHeadlines(page)
+  // await scrapeBBCArticles(BBCheadlines, page)
 
   await Promise.all([
     User.create({email: 'bob@email.com', password: '123'}),
