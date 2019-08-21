@@ -4,15 +4,24 @@ import {connect} from 'react-redux'
 import {Link} from 'react-router-dom'
 import {logout} from '../store'
 import Topics from './Topics'
+import {Button} from 'semantic-ui-react'
 
 const Navbar = ({handleClick, isLoggedIn}) => (
   <div>
-    <h1>BOILERMAKER</h1>
+    <div id="header">
+      <h1 className="heading" align="center">
+        New News
+      </h1>
+      <h3 className="slogan">
+        All of your favorite news articles in one place. Plus something new
+      </h3>
+    </div>
     <nav>
       {isLoggedIn ? (
         <div>
-          {/* The navbar will show these links after you log in */}
-          <Link to="/home">Home</Link>
+          <Button as={Link} to="/home">
+            Home
+          </Button>
 
           <a>
             <Topics />

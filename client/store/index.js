@@ -5,8 +5,9 @@ import {composeWithDevTools} from 'redux-devtools-extension'
 import user from './user'
 import topic from './topicStore'
 import favoriteTopic from './favoriteTopicStore'
+import articles from './articles'
 
-const reducer = combineReducers({user, topic, favoriteTopic})
+const reducer = combineReducers({user, topic, favoriteTopic, articles})
 const middleware = composeWithDevTools(
   applyMiddleware(thunkMiddleware, createLogger({collapsed: true}))
 )

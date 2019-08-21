@@ -13,7 +13,16 @@ const bbcArticles = db.define('articles', {
   },
   article: {
     type: Sequelize.TEXT
+  },
+  favorited: {
+    type: Sequelize.BOOLEAN,
+    defaultValue: false
+  },
+  category: {
+    type: Sequelize.STRING
   }
 })
+
+// bbcArticles.beforeValidate()
 
 module.exports = bbcArticles

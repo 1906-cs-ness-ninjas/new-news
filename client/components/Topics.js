@@ -6,15 +6,9 @@ import {
   removeFavoriteThunk
 } from '../store/favoriteTopicStore'
 import {connect} from 'react-redux'
+import {Form, Dropdown} from 'semantic-ui-react'
 
 class Topics extends Component {
-  // constructor(props) {
-  //   super(props);
-  //   this.state = {
-  //     selectedTopics : []
-  //   }
-  // }
-
   componentDidMount() {
     this.props.getTopicsThunk()
     this.props.getSelectTopicsThunk()
@@ -34,6 +28,7 @@ class Topics extends Component {
   }
 
   onChange = ev => {
+    console.log(ev.target.name)
     if (ev.target.checked) {
       this.props.addFavoriteThunk(ev.target.name)
     } else {
@@ -44,25 +39,35 @@ class Topics extends Component {
   render() {
     return (
       <div>
-        <form onSubmit={ev => this.onSubmit(ev)}>
-          {this.props.topics &&
-            this.props.topics.map(topic => {
-              return (
-                <div key={topic.id}>
-                  <input
-                    onChange={e => this.onChange(e)}
-                    type="checkbox"
-                    name={topic.id}
-                    checked={
-                      this.props.favoriteTopic && this.isChecked(topic.id)
-                    }
-                  />
-                  <span key={topic.id}>{topic.name}</span>
-                </div>
-              )
-            })}
-          {/* <button>Select Favorite Topics</button> */}
-        </form>
+        <Form onSubmit={ev => this.onSubmit(ev)}>
+          <Form.Group grouped>
+            <Dropdown
+              placeholder="Favorite Topics"
+              fluid
+              multiple
+              selection
+              options={
+                this.props.topics &&
+                this.props.topics.map(topic => {
+                  return (
+                    <Form.Field
+                      id={topic.id}
+                      onChange={e => this.onChange(e)}
+                      label={topic.name}
+                      name={topic.id}
+                      control="input"
+                      type="checkbox"
+                      checked={
+                        this.props.favoriteTopic && this.isChecked(topic.id)
+                      }
+                    />
+                  )
+                })
+              }
+            />
+            {/* <button>Select Favorite Topics</button> */}
+          </Form.Group>
+        </Form>
       </div>
     )
   }

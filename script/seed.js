@@ -4,19 +4,26 @@ const db = require('../server/db')
 const {User, Favorite, Topic, bbcArticles} = require('../server/db/models')
 const puppeteer = require('puppeteer')
 const cheerio = require('cheerio')
+const {scrapeBBCArticles} = require('../server/scrapers/BBCScraper')
+const {srapeBBCHeadlines} = require('../server/scrapers/BBCScraper')
+const {scrapeHuffPostHeadlines} = require('../server/scrapers/huffPostscraper')
+const {scrapeHuffPostArticles} = require('../server/scrapers/huffPostscraper')
+const {scrapeNPRHeadlines} = require('../server/scrapers/nprScraper')
+const {scrapeNPRArticles} = require('../server/scrapers/nprScraper')
 
 const topics = [
-  {name: 'Science'},
-  {name: 'Sport'},
-  {name: 'Tech'},
-  {name: 'Fashion'},
-  {name: 'Politics'}
+  {name: 'science'},
+  {name: 'sport'},
+  {name: 'tech'},
+  {name: 'world'},
+  {name: 'politics'}
 ]
 
 const sites = [
   {website: 'https://www.bbc.com'},
   {website: 'https://www.huffpost.com/'},
-  {website: 'https://news.yahoo.com/'}
+  {website: 'https://news.yahoo.com/'},
+  {website: 'https://www.npr.org/'}
 ]
 
 async function seed() {
@@ -24,7 +31,22 @@ async function seed() {
   console.log('db synced!')
 
   const browser = await puppeteer.launch({headless: false})
-  const page = await browser.newPage()
+  try {
+    const page = await browser.newPage()
+    //!NPR Scraper
+    const NPRHeadlines = await scrapeNPRHeadlines(page)
+    await scrapeNPRArticles(NPRHeadlines, page)
+    //!HUffpost Scraper
+    const HPheadlines = await scrapeHuffPostHeadlines(page)
+    await scrapeHuffPostArticles(HPheadlines, page)
+    // //!BBC Scraper
+    const BBCheadlines = await srapeBBCHeadlines(page)
+    await scrapeBBCArticles(BBCheadlines, page)
+  } catch (error) {
+    console.log(error)
+  } finally {
+    await browser.close()
+  }
 
   await Promise.all([
     User.create({email: 'bob@email.com', password: '123'}),
@@ -42,49 +64,6 @@ async function seed() {
       return Topic.create(topic)
     })
   )
-
-  const headlines = await srapeHeadlines(page)
-  await scrapeArticles(headlines, page)
-
-  // console.log(`seeded ${users.length} users`)
-  console.log(`seeded successfully`)
-}
-async function srapeHeadlines(page) {
-  const pageUrl = 'https://www.bbc.com'
-  await page.goto('https://www.bbc.com/news')
-  const html = await page.content()
-  const $ = cheerio.load(html)
-  const headlines = $('.gs-c-promo')
-    .map((index, element) => {
-      const bodyElement = $(element).find('.gs-c-promo-body')
-      const imageElement = $(element).find('.gs-c-promo-image')
-      const headerElement = $(bodyElement).find('.gs-c-promo-heading')
-      const titleElement = $(element).find('.gs-c-promo-heading__title')
-      const url = pageUrl.concat($(headerElement).attr('href'))
-      const title = $(titleElement).text()
-      return {title, url}
-    })
-    .get()
-  return headlines
-}
-async function scrapeArticles(headlines, page) {
-  for (var i = 0; i < headlines.length; i++) {
-    // const browser = await puppeteer.launch({ headless: false});
-    // const page = await browser.newPage();
-    console.log(headlines[i].url)
-    await page.goto(headlines[i].url)
-    const html = await page.content()
-    const $ = cheerio.load(html)
-    const article = $('.story-body__inner').text()
-    const imgElement = $(
-      '#page > div:nth-child(1) > div.container > div > div.column--primary > div.story-body > div.story-body__inner > figure > span > img'
-    )
-    const imageUrl = $(imgElement).attr('src')
-    headlines[i].article = article
-    headlines[i].imageUrl = imageUrl || 'No image'
-    console.log(headlines)
-    bbcArticles.create(headlines[i])
-  }
 }
 
 // We've separated the `seed` function from the `runSeed` function.
