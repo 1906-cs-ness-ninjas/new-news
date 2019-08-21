@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import {connect} from 'react-redux'
 import Articles from './articles'
+import {Grid} from 'semantic-ui-react'
 
 /**
  * COMPONENT
@@ -12,7 +13,9 @@ export const UserHome = props => {
   return (
     <div>
       <h3>Here are your news for today</h3>
-      <Articles />
+      <Grid celled>
+        <Articles />
+      </Grid>
     </div>
   )
 }
