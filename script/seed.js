@@ -8,6 +8,8 @@ const {scrapeBBCArticles} = require('../server/scrapers/BBCScraper')
 const {srapeBBCHeadlines} = require('../server/scrapers/BBCScraper')
 const {scrapeHuffPostHeadlines} = require('../server/scrapers/huffPostscraper')
 const {scrapeHuffPostArticles} = require('../server/scrapers/huffPostscraper')
+const {scrapeNPRHeadlines} = require('../server/scrapers/nprScraper')
+const {scrapeNPRArticles} = require('../server/scrapers/nprScraper')
 
 const topics = [
   {name: 'science'},
@@ -20,20 +22,24 @@ const topics = [
 const sites = [
   {website: 'https://www.bbc.com'},
   {website: 'https://www.huffpost.com/'},
-  {website: 'https://news.yahoo.com/'}
+  {website: 'https://news.yahoo.com/'},
+  {website: 'https://www.npr.org/'}
 ]
 
 async function seed() {
-  await db.sync({force: false})
+  await db.sync({force: true})
   console.log('db synced!')
 
   const browser = await puppeteer.launch({headless: false})
   try {
     const page = await browser.newPage()
-
+    //!NPR Scraper
+    const NPRHeadlines = await scrapeNPRHeadlines(page)
+    await scrapeNPRArticles(NPRHeadlines, page)
+    //!HUffpost Scraper
     const HPheadlines = await scrapeHuffPostHeadlines(page)
     await scrapeHuffPostArticles(HPheadlines, page)
-
+    // //!BBC Scraper
     const BBCheadlines = await srapeBBCHeadlines(page)
     await scrapeBBCArticles(BBCheadlines, page)
   } catch (error) {
