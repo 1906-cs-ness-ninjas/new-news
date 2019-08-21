@@ -13,12 +13,14 @@ class Articles extends Component {
       <div>
         {this.props.articles &&
           this.props.articles.map(article => (
-            <Card>
-              <Image src={article.imageUrl} wrapped ui={false} />
-              <Card.Content>
-                <Card.Header>{article.title}</Card.Header>
-              </Card.Content>
-            </Card>
+            <a href={article.url}>
+              <Card>
+                <Image src={article.imageUrl} wrapped ui={false} />
+                <Card.Content>
+                  <Card.Header>{article.title}</Card.Header>
+                </Card.Content>
+              </Card>
+            </a>
           ))}
       </div>
     )

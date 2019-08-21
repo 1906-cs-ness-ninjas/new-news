@@ -23,12 +23,10 @@ async function srapeBBCHeadlines(page) {
       let url = ''
       if (/https:/.test($(headerElement).attr('href'))) {
         url = $(headerElement).attr('href')
-        // url = pageUrl.concat($(headerElement).attr('href'))
       } else {
-        // url = $(headerElement).attr('href');
         url = pageUrl.concat($(headerElement).attr('href'))
       }
-      //   url = $(headerElement).attr('href')
+
       const category = url.match(
         /(science|sports|technology|world|politics)/i
       ) || ['miscellaneous']
@@ -57,7 +55,12 @@ async function scrapeBBCArticles(headlines, page) {
     await page.waitFor(5000)
     headlines[i].article = article || 'Not found'
     headlines[i].imageUrl = imageUrl || 'No image'
-    // console.log(headlines)
+    if (
+      headlines[i].imageUrl === 'No image' ||
+      headlines[i].imageUrl === 'Not found'
+    ) {
+      continue
+    }
 
     bbcArticles.create(headlines[i])
   }

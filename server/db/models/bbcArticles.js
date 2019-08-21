@@ -23,4 +23,6 @@ const bbcArticles = db.define('articles', {
   }
 })
 
+// bbcArticles.beforeValidate()
+
 module.exports = bbcArticles

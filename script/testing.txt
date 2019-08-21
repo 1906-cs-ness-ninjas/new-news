@@ -1,0 +1,2947 @@
+"<!DOCTYPE html><html class=" js no-touch csstransforms3d video audio" lang="en" style=""><head><script>
+try {var _sf_startpt=(new Date()).getTime();} catch(e){}
+</script>
+<meta itemscope="" itemtype="https://schema.org/SpeakableSpecification" itemref="speakable"><title>NPR : National Public Radio : News &amp; Analysis, World, US, Music &amp; Arts : NPR</title><meta id="speakable" itemprop="cssSelector" content="[data-is-speakable]"><meta id="google-site-verification" name="google-site-verification" content="1VqzbDm4ukeFVHOoq5LjIKA2fVKZD-EYv8cXZhKXSfU"><meta charset="utf-8"><meta name="robots" content="noarchive,index,follow"><meta name="Rating" content="General"><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><meta name="npr-pjax"><meta name="date" content="2019-08-21"><link rel="canonical" href="https://www.npr.org/"><meta name="description" content="NPR delivers breaking national and world news. Also top stories from business, politics, health, science, technology, music, arts and culture. Subscribe to podcasts and RSS feeds."><link rel="alternate" type="application/rss+xml" title="Home Page Top Stories" href="/rss/rss.php?id=1002"><link rel="alternate" type="application/rss+xml" title="NPR News" href="/rss/rss.php?id=1001"><link rel="alternate" type="application/rss+xml" title="NPR Music" href="/rss/rss.php?id=1039"><link rel="alternate" type="application/rss+xml" title="NPR Books" href="/rss/rss.php?id=1032"><link rel="alternate" type="application/rss+xml" title="Morning Edition" href="/rss/rss.php?id=3"><link rel="alternate" type="application/rss+xml" title="All Things Considered" href="/rss/rss.php?id=2"><link rel="alternate" type="application/rss+xml" title="Wait Wait... Don't Tell Me!" href="/rss/rss.php?id=35"><link rel="alternate" type="application/json" title="Home Page Top Stories" href="https://www.npr.org/feeds/1002/feed.json"><link rel="alternate" type="application/json" title="NPR News" href="https://www.npr.org/feeds/1001/feed.json"><link rel="alternate" type="application/json" title="NPR Music" href="https://www.npr.org/feeds/1039/feed.json"><link rel="alternate" type="application/json" title="NPR Books" href="https://www.npr.org/feeds/1032/feed.json"><link rel="alternate" type="application/json" title="Morning Edition" href="https://www.npr.org/feeds/3/feed.json"><link rel="alternate" type="application/json" title="All Things Considered" href="https://www.npr.org/feeds/2/feed.json"><link rel="alternate" type="application/json" title="Wait Wait... Don't Tell Me!" href="https://www.npr.org/feeds/35/feed.json"><link rel="apple-touch-icon" sizes="180x180" href="https://media.npr.org/templates/favicon/favicon-180x180.png"><link rel="icon" sizes="96x96" href="https://media.npr.org/templates/favicon/favicon-96x96.png"><link rel="icon" sizes="32x32" href="https://media.npr.org/templates/favicon/favicon-32x32.png"><link rel="icon" sizes="16x16" href="https://media.npr.org/templates/favicon/favicon-16x16.png"><meta property="og:title" content="Home Page Top Stories"><meta property="og:url" content="https://www.npr.org/"><meta property="og:type" content="article"><meta property="og:description" content="NPR delivers breaking national and world news. Also top stories from business, politics, health, science, technology, music, arts and culture. Subscribe to podcasts and RSS feeds."><meta property="og:image" content="https://media.npr.org/include/images/facebook-default-wide.jpg?s=1400"><meta property="og:site_name" content="NPR.org"><meta property="fb:app_id" content="138837436154588"><meta property="fb:pages" content="10643211755"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Home Page Top Stories"><meta name="twitter:site" content="@NPR"><meta name="twitter:domain" content="npr.org"><meta name="twitter:image:src" content="https://media.npr.org/include/images/facebook-default-wide.jpg?s=1400"><script id="npr-vars">
+window.NPR = window.NPR || {};
+NPR.ServerConstants = {"cbHost":"npr.org","webHost":"https://www.npr.org","embedHost":"https://www.npr.org","webHostSecure":"https://secure.npr.org","apiHost":"https://api.npr.org","serverMediaCache":"https://media.npr.org","googleAnalyticsAccount":"UA-5828686-4","nielsenSFCode":"dcr","nielsenAPN":"NPR-dcr","shouldShowHPLocalContent":true,"readingServiceHostname":"https://reading.api.npr.org"};
+NPR.serverVars = {"storyId":"1002","refresh":1800,"facebookAppId":"138837436154588","webpackPublicPath":"https://s.npr.org/templates/javascript/dist/bundles/","persistenceVersion":"ce3f5c87f4238c8644fb231bfced863e","isBuildOut":true,"pubDate":"2016071413","pageTypeId":"2","title":"Home Page Top Stories","publisherOrgId":"1","experiments":[{"id":"100000846","storyId":"752378580","description":"A/B Testing Experiment for 752378580","status":"active","variants":[{"id":"A","freq":"0.50"},{"id":"B","freq":"0.50"}]}],"experimentTrackingHost":"https://ab.npr.org","homePageMetrics":"c1pl,c2ps,c3ps,c4ps,c5ch","rocketfuelCode":20501671};
+</script>
+<script type="text/javascript" src="https://cdn.optimizely.com/js/11107397707.js">
+</script>
+<script type="text/javascript" src="https://s.npr.org/templates/javascript/lib/modernizr/modernizr.custom.js">
+</script>
+<script>
+!function(e){function a(c){if(f[c])return f[c].exports;var d=f[c]={exports:{},id:c,loaded:!1};return e[c].call(d.exports,d,d.exports,a),d.loaded=!0,d.exports}var c=window.webpackJsonp;window.webpackJsonp=function(b,t){for(var n,r,o=0,i=[];o<b.length;o++)r=b[o],d[r]&&i.push.apply(i,d[r]),d[r]=0;for(n in t){var s=t[n];switch(typeof s){case"object":e[n]=function(a){var c=a.slice(1),f=a[0];return function(a,d,b){e[f].apply(this,[a,d,b].concat(c))}}(s);break;case"function":e[n]=s;break;default:e[n]=e[s]}}for(c&&c(b,t);i.length;)i.shift().call(null,a);if(t[0])return f[0]=0,a(0)};var f={},d={25:0};a.e=function(e,c){if(0===d[e])return c.call(null,a);if(void 0!==d[e])d[e].push(c);else{d[e]=[c];var f=document.getElementsByTagName("head")[0],b=document.createElement("script");b.type="text/javascript",b.charset="utf-8",b.async=!0,b.src=a.p+""+e+"."+{0:"7aa8503fd0a18c3eeba2",1:"74d05ef446669c4a3113",2:"6183f5756a46a88e2d4e",3:"bc75b17e131c80b4ff94",4:"0cc90dbbc7310009c364",5:"518b59c5c963d8146f49",6:"27928a6219743a2e955f",7:"fbfea632f2a3adf9567f",8:"97134a3fc894bd0e33c8",9:"2a2a7dbe98dff80c20fc",10:"2d8a314b55b3efabb3a6",11:"e3bcadf24f699515950f",12:"a5c91ab5e9fd0544573b",13:"9ad3a82b21506223e045",14:"643afd32dce716633e78",15:"409ff597a92a26988d51",16:"bfa1fb68f9b658b07c69",17:"615c41ab632cdaa667b5",18:"52692ca5ed2fd9d95412",19:"8a283ec9e5d999bfde51",20:"7f6150e89eb1acafeb34",21:"d684d551147c57baa15e",22:"4025902a26b85d8d12d9",23:"2ab46654a9e413831278",24:"eeb17e024475f93f7144",26:"5b80c093e1de6e09a625",27:"faf1745d48f61dc89762",28:"34e424e5b094b50d563e",29:"ed2dd58790d98a9e341d",30:"03a8f050e4ce4e514187",31:"9edc89972627c3aa824a",32:"66d600fa8af2ed7b80a4",33:"98a85a2015d5d1da13b2",34:"332356c3462ede49fdc3",35:"b8aedd9580c82b654818",36:"719151635f84ad4f3d1a",37:"05169bb54299ab3ed446",38:"d0e270cf87a3d8d23c39",39:"176d9f0688e3977d0720",40:"f9db1daaf5f52eb8ea20",41:"db8c0f3e8d0191b63bde",42:"587fa775bd4d80b3fcad",43:"0c3e4d6cc4d108aff37f",44:"6f8616162a956a01d29a",45:"43885405840f8a15b9f3",46:"982875db8605ce73126b",47:"0f67f0f9a2648922e23b",48:"1f78d5f1e53a5bfccfdc",49:"49c6a90429ae47c93f12",50:"fb051afd23c3a9555c4e",51:"e169249c1dbd3d93f496",52:"42158cb15f746b5275e7",53:"7327d028fd39dda3b1ef",54:"333f4325f11d14cc2416",55:"ea607402a72ea48af3db",56:"b6fe4c5c04bf78d40092",57:"c4968b1ebe10a3c844aa",58:"6a7c4ae2f77e5e8ef4d4",59:"e8f53685884b3615c752",60:"12192cd74746693c33d1",61:"585fd321cef96b413556",62:"792bb47125b594e84b7e",63:"97d4af4ea84e5a2a5d39",64:"7175f456294cb57584ba",65:"b509b516bba1d837eb9b",66:"be8a472b0b6d12f580aa",67:"0a7212317574143674cb",68:"11bec652648b8ad4ce3d",69:"6161005d5299e9982898",70:"e49cc238fad92e2a867b",71:"7cb1fec638ddbc95e45b",72:"9e1de54cf5afea3195cd",73:"62dceea7fbfbac4162d5",74:"42791dc814182e3aee52",75:"e454bd464c05925ef327",76:"a552bc893adc92dbfe19",77:"8f174c39efad912150c1",78:"f6612a808b56a6000ac5",79:"a0207c0a8987f6f088c7",80:"f24884a37bc8f8f55300",81:"5493e4de0e25a61ec535",82:"3cb9a3db7635acefe45f",83:"713ebe72d359c1beaa7a",84:"e5dc926f3d2f61ae1233",85:"7597fe98fdbb9b9c0da4"}[e]+".chunk.js",f.appendChild(b)}},a.m=e,a.c=f,a.p="/templates/javascript/dist/bundles/"}(function(e){for(var a in e)if(Object.prototype.hasOwnProperty.call(e,a))switch(typeof e[a]){case"function":break;case"object":e[a]=function(a){var c=a.slice(1),f=e[a[0]];return function(e,a,d){f.apply(this,[e,a,d].concat(c))}}(e[a]);break;default:e[a]=e[e[a]]}return e}([]));
+</script>
+<script type="text/javascript" src="https://s.npr.org/templates/javascript/dist/bundles/globalNavigationDropdowns-faf1745d48f61dc89762.js">
+</script>
+<link rel="stylesheet" data-persist="true" media="screen, print" href="https://s.npr.org/templates/javascript/dist/bundles/persistent-css-5ce6519c3f3097b56498.css"><link rel="stylesheet" media="screen, print" href="https://s.npr.org/templates/javascript/dist/bundles/newsHp2-css-5ce6519c3f3097b56498.css"><script type="text/javascript">
+document.domain="npr.org";
+</script>
+<script type="text/javascript" charset="utf-8" async="" src="https://s.npr.org/templates/javascript/dist/bundles/0.7aa8503fd0a18c3eeba2.chunk.js"></script><script type="text/javascript" charset="utf-8" async="" src="https://s.npr.org/templates/javascript/dist/bundles/9.2a2a7dbe98dff80c20fc.chunk.js"></script></head><body id="news" class="news tmplHomePage agg id1002 " data-pjax-modules="util/env images/lazy-load chartbeat comscore metrics nielsen nielsenDCR rocketfuel copyright auto-refresh navigation/global-navigation fitvids dfp globalfooter persistent-audio player/more-options what-input metrics/doubleclickFloodlight metrics/facebookTracking story/replace-centerstage home/base jw home/header home/local-content slideshow images/enlargement images/captions images/hover-credits callout/end-of-story-callout podcast-cards social/recaptcha" data-nav-overlay-menu-system="true"><div class="skip-links">
+   <span>Accessibility links</span>   <ul>
+         <li><a href="#mainContent" class="skiplink">Skip to main content</a></li>
+   <li><a href="https://help.npr.org/customer/en/portal/articles/2535181-what-are-the-keyboard-shortcuts-for-using-the-npr-org-audio-player-" class="skiplink">Keyboard shortcuts for audio player</a></li>
+</ul>
+</div>
+<header class="npr-header" id="globalheader" aria-label="NPR header"><nav class="navigation" aria-label="main navigation">
+ <div class="navigation__top-level-wrap" data-metrics-all="" data-metrics-category="global navigation">
+     <ul class="navigation__top-level">
+         <li class="navigation__home">
+             <a href="/" data-metrics-action="click npr logo">
+                 <img src="https://media.npr.org/chrome_svg/npr-logo.svg" alt="NPR logo">
+             </a>
+         </li>
+
+         <li id="navigation__station-mount"></li>
+
+         <li id="user-account-dropdown-mount" class="navigation__account"></li>
+
+         <li class="navigation__shop">
+             <a href="https://shop.npr.org" data-metrics-action="click npr shop">NPR Shop</a>
+         </li>
+
+         <li id="navigation__station-donate-mount"></li>
+
+         <li class="navigation__toggle-wrap">
+             <button id="navigation__toggle--open" class="navigation__toggle navigation__toggle--open" aria-haspopup="true" aria-expanded="false" data-metrics-action="open navigation menu">
+                 Open Navigation Menu
+             </button>
+         </li>
+     </ul>
+ </div>
+ <section id="main-menu" class="menu menu--main" data-metrics-all="" data-metrics-category="global navigation">
+     <div class="menu__inner">
+         <header class="menu__header">
+             <button id="navigation__toggle--close" class="navigation__toggle navigation__toggle--close" aria-haspopup="true" aria-expanded="true" data-metrics-action="close navigation menu">
+                 Close <span>Navigation Menu</span>
+             </button>
+         </header>
+         <ul class="menu__list">
+             <li class="menu__item menu__item--home">
+                 <div class="menu__item-inner"><a href="/" data-metrics-action="click npr logo">Home</a></div>
+             </li>
+             <li class="menu__item menu__item--news menu__item--has-submenu" data-metrics-hover="toggle news drawer">
+                 <div class="menu__item-inner">
+                     <a href="/sections/news/" data-metrics-action="click news">News</a>
+                     <button class="menu__toggle-submenu" data-metrics-action="toggle news drawer" aria-haspopup="true" aria-expanded="false">Expand/collapse submenu for News</button>
+                 </div>
+
+                 <ul class="submenu submenu--news">
+                     <li class="submenu__item"><a href="/sections/national/" data-metrics-action="click national">National</a></li>
+                     <li class="submenu__item"><a href="/sections/world/" data-metrics-action="click world">World</a></li>
+                     <li class="submenu__item"><a href="/sections/politics/" data-metrics-action="click politics">Politics</a></li>
+                     <li class="submenu__item"><a href="/sections/business/" data-metrics-action="click business">Business</a></li>
+                     <li class="submenu__item"><a href="/sections/health/" data-metrics-action="click health">Health</a></li>
+                     <li class="submenu__item"><a href="/sections/science/" data-metrics-action="click science">Science</a></li>
+                     <li class="submenu__item"><a href="/sections/technology/" data-metrics-action="click technology">Technology</a></li>
+                     <li class="submenu__item"><a href="/sections/codeswitch/" data-metrics-action="click race &amp; culture">Race &amp; Culture</a></li>
+                 </ul>
+             </li>
+             <li class="menu__item menu__item--arts-life menu__item--has-submenu" data-metrics-hover="toggle arts drawer">
+                 <div class="menu__item-inner">
+                     <a href="/sections/arts/" data-metrics-action="click arts &amp; life">Arts &amp; Life</a>
+                     <button class="menu__toggle-submenu" data-metrics-action="toggle arts drawer" aria-haspopup="true" aria-expanded="false">Expand/collapse submenu for Arts &amp; Life</button>
+                 </div>
+
+                 <ul class="submenu submenu--arts-life">
+                     <li class="submenu__item"><a href="/books/" data-metrics-action="click books">Books</a></li>
+                     <li class="submenu__item"><a href="/sections/movies/" data-metrics-action="click movies">Movies</a></li>
+                     <li class="submenu__item"><a href="/sections/television/" data-metrics-action="click television">Television</a></li>
+                     <li class="submenu__item"><a href="/sections/pop-culture/" data-metrics-action="click pop culture">Pop Culture</a></li>
+                     <li class="submenu__item"><a href="/sections/food/" data-metrics-action="click food">Food</a></li>
+                     <li class="submenu__item"><a href="/sections/art-design/" data-metrics-action="click art &amp; design">Art &amp; Design</a> </li>
+                     <li class="submenu__item"><a href="/sections/performing-arts/" data-metrics-action="click performing arts">Performing Arts</a></li>
+                 </ul>
+             </li>
+             <li class="menu__item menu__item--music menu__item--has-submenu" data-metrics-hover="toggle music drawer">
+                 <div class="menu__item-inner">
+                     <a href="/music/" data-metrics-action="click music">Music</a>
+                     <button class="menu__toggle-submenu" data-metrics-action="toggle music drawer" aria-haspopup="true" aria-expanded="false">Expand/collapse submenu for Music</button>
+                 </div>
+
+                 <ul class="submenu submenu--music"><li class="submenu__item">
+ <a href="https://www.npr.org/series/tiny-desk-concerts/" data-metrics-action="click tiny desk">
+     Tiny Desk
+ </a>
+</li><li class="submenu__item">
+ <a href="https://www.npr.org/sections/allsongs/" data-metrics-action="click all songs considered">
+     All Songs Considered
+ </a>
+</li><li class="submenu__item">
+ <a href="https://www.npr.org/sections/music-news/" data-metrics-action="click music news">
+     Music News
+ </a>
+</li><li class="submenu__item">
+ <a href="https://www.npr.org/sections/music-features" data-metrics-action="click music features">
+     Music Features
+ </a>
+</li><li class="submenu__item">
+ <a href="https://www.npr.org/sections/new-music/" data-metrics-action="click new music">
+     New Music
+ </a>
+</li><li class="submenu__item">
+ <a href="https://www.npr.org/series/689345495/best-music-of-2019" data-metrics-action="click best music of 2019">
+     Best Music Of 2019
+ </a>
+</li></ul>
+
+             </li>
+             <li class="menu__item menu__item--shows-podcasts menu__item--has-submenu" data-metrics-hover="toggle programs &amp; podcasts drawer">
+                 <div class="menu__item-inner">
+                     <a href="/programs/" data-metrics-action="click shows &amp; podcasts">Shows &amp; Podcasts</a>
+                     <button class="menu__toggle-submenu" data-metrics-action="toggle programs &amp; podcasts drawer" aria-haspopup="true" aria-expanded="false">Expand/collapse submenu for Shows &amp; Podcasts</button>
+                 </div>
+
+                 <div class="submenu submenu--shows-podcasts">
+                     <span class="submenu__category submenu__category--daily">Daily</span>
+                     <ul class="submenu__list submenu__list--daily">
+                         <li class="submenu__item submenu__item--timed submenu__item--weekday">
+                             <a href="/programs/morning-edition/" data-metrics-action="click morning edition">
+                                 <img src="https://media.npr.org/chrome/programs/logos/morning-edition.jpg" alt="">
+                                 Morning Edition
+                             </a>
+                         </li>
+                         <li class="submenu__item submenu__item--timed submenu__item--saturday hidden">
+                             <a href="/programs/weekend-edition-saturday/" data-metrics-action="click weekend edition saturday">
+                                 <img src="https://media.npr.org/assets/img/2019/02/26/we_otherentitiestemplatesat_sq-cbde87a2fa31b01047441e6f34d2769b0287bcd4-s100-c85.png" alt="">
+                                 Weekend Edition Saturday
+                             </a>
+                         </li>
+                         <li class="submenu__item submenu__item--timed submenu__item--sunday hidden">
+                             <a href="/programs/weekend-edition-sunday/" data-metrics-action="click weekend edition sunday">
+                                 <img src="https://media.npr.org/assets/img/2019/02/26/we_otherentitiestemplatesun_sq-4a03b35e7e5adfa446aec374523a578d54dc9bf5-s100-c85.png" alt="">
+                                 Weekend Edition Sunday
+                             </a>
+                         </li>
+                         <li class="submenu__item">
+                             <a href="/programs/all-things-considered/" data-metrics-action="click all things considered">
+                                 <img src="https://media.npr.org/chrome/programs/logos/all-things-considered.png" alt="">
+                                 All Things Considered
+                             </a>
+                         </li>
+                         <li class="submenu__item">
+                             <a href="/programs/fresh-air/" data-metrics-action="click fresh air">
+                                 <img src="https://media.npr.org/chrome/programs/logos/fresh-air.png" alt="">
+                                 Fresh Air
+                             </a>
+                         </li>
+                         <li class="submenu__item">
+                             <a href="/podcasts/510318/up-first" data-metrics-action="click up first">
+                                 <img src="https://media.npr.org/chrome/programs/logos/up-first.jpg" alt="">
+                                 Up First
+                             </a>
+                         </li>
+                     </ul>
+                     <span class="submenu__category submenu__category--featured">Featured</span>
+
+                     <ul class="submenu__list submenu__list--featured"><li class="submenu__item">
+ <a href="https://www.npr.org/podcasts/510313/how-i-built-this" data-metrics-action="click how i built this with guy raz">
+     <img src="https://media.npr.org/assets/img/2018/08/03/npr_hibt_podcasttile_sq-98320b282169a8cea04a406530e6e7b957665b3f.jpg?s=100" alt="">
+     How I Built This with Guy Raz
+ </a>
+</li><li class="submenu__item">
+ <a href="https://www.npr.org/podcasts/344098539/wait-wait-don-t-tell-me" data-metrics-action="click wait wait...don't tell me!">
+     <img src="https://media.npr.org/assets/img/2019/05/23/screen-shot-2019-05-23-at-8.46.21-am_sq-7dcea391e7a87ca3569fe3d2047dda0144e5d86f.png?s=100" alt="">
+     Wait Wait...Don't Tell Me!
+ </a>
+</li><li class="submenu__item">
+ <a href="https://www.npr.org/podcasts/510289/planet-money" data-metrics-action="click planet money">
+     <img src="https://media.npr.org/assets/img/2018/08/02/npr_planetmoney_podcasttile_sq-7b7fab0b52fd72826936c3dbe51cff94889797a0.jpg?s=100" alt="">
+     Planet Money
+ </a>
+</li><li class="submenu__item">
+ <a href="https://www.npr.org/podcasts/510308/hidden-brain" data-metrics-action="click hidden brain">
+     <img src="https://media.npr.org/assets/img/2018/08/03/npr_hiddenbrain_podcasttile_sq-270ab642de6948802f485c6ad1f087239ef6e324.jpg?s=100" alt="">
+     Hidden Brain
+ </a>
+</li></ul>
+
+                     <ul class="submenu__list submenu__list--directories">
+                         <li class="submenu__item"><a href="/programs/" data-metrics-action="click all programs">More Shows &amp; Podcasts</a></li>
+                     </ul>
+                 </div>
+             </li>
+             <li class="menu__item menu__item--search">
+                 <div class="menu__item-inner">
+                     <a href="/search" id="navigation_dropdown-search" data-metrics-action="click search">Search</a>
+                 </div>
+             </li>
+             <li id="user-account-dropdown-mount-two" class="menu__item menu__item--account"></li>
+             <li class="menu__item menu__item--shop">
+                 <div class="menu__item-inner">
+                     <a href="https://shop.npr.org" data-metrics-action="click npr shop">NPR Shop</a>
+                 </div>
+             </li>
+         </ul>
+     </div>
+ </section>
+ <section class="menu menu--music" data-metrics-all="" data-metrics-category="music ecosystem navigation">
+     <div class="menu__list-wrap">
+         <ul class="menu__list menu__list--ecosystem menu__list--music">
+             <li class="menu__item menu__item--music-home">
+                 <a href="/music/" data-metrics-action="click npr music logo">
+                     <img src="https://media.npr.org/chrome_svg/music-logo-dark.svg" class="music-logo" alt="NPR Music">
+                     <img src="https://media.npr.org/chrome_svg/music-logo-light.svg" class="music-logo-alt" alt="NPR Music">
+                 </a>
+             </li>
+
+             <li class="menu__item">
+ <a href="https://www.npr.org/series/tiny-desk-concerts/" data-metrics-action="click tiny desk">
+     Tiny Desk
+ </a>
+</li><li class="menu__item">
+ <a href="https://www.npr.org/sections/allsongs/" data-metrics-action="click all songs considered">
+     All Songs Considered
+ </a>
+</li><li class="menu__item">
+ <a href="https://www.npr.org/sections/music-news/" data-metrics-action="click music news">
+     Music News
+ </a>
+</li><li class="menu__item">
+ <a href="https://www.npr.org/sections/music-features" data-metrics-action="click music features">
+     Music Features
+ </a>
+</li><li class="menu__item">
+ <a href="https://www.npr.org/sections/new-music/" data-metrics-action="click new music">
+     New Music
+ </a>
+</li><li class="menu__item">
+ <a href="https://www.npr.org/series/689345495/best-music-of-2019" data-metrics-action="click best music of 2019">
+     Best Music Of 2019
+ </a>
+</li>
+         </ul>
+     </div>
+ </section>
+ <section class="menu menu--about" data-metrics-all="" data-metrics-category="about ecosystem navigation">
+     <div class="menu__list-wrap">
+         <ul class="menu__list menu__list--ecosystem menu__list--about">
+             <li class="menu__item menu__item--about-home"><a href="/about/" data-metrics-action="click about npr">About NPR</a></li>
+             <li class="menu__item menu__item--about-overview"><a href="/overview/" data-metrics-action="click overview">Overview</a></li>
+             <li class="menu__item menu__item--about-support"><a href="/support/" data-metrics-action="click support">Support</a></li>
+             <li class="menu__item menu__item--about-careers"><a href="/careers/" data-metrics-action="click careers">Careers</a></li>
+             <li class="menu__item menu__item--about-connect"><a href="/connect/" data-metrics-action="click connect">Connect</a></li>
+             <li class="menu__item menu__item--about-press"><a href="/press/" data-metrics-action="click press">Press</a></li>
+             <li class="menu__item menu__item--about-ethics"><a href="/ethics/" data-metrics-action="click ethics">Ethics</a></li>
+         </ul>
+     </div>
+ </section>
+</nav></header><main aria-label="main content"><div class="speakable">
+   <b data-is-speakable="">NPR : National Public Radio : News &amp; Analysis, World, US, Music &amp; Arts</b>   <b data-is-speakable="">NPR delivers breaking national and world news. Also top stories from business, politics, health, science, technology, music, arts and culture. Subscribe to podcasts and RSS feeds.</b>
+</div>
+<div id="wrapper">
+   <section id="main-section"><a id="mainContent"></a><div id="experimentWrap">
+   <style type="text/css">article.experimentVariant { display: none; }
+article.experimentVariant#story752378580A { display: block; }
+</style>   <script type="text/javascript">
+ // helper functions
+ var generateIdForExperimentVariant = function(experimentId, variantId) {
+   return 'article.experimentVariant#story' + experimentId.toString() +  variantId.toString();
+ };
+
+ NPR.serverVars.experimentMetrics = [];
+ var experimentStyles = '';
+
+ var experimentList = NPR.serverVars.experiments || [];
+ experimentList.forEach(function(experiment) {
+     var experimentId = experiment.id;
+     var experimentStoryId = experiment.storyId;
+     var variants = experiment.variants;
+
+     if (!variants || !variants.length) {
+         return;
+     }
+
+     var randomValue =  Math.random();
+
+     // select a variant weighted on the frequencies in the variant metadata
+     // the frequencies are between 0 and 1, and the sum of the frequencies add up to 1
+     var weightedSum = 0;
+     var variantId = variants[0].id;
+     var pickedOne = false;
+     for (var index = 0; index < variants.length; index++) {
+         var variant = variants[index];
+         weightedSum += parseFloat(variant.freq);
+
+         if (!pickedOne && randomValue <= weightedSum) {
+             variantId = variant.id;
+             pickedOne = true;
+             experimentStyles += generateIdForExperimentVariant(experimentStoryId, variant.id) + ' { display:block;} 
+';
+         }
+         else {
+             experimentStyles += generateIdForExperimentVariant(experimentStoryId, variant.id) + ' { display:none;} 
+';
+         }
+     }
+     // store info for use by Google Analytics later
+     NPR.serverVars.experimentMetrics.push([experimentId,variantId,experimentStoryId]);
+
+     // https://www.admonsters.com/blog/pixel-delivery-best-practices
+     // http://stackoverflow.com/a/22419389
+     (new Image()).src = NPR.serverVars.experimentTrackingHost + '/abtesting/experiments/' + experimentId + '/variants/' +  variantId + '/impression.gif';
+ });
+
+ // attaching the live click handler
+ document.addEventListener('click', function (event) {
+     if (NPR.serverVars.experimentMetrics && NPR.serverVars.experimentMetrics.constructor === Array) {
+         NPR.serverVars.experimentMetrics.forEach(function (experimentVariant) {
+             var experimentId = experimentVariant[0];
+             var variantId = experimentVariant[1];
+             var experimentStoryId = experimentVariant[2];
+
+             var idToSearchFor = 'story' + experimentStoryId + variantId;
+             var el = event.target
+                     , found;
+
+             while (el && !(found = el.id === idToSearchFor)) {
+                 el = el.parentElement;
+             }
+
+             if (found) {
+                 (new Image()).src = NPR.serverVars.experimentTrackingHost + '/abtesting/experiments/' + experimentId + '/variants/' + variantId + '/click.gif';
+             }
+         });
+     }
+ });
+
+ var styleDiv = document.createElement('div');
+ styleDiv.innerHTML = '<style>' + experimentStyles + '</style>';
+ document.getElementById('experimentWrap').appendChild(styleDiv.childNodes[0]);
+</script><style>article.experimentVariant#story752378580A { display:none;}
+article.experimentVariant#story752378580B { display:block;}
+</style>
+</div>
+
+<!-- END ID="EXPERIMENTWRAP" -->
+<div id="contentWrap">
+   <div class="stories-wrap stories-wrap-featured" data-metrics-category="Curated List">
+         <article class="hp-item volume-low post-type-standard has-image " id="story753062975">
+
+
+
+ <div class="story-wrap">
+
+     <figure class="thumb-image">
+         <div class="bucketwrap homeThumb">
+             <div class="imagewrap" data-crop-type="wide">
+ <a href="https://www.npr.org/2019/08/21/753062975/new-trump-policy-would-permit-indefinite-detention-of-migrant-families-children" data-metrics="{&quot;action&quot;:&quot;Click Story 1&quot;}">
+     <img src="https://media.npr.org/assets/img/2019/08/21/ap_19233509820647_wide-b964f839566df6e004f2e90d9a7756757de6d8ed-s400-c15.jpg" data-original="https://media.npr.org/assets/img/2019/08/21/ap_19233509820647_wide-b964f839566df6e004f2e90d9a7756757de6d8ed-s400.jpg" class="img lazyOnLoad" alt="New Trump Policy Would Permit Indefinite Detention Of Migrant Families, Children">
+ </a>
+</div>
+<div class="credit-caption">
+ <div class="caption-wrap">
+     <div class="caption" aria-label="Image caption">
+         <p>
+             Acting Homeland Security Secretary Kevin McAleenan says new rule allowing indefinite detention of migrant families with children will "improve the integrity of the immigration system."
+
+             <b class="credit" aria-label="Image credit">
+
+                 Andrew Harnik/AP
+
+             </b>
+             <b class="hide-caption"><b>hide caption</b></b>
+         </p>
+     </div>
+
+
+         <b class="toggle-caption"><b>toggle caption</b></b>
+ </div>
+
+ <span class="credit" aria-label="Image credit">
+
+     Andrew Harnik/AP
+
+ </span>
+</div>
+
+         </div>
+     </figure>
+
+
+     <div class="story-text">
+             <div class="slug-wrap">
+
+                 <h2 class="slug">
+                     <a href="https://www.npr.org/sections/politics/" data-metrics="{&quot;action&quot;:&quot;Click Slug&quot;}">
+                     Politics
+                     </a>
+                 </h2>
+             </div>
+         <a href="https://www.npr.org/2019/08/21/753062975/new-trump-policy-would-permit-indefinite-detention-of-migrant-families-children" data-metrics="{&quot;action&quot; : &quot;Click Story 1&quot;}">
+             <h3 class="title">New Trump Policy Would Permit Indefinite Detention Of Migrant Families, Children</h3>
+         </a>
+
+
+         <a href="https://www.npr.org/2019/08/21/753062975/new-trump-policy-would-permit-indefinite-detention-of-migrant-families-children" data-metrics="{&quot;action&quot; : &quot;Click Story 1&quot;}">
+             <p class="teaser">The new policy would end the Flores Settlement and allow the government to hold families with children without a deadline, in a change from the way cases are handled today.</p>
+         </a>
+     </div> <!-- /.story-text -->
+ </div> <!-- /.story-wrap -->
+</article>
+   <section class="featured-group"><article class="hp-item hp-item-basic post-type-audio has-image " id="story752336132">
+ <div class="story-wrap">
+         <figure class="thumb-image">
+             <div class="bucketwrap homeThumb">
+                 <div class="imagewrap" data-crop-type="wide">
+ <a href="https://www.npr.org/2019/08/21/752336132/employers-struggle-with-hiring-undocumented-workers-you-cannot-hire-american-her" data-metrics="{&quot;action&quot;:&quot;Click Story 2&quot;}">
+     <img src="https://media.npr.org/assets/img/2019/08/21/npr-final-illustration-karina-perez_wide-d1f4245b345c34e14ab9f7401f7240265f9ff235-s400-c15.jpg" data-original="https://media.npr.org/assets/img/2019/08/21/npr-final-illustration-karina-perez_wide-d1f4245b345c34e14ab9f7401f7240265f9ff235-s400.jpg" class="img lazyOnLoad" alt="Employers Struggle With Hiring Undocumented Workers: 'You Cannot Hire American Here'">
+ </a>
+</div>
+<div class="credit-caption">
+ <div class="caption-wrap">
+     <div class="caption" aria-label="Image caption">
+         <p>
+             <a href="https://www.pewresearch.org/hispanic/2016/11/03/size-of-u-s-unauthorized-immigrant-workforce-stable-after-the-great-recession/" data-key="4887">The Pew Research Center estimates</a> there are 7.5 million unauthorized workers in the United States concentrated in agriculture, construction and the hospitality industry.
+
+             <b class="credit" aria-label="Image credit">
+
+                 Karina Perez for NPR
+
+             </b>
+             <b class="hide-caption"><b>hide caption</b></b>
+         </p>
+     </div>
+
+
+         <b class="toggle-caption"><b>toggle caption</b></b>
+ </div>
+
+ <span class="credit" aria-label="Image credit">
+
+     Karina Perez for NPR
+
+ </span>
+</div>
+
+             </div>
+         </figure>
+
+     <div class="story-text">
+             <div class="slug-wrap">
+
+                     <h2 class="slug">
+                         <a href="https://www.npr.org/sections/national/" data-metrics="{&quot;action&quot;:&quot;Click Slug&quot;}">
+                         National
+                         </a>
+                     </h2>
+             </div>
+         <a href="https://www.npr.org/2019/08/21/752336132/employers-struggle-with-hiring-undocumented-workers-you-cannot-hire-american-her" data-metrics="{&quot;action&quot; : &quot;Click Story 2&quot;}">
+         <h3 class="title">Employers Struggle With Hiring Undocumented Workers: 'You Cannot Hire American Here'</h3>
+         </a>
+
+     </div> <!-- /.story-text -->
+ </div> <!-- /.story-wrap -->
+</article>
+<article class="hp-item hp-item-basic post-type-standard has-image " id="story751524877">
+ <div class="story-wrap">
+         <figure class="thumb-image">
+             <div class="bucketwrap homeThumb">
+                 <div class="imagewrap" data-crop-type="wide">
+ <a href="https://www.npr.org/2019/08/21/751524877/more-u-s-towns-are-feeling-the-pinch-as-recycling-becomes-costlier" data-metrics="{&quot;action&quot;:&quot;Click Story 3&quot;}">
+     <img src="https://media.npr.org/assets/img/2019/08/21/nj-recycling-5_wide-853c6fabe45f11a7691482efbbdabc64e2bc0000-s400-c15.jpg" data-original="https://media.npr.org/assets/img/2019/08/21/nj-recycling-5_wide-853c6fabe45f11a7691482efbbdabc64e2bc0000-s400.jpg" class="img lazyOnLoad" alt="More U.S. Towns Are Feeling The Pinch As Recycling Becomes Costlier ">
+ </a>
+</div>
+<div class="credit-caption">
+ <div class="caption-wrap">
+     <div class="caption" aria-label="Image caption">
+         <p>
+             A pile of plastic bags grows hourly at Omni Recycling, a materials recovery facility in Pitman, N.J. The bags can get caught in the conveyor belts and equipment and gum up the recycling process.
+
+             <b class="credit" aria-label="Image credit">
+
+                 Rebecca Davis/NPR
+
+             </b>
+             <b class="hide-caption"><b>hide caption</b></b>
+         </p>
+     </div>
+
+
+         <b class="toggle-caption"><b>toggle caption</b></b>
+ </div>
+
+ <span class="credit" aria-label="Image credit">
+
+     Rebecca Davis/NPR
+
+ </span>
+</div>
+
+             </div>
+         </figure>
+
+     <div class="story-text">
+             <div class="slug-wrap">
+
+                     <h2 class="slug">
+                         <a href="https://www.npr.org/sections/environment/" data-metrics="{&quot;action&quot;:&quot;Click Slug&quot;}">
+                         Environment
+                         </a>
+                     </h2>
+             </div>
+         <a href="https://www.npr.org/2019/08/21/751524877/more-u-s-towns-are-feeling-the-pinch-as-recycling-becomes-costlier" data-metrics="{&quot;action&quot; : &quot;Click Story 3&quot;}">
+         <h3 class="title">More U.S. Towns Are Feeling The Pinch As Recycling Becomes Costlier</h3>
+         </a>
+
+     </div> <!-- /.story-text -->
+ </div> <!-- /.story-wrap -->
+</article>
+<article class="hp-item hp-item-basic post-type-standard has-image " id="story751148469">
+ <div class="story-wrap">
+         <figure class="thumb-image">
+             <div class="bucketwrap homeThumb">
+                 <div class="imagewrap" data-crop-type="wide">
+ <a href="https://www.npr.org/sections/thesalt/2019/08/21/751148469/do-your-wurst-food-pun-haters-the-yolk-s-on-you" data-metrics="{&quot;action&quot;:&quot;Click Story 4&quot;}">
+     <img src="https://media.npr.org/assets/img/2019/08/21/foodpuns_wide-696a41e8c24f4eef2c094820fb082049b2c0212a-s400-c15.jpg" data-original="https://media.npr.org/assets/img/2019/08/21/foodpuns_wide-696a41e8c24f4eef2c094820fb082049b2c0212a-s400.jpg" class="img lazyOnLoad" alt="Do Your Wurst. Food Pun Haters, The Yolk's On You">
+ </a>
+</div>
+<div class="credit-caption">
+ <div class="caption-wrap">
+     <div class="caption" aria-label="Image caption">
+         <p>
+             This toad-shaped sandwich bar called the Toed In, near Los Angeles in 1939, allowed you to grab a bite to eat while your car got serviced. There's a lot of wordplay going on here: the toad-shaped building, the "towing in" of the car, and the stepping or "toeing" in for a snack. Good job, punsters!
+
+             <b class="credit" aria-label="Image credit">
+
+                 Ullstein Bild/Ullstein Bild via Getty Images
+
+             </b>
+             <b class="hide-caption"><b>hide caption</b></b>
+         </p>
+     </div>
+
+
+         <b class="toggle-caption"><b>toggle caption</b></b>
+ </div>
+
+ <span class="credit" aria-label="Image credit">
+
+     Ullstein Bild/Ullstein Bild via Getty Images
+
+ </span>
+</div>
+
+             </div>
+         </figure>
+
+     <div class="story-text">
+             <div class="slug-wrap">
+
+                     <h2 class="slug">
+                         <a href="https://www.npr.org/sections/thesalt/" data-metrics="{&quot;action&quot;:&quot;Click Slug&quot;}">
+                         The Salt
+                         </a>
+                     </h2>
+             </div>
+         <a href="https://www.npr.org/sections/thesalt/2019/08/21/751148469/do-your-wurst-food-pun-haters-the-yolk-s-on-you" data-metrics="{&quot;action&quot; : &quot;Click Story 4&quot;}">
+         <h3 class="title">Do Your Wurst. Food Pun Haters, The Yolk's On You</h3>
+         </a>
+
+     </div> <!-- /.story-text -->
+ </div> <!-- /.story-wrap -->
+</article>
+</section>
+<!-- END CLASS="FEATURED-GROUP" -->
+</div>
+
+<!-- END CLASS="STORIES-WRAP STORIES-WRAP-FEATURED" DATA-METRICS-CATEGORY="CURATED LIST" -->
+<aside id="ad-centerstage-wrap" aria-label="advertisement">
+
+
+ <div id="ad-centerstage-homepage" class="ad-centerstage" data-ad-config="{&quot;network&quot;:&quot;/6735/&quot;,&quot;site&quot;:{&quot;default&quot;:&quot;n6735.NPR&quot;,&quot;mobile&quot;:&quot;n6735.NPRMOBILE&quot;},&quot;zone&quot;:&quot;homepage&quot;,&quot;targets&quot;:{&quot;testserver&quot;:&quot;false&quot;,&quot;storyId&quot;:&quot;1002&quot;},&quot;location&quot;:&quot;centerstage&quot;,&quot;deferred&quot;:false,&quot;isBetweenContent&quot;:false,&quot;isAggSponsorship&quot;:false,&quot;borderClass&quot;:&quot;&quot;}"></div>
+
+</aside>   <section id="local-content-mount"></section>
+<!-- END ID="LOCAL-CONTENT-MOUNT" -->
+<div class="stories-wrap stories-wrap-two" data-metrics-category="Curated List">
+         <article class="hp-item volume-high post-type-videocarousel no-image " id="story736699839">
+
+ <div class="story-wrap-outer">
+     <div class="video-header">
+   <h2 class="watch-videos">WATCH</h2>
+<a class="more-videos" href="/video"><b>MORE VIDEOS</b></a>
+</div>
+
+<!-- END CLASS="VIDEO-HEADER" -->
+<div id="jwPlaylist736699839" class="player-playlist-wrapper">
+   <div class="player">
+         <div class="player-shelf" id="player-shelf736699839">
+            </div>
+
+<!-- END CLASS="PLAYER-SHELF" ID="PLAYER-SHELF736699839" -->
+</div>
+
+<!-- END CLASS="PLAYER" -->
+<div class="playlist-wrapper">
+         <div class="playlist__gradient playlist__gradient--top">
+            </div>
+   <ul class="playlist" data-metrics-all="">
+               <li class="playlist-item" data-metrics="{&quot;action&quot;:&quot;select video from coming up&quot;,&quot;category&quot;:&quot;JW Player Video&quot;,&quot;label&quot;:&quot;Lizzo: Tiny Desk Concert&quot;, &quot;type&quot;:&quot;customEvent&quot;, &quot;customDimensions&quot;:{ &quot;dimension47&quot;:&quot;/2019/07/29/732097345/lizzo-tiny-desk-concert&quot;,&quot;dimension48&quot;:&quot;Lizzo: Tiny Desk Concert&quot;,&quot;dimension49&quot;:&quot;1019&quot; }}"><a class="playlist-item-link" tabindex="0" data-mediaid="/2019/07/29/732097345/lizzo-tiny-desk-concert"><div class="playlist-thumbnail-wrapper">
+   <span class="playlist-formatDuration">00:16:59</span>   <div class="playlist-item-playing">
+      </div>
+
+<!-- END CLASS="PLAYLIST-ITEM-PLAYING" -->
+<img class="playlist-thumbnail" src="https://media.npr.org/assets/img/2019/07/29/2019-05-21-lizzo-charbage-2-copy1_wide-926f885a8ac4955abd6edd2ede4d2e0511d833db-s800-c85.jpg">
+</div>
+
+<!-- END CLASS="PLAYLIST-THUMBNAIL-WRAPPER" -->
+<p>Lizzo: Tiny Desk Concert</p></a></li>
+      <li class="playlist-item" data-metrics="{&quot;action&quot;:&quot;select video from coming up&quot;,&quot;category&quot;:&quot;JW Player Video&quot;,&quot;label&quot;:&quot;WATCH: What Does It Take To Impeach A President?&quot;, &quot;type&quot;:&quot;customEvent&quot;, &quot;customDimensions&quot;:{ &quot;dimension47&quot;:&quot;/2018/08/23/640959673/what-does-it-take-to-impeach-a-president&quot;,&quot;dimension48&quot;:&quot;WATCH: What Does It Take To Impeach A President?&quot;,&quot;dimension49&quot;:&quot;111&quot; }}"><a class="playlist-item-link" tabindex="0" data-mediaid="/2018/08/23/640959673/what-does-it-take-to-impeach-a-president"><div class="playlist-thumbnail-wrapper">
+   <span class="playlist-formatDuration">00:01:51</span>   <div class="playlist-item-playing">
+      </div>
+
+<!-- END CLASS="PLAYLIST-ITEM-PLAYING" -->
+<img class="playlist-thumbnail" src="https://media.npr.org/assets/img/2019/05/02/roh_impeachment_wide-7b358ae5cf6ecbe18ff99313d80f320c7236ca6f-s800-c85.jpg">
+</div>
+
+<!-- END CLASS="PLAYLIST-THUMBNAIL-WRAPPER" -->
+<p>WATCH: What Does It Take To Impeach A President?</p></a></li>
+      <li class="playlist-item" data-metrics="{&quot;action&quot;:&quot;select video from coming up&quot;,&quot;category&quot;:&quot;JW Player Video&quot;,&quot;label&quot;:&quot;VIDEO: Housing Segregation In Everything &quot;, &quot;type&quot;:&quot;customEvent&quot;, &quot;customDimensions&quot;:{ &quot;dimension47&quot;:&quot;/sections/codeswitch/2018/04/11/601494521/video-housing-segregation-in-everything&quot;,&quot;dimension48&quot;:&quot;VIDEO: Housing Segregation In Everything &quot;,&quot;dimension49&quot;:&quot;111&quot; }}"><a class="playlist-item-link" tabindex="0" data-mediaid="/sections/codeswitch/2018/04/11/601494521/video-housing-segregation-in-everything"><div class="playlist-thumbnail-wrapper">
+   <span class="playlist-formatDuration">00:01:51</span>   <div class="playlist-item-playing">
+      </div>
+
+<!-- END CLASS="PLAYLIST-ITEM-PLAYING" -->
+<img class="playlist-thumbnail" src="https://media.npr.org/assets/img/2018/04/11/housingthumb_wide-ebb5ac17bf32d23c0e1ebf0cd82dfa3e8f392602-s800-c85.jpg">
+</div>
+
+<!-- END CLASS="PLAYLIST-THUMBNAIL-WRAPPER" -->
+<p>VIDEO: Housing Segregation In Everything </p></a></li>
+      <li class="playlist-item" data-metrics="{&quot;action&quot;:&quot;select video from coming up&quot;,&quot;category&quot;:&quot;JW Player Video&quot;,&quot;label&quot;:&quot;The Apple That Changed The World&quot;, &quot;type&quot;:&quot;customEvent&quot;, &quot;customDimensions&quot;:{ &quot;dimension47&quot;:&quot;/sections/money/2018/05/03/607384579/the-apple-that-changed-the-world&quot;,&quot;dimension48&quot;:&quot;The Apple That Changed The World&quot;,&quot;dimension49&quot;:&quot;111&quot; }}"><a class="playlist-item-link" tabindex="0" data-mediaid="/sections/money/2018/05/03/607384579/the-apple-that-changed-the-world"><div class="playlist-thumbnail-wrapper">
+   <span class="playlist-formatDuration">00:01:51</span>   <div class="playlist-item-playing">
+      </div>
+
+<!-- END CLASS="PLAYLIST-ITEM-PLAYING" -->
+<img class="playlist-thumbnail" src="https://media.npr.org/assets/img/2019/04/30/pm_apple_thumb_wide-169b9f5f6240075644694f4279ba2632d6096f1d-s800-c85.jpg">
+</div>
+
+<!-- END CLASS="PLAYLIST-THUMBNAIL-WRAPPER" -->
+<p>The Apple That Changed The World</p></a></li>
+      <li class="playlist-item" data-metrics="{&quot;action&quot;:&quot;select video from coming up&quot;,&quot;category&quot;:&quot;JW Player Video&quot;,&quot;label&quot;:&quot;'Jazz Is The Mother Of Hip-Hop': How Sampling Connects Genres&quot;, &quot;type&quot;:&quot;customEvent&quot;, &quot;customDimensions&quot;:{ &quot;dimension47&quot;:&quot;/2017/04/19/524393926/jazz-is-the-mother-of-hip-hop-how-sampling-connects-genres&quot;,&quot;dimension48&quot;:&quot;'Jazz Is The Mother Of Hip-Hop': How Sampling Connects Genres&quot;,&quot;dimension49&quot;:&quot;187&quot; }}"><a class="playlist-item-link" tabindex="0" data-mediaid="/2017/04/19/524393926/jazz-is-the-mother-of-hip-hop-how-sampling-connects-genres"><div class="playlist-thumbnail-wrapper">
+   <span class="playlist-formatDuration">00:03:07</span>   <div class="playlist-item-playing">
+      </div>
+
+<!-- END CLASS="PLAYLIST-ITEM-PLAYING" -->
+<img class="playlist-thumbnail" src="https://media.npr.org/assets/img/2017/04/18/20170418_sampling_thumb_wide-47a8dcbe1cd2bfd03087641cae834a0d0d5c6eca-s800-c85.jpg">
+</div>
+
+<!-- END CLASS="PLAYLIST-THUMBNAIL-WRAPPER" -->
+<p>'Jazz Is The Mother Of Hip-Hop': How Sampling Connects Genres</p></a></li>
+      <li class="playlist-item" data-metrics="{&quot;action&quot;:&quot;select video from coming up&quot;,&quot;category&quot;:&quot;JW Player Video&quot;,&quot;label&quot;:&quot;Eclipse 2017: One Nation Under The Sun&quot;, &quot;type&quot;:&quot;customEvent&quot;, &quot;customDimensions&quot;:{ &quot;dimension47&quot;:&quot;/2017/08/27/546109041/eclipse-2017-one-nation-under-the-sun&quot;,&quot;dimension48&quot;:&quot;Eclipse 2017: One Nation Under The Sun&quot;,&quot;dimension49&quot;:&quot;111&quot; }}"><a class="playlist-item-link" tabindex="0" data-mediaid="/2017/08/27/546109041/eclipse-2017-one-nation-under-the-sun"><div class="playlist-thumbnail-wrapper">
+   <span class="playlist-formatDuration">00:01:51</span>   <div class="playlist-item-playing">
+      </div>
+
+<!-- END CLASS="PLAYLIST-ITEM-PLAYING" -->
+<img class="playlist-thumbnail" src="https://media.npr.org/assets/img/2019/05/14/eclipse_wide-35428e0d5ef3833d832e542f6ec91d348e8c551e-s800-c85.jpg">
+</div>
+
+<!-- END CLASS="PLAYLIST-THUMBNAIL-WRAPPER" -->
+<p>Eclipse 2017: One Nation Under The Sun</p></a></li>
+   </ul>
+   <div class="playlist__gradient playlist__gradient--bottom">
+            </div>
+</div>
+
+<!-- END CLASS="PLAYLIST-WRAPPER" -->
+</div>
+
+<!-- END ID="JWPLAYLIST736699839" CLASS="PLAYER-PLAYLIST-WRAPPER" -->
+<div id="jwPlayerList736699839" data-playlist-id="jwPlaylist736699839" data-player-id="player-shelf736699839" data-jwplayer-playlist="[{&quot;skinSource&quot;:&quot;https://s.npr.org/templates/javascript/jwplayer/skins/npr.css&quot;,&quot;flashPlayer&quot;:&quot;https://media.npr.org/templates/javascript/jwplayer/jwplayer.flash.swf&quot;,&quot;width&quot;:&quot;100%&quot;,&quot;height&quot;:&quot;100%&quot;,&quot;isLive&quot;:true,&quot;image&quot;:&quot;https://media.npr.org/assets/img/2019/07/29/2019-05-21-lizzo-charbage-2-copy1_wide-926f885a8ac4955abd6edd2ede4d2e0511d833db-s800-c85.jpg&quot;,&quot;primary&quot;:&quot;html5&quot;,&quot;sources&quot;:[{&quot;file&quot;:&quot;https://cdn.jwplayer.com/manifests/K1y8zaqg.m3u8&quot;,&quot;label&quot;:null,&quot;type&quot;:&quot;hls&quot;}],&quot;tracks&quot;:[],&quot;description&quot;:&quot;Backed by a band assembled just for this occasion, the breakthrough pop icon performs three joyfully showy songs from <em>Cuz I Love You</em>.&quot;,&quot;title&quot;:&quot;Lizzo: Tiny Desk Concert&quot;,&quot;videoPrerollAdUrl&quot;:&quot;https://pubads.g.doubleclick.net/gampad/ads?env=vp&amp;gdfp_req=1&amp;impl=s&amp;unviewed_position_start=1&amp;output=vast&amp;iu=%2F6735%2F.n6735.NPR.MUSIC%2FMusic&amp;sz=400x300&amp;correlator=1304658206&amp;cust_params=testserver%3Dfalse%26storyId%3D732097345%26agg%3DArray%26artists%3DArray%26genres%3DArray&quot;,&quot;shareUrl&quot;:&quot;https://www.npr.org/2019/07/29/732097345/lizzo-tiny-desk-concert&quot;,&quot;embedLink&quot;:&quot;https://www.npr.org/templates/event/embeddedVideo.php?storyId=732097345&amp;mediaId=&quot;,&quot;webHost&quot;:&quot;https://www.npr.org&quot;,&quot;duration&quot;:&quot;1019&quot;,&quot;mediaid&quot;:&quot;/2019/07/29/732097345/lizzo-tiny-desk-concert&quot;,&quot;resId&quot;:&quot;745050198&quot;},{&quot;skinSource&quot;:&quot;https://s.npr.org/templates/javascript/jwplayer/skins/npr.css&quot;,&quot;flashPlayer&quot;:&quot;https://media.npr.org/templates/javascript/jwplayer/jwplayer.flash.swf&quot;,&quot;width&quot;:&quot;100%&quot;,&quot;height&quot;:&quot;100%&quot;,&quot;isLive&quot;:true,&quot;image&quot;:&quot;https://media.npr.org/assets/img/2019/05/02/roh_impeachment_wide-7b358ae5cf6ecbe18ff99313d80f320c7236ca6f-s800-c85.jpg&quot;,&quot;primary&quot;:&quot;html5&quot;,&quot;sources&quot;:[{&quot;file&quot;:&quot;https://cdn.jwplayer.com/manifests/gDXUgjNI.m3u8&quot;,&quot;label&quot;:null,&quot;type&quot;:&quot;hls&quot;}],&quot;tracks&quot;:[{&quot;file&quot;:&quot;https://www.npr.org/assets/closedcaptions/2019/08/ROH_Impeachment.srt&quot;,&quot;label&quot;:&quot;Default&quot;,&quot;kind&quot;:&quot;captions&quot;}],&quot;description&quot;:&quot;No president of the United States has ever been removed from office by impeachment. But efforts to impeach presidents date back to the 1840s.&quot;,&quot;title&quot;:&quot;WATCH: What Does It Take To Impeach A President?&quot;,&quot;videoPrerollAdUrl&quot;:&quot;https://pubads.g.doubleclick.net/gampad/ads?env=vp&amp;gdfp_req=1&amp;impl=s&amp;unviewed_position_start=1&amp;output=vast&amp;iu=%2F6735%2F.n6735.NPR%2FNews_Politics&amp;sz=400x300&amp;correlator=1627131309&amp;cust_params=testserver%3Dfalse%26storyId%3D640959673%26agg%3DArray&quot;,&quot;shareUrl&quot;:&quot;https://www.npr.org/2018/08/23/640959673/what-does-it-take-to-impeach-a-president&quot;,&quot;embedLink&quot;:&quot;https://www.npr.org/templates/event/embeddedVideo.php?storyId=640959673&amp;mediaId=&quot;,&quot;webHost&quot;:&quot;https://www.npr.org&quot;,&quot;duration&quot;:&quot;111&quot;,&quot;mediaid&quot;:&quot;/2018/08/23/640959673/what-does-it-take-to-impeach-a-president&quot;,&quot;resId&quot;:&quot;719684762&quot;},{&quot;skinSource&quot;:&quot;https://s.npr.org/templates/javascript/jwplayer/skins/npr.css&quot;,&quot;flashPlayer&quot;:&quot;https://media.npr.org/templates/javascript/jwplayer/jwplayer.flash.swf&quot;,&quot;width&quot;:&quot;100%&quot;,&quot;height&quot;:&quot;100%&quot;,&quot;isLive&quot;:true,&quot;image&quot;:&quot;https://media.npr.org/assets/img/2018/04/11/housingthumb_wide-ebb5ac17bf32d23c0e1ebf0cd82dfa3e8f392602-s800-c85.jpg&quot;,&quot;primary&quot;:&quot;html5&quot;,&quot;sources&quot;:[{&quot;file&quot;:&quot;https://cdn.jwplayer.com/manifests/5mNo5z57.m3u8&quot;,&quot;label&quot;:null,&quot;type&quot;:&quot;hls&quot;}],&quot;tracks&quot;:[{&quot;file&quot;:&quot;https://www.npr.org/assets/closedcaptions/2019/08/LT_HousingSegregation.srt&quot;,&quot;label&quot;:&quot;Default&quot;,&quot;kind&quot;:&quot;captions&quot;}],&quot;description&quot;:&quot;In 1968, Congress passed the Fair Housing Act, which made it illegal to discriminate in housing. Gene Demby of NPR's Code Switch explains why neighborhoods are still so segregated today.&quot;,&quot;title&quot;:&quot;VIDEO: Housing Segregation In Everything &quot;,&quot;videoPrerollAdUrl&quot;:&quot;https://pubads.g.doubleclick.net/gampad/ads?env=vp&amp;gdfp_req=1&amp;impl=s&amp;unviewed_position_start=1&amp;output=vast&amp;iu=%2F6735%2F.n6735.NPR%2FNews_Race&amp;sz=400x300&amp;correlator=491893162&amp;cust_params=testserver%3Dfalse%26storyId%3D601494521%26agg%3DArray%26blog%3D173754155&quot;,&quot;shareUrl&quot;:&quot;https://www.npr.org/sections/codeswitch/2018/04/11/601494521/video-housing-segregation-in-everything&quot;,&quot;embedLink&quot;:&quot;https://www.npr.org/templates/event/embeddedVideo.php?storyId=601494521&amp;mediaId=&quot;,&quot;webHost&quot;:&quot;https://www.npr.org&quot;,&quot;duration&quot;:&quot;111&quot;,&quot;mediaid&quot;:&quot;/sections/codeswitch/2018/04/11/601494521/video-housing-segregation-in-everything&quot;,&quot;resId&quot;:&quot;721066840&quot;},{&quot;skinSource&quot;:&quot;https://s.npr.org/templates/javascript/jwplayer/skins/npr.css&quot;,&quot;flashPlayer&quot;:&quot;https://media.npr.org/templates/javascript/jwplayer/jwplayer.flash.swf&quot;,&quot;width&quot;:&quot;100%&quot;,&quot;height&quot;:&quot;100%&quot;,&quot;isLive&quot;:true,&quot;image&quot;:&quot;https://media.npr.org/assets/img/2019/04/30/pm_apple_thumb_wide-169b9f5f6240075644694f4279ba2632d6096f1d-s800-c85.jpg&quot;,&quot;primary&quot;:&quot;html5&quot;,&quot;sources&quot;:[{&quot;file&quot;:&quot;https://cdn.jwplayer.com/manifests/o6sEaelr.m3u8&quot;,&quot;label&quot;:null,&quot;type&quot;:&quot;hls&quot;}],&quot;tracks&quot;:[{&quot;file&quot;:&quot;https://www.npr.org/assets/closedcaptions/2019/08/PM_Apples.en_US.srt&quot;,&quot;label&quot;:&quot;Default&quot;,&quot;kind&quot;:&quot;captions&quot;}],&quot;description&quot;:&quot;Or, the tale of the Miracle Apple.&quot;,&quot;title&quot;:&quot;The Apple That Changed The World&quot;,&quot;videoPrerollAdUrl&quot;:&quot;https://pubads.g.doubleclick.net/gampad/ads?env=vp&amp;gdfp_req=1&amp;impl=s&amp;unviewed_position_start=1&amp;output=vast&amp;iu=%2F6735%2F.n6735.NPR%2FHome_Page&amp;sz=400x300&amp;correlator=56988127&amp;cust_params=testserver%3Dfalse%26storyId%3D607384579%26agg%3DArray%26blog%3D93559255&quot;,&quot;shareUrl&quot;:&quot;https://www.npr.org/sections/money/2018/05/03/607384579/the-apple-that-changed-the-world&quot;,&quot;embedLink&quot;:&quot;https://www.npr.org/templates/event/embeddedVideo.php?storyId=607384579&amp;mediaId=&quot;,&quot;webHost&quot;:&quot;https://www.npr.org&quot;,&quot;duration&quot;:&quot;111&quot;,&quot;mediaid&quot;:&quot;/sections/money/2018/05/03/607384579/the-apple-that-changed-the-world&quot;,&quot;resId&quot;:&quot;718748405&quot;},{&quot;skinSource&quot;:&quot;https://s.npr.org/templates/javascript/jwplayer/skins/npr.css&quot;,&quot;flashPlayer&quot;:&quot;https://media.npr.org/templates/javascript/jwplayer/jwplayer.flash.swf&quot;,&quot;width&quot;:&quot;100%&quot;,&quot;height&quot;:&quot;100%&quot;,&quot;isLive&quot;:true,&quot;image&quot;:&quot;https://media.npr.org/assets/img/2017/04/18/20170418_sampling_thumb_wide-47a8dcbe1cd2bfd03087641cae834a0d0d5c6eca-s800-c85.jpg&quot;,&quot;primary&quot;:&quot;html5&quot;,&quot;sources&quot;:[{&quot;file&quot;:&quot;https://ondemand.npr.org/npr-mp4/npr/ascvid/2017/04/20170418_ascvid_sampling4-n-600000.mp4&quot;,&quot;label&quot;:&quot;SD&quot;,&quot;type&quot;:null},{&quot;file&quot;:&quot;https://ondemand.npr.org/npr-mp4/npr/ascvid/2017/04/20170418_ascvid_sampling4-n-1200000.mp4&quot;,&quot;label&quot;:&quot;HD&quot;,&quot;type&quot;:null},{&quot;file&quot;:&quot;http://ivideo-i.akamaihd.net/i/npr-mp4/npr/ascvid/2017/04/20170418_ascvid_sampling4-n-,200000,500000,1000000,1500000,.mp4.csmil/master.m3u8&quot;,&quot;label&quot;:null,&quot;type&quot;:&quot;hls&quot;}],&quot;tracks&quot;:[{&quot;file&quot;:&quot;https://www.npr.org/assets/closedcaptions/2019/08/JNIA_glasper.srt&quot;,&quot;label&quot;:&quot;Default&quot;,&quot;kind&quot;:&quot;captions&quot;}],&quot;description&quot;:&quot;Watch pianist Robert Glasper demonstrate how three samples from jazz tracks by Ahmad Jamal and Herbie Hancock served as source material for famed hip-hop producers J Dilla and Pete Rock.&quot;,&quot;title&quot;:&quot;'Jazz Is The Mother Of Hip-Hop': How Sampling Connects Genres&quot;,&quot;videoPrerollAdUrl&quot;:&quot;https://pubads.g.doubleclick.net/gampad/ads?env=vp&amp;gdfp_req=1&amp;impl=s&amp;unviewed_position_start=1&amp;output=vast&amp;iu=%2F6735%2F.n6735.NPR.MUSIC%2FMusic&amp;sz=400x300&amp;correlator=1382204372&amp;cust_params=testserver%3Dfalse%26storyId%3D524393926%26agg%3DArray%26artists%3DArray&quot;,&quot;shareUrl&quot;:&quot;https://www.npr.org/2017/04/19/524393926/jazz-is-the-mother-of-hip-hop-how-sampling-connects-genres&quot;,&quot;embedLink&quot;:&quot;https://www.npr.org/templates/event/embeddedVideo.php?storyId=524393926&amp;mediaId=&quot;,&quot;webHost&quot;:&quot;https://www.npr.org&quot;,&quot;duration&quot;:&quot;187&quot;,&quot;mediaid&quot;:&quot;/2017/04/19/524393926/jazz-is-the-mother-of-hip-hop-how-sampling-connects-genres&quot;,&quot;resId&quot;:&quot;524509270&quot;},{&quot;skinSource&quot;:&quot;https://s.npr.org/templates/javascript/jwplayer/skins/npr.css&quot;,&quot;flashPlayer&quot;:&quot;https://media.npr.org/templates/javascript/jwplayer/jwplayer.flash.swf&quot;,&quot;width&quot;:&quot;100%&quot;,&quot;height&quot;:&quot;100%&quot;,&quot;isLive&quot;:true,&quot;image&quot;:&quot;https://media.npr.org/assets/img/2019/05/14/eclipse_wide-35428e0d5ef3833d832e542f6ec91d348e8c551e-s800-c85.jpg&quot;,&quot;primary&quot;:&quot;html5&quot;,&quot;sources&quot;:[{&quot;file&quot;:&quot;https://cdn.jwplayer.com/manifests/Pbi9WYcO.m3u8&quot;,&quot;label&quot;:null,&quot;type&quot;:&quot;hls&quot;}],&quot;tracks&quot;:[{&quot;file&quot;:&quot;https://www.npr.org/assets/closedcaptions/2019/08/ECLIPSE_captions.srt&quot;,&quot;label&quot;:&quot;Default&quot;,&quot;kind&quot;:&quot;captions&quot;}],&quot;description&quot;:&quot;For many, witnessing the total solar eclipse on Monday, Aug. 21, 2017, was the event of a lifetime.&quot;,&quot;title&quot;:&quot;Eclipse 2017: One Nation Under The Sun&quot;,&quot;videoPrerollAdUrl&quot;:&quot;https://pubads.g.doubleclick.net/gampad/ads?env=vp&amp;gdfp_req=1&amp;impl=s&amp;unviewed_position_start=1&amp;output=vast&amp;iu=%2F6735%2F.n6735.NPR%2FNews_Science&amp;sz=400x300&amp;correlator=56609508&amp;cust_params=testserver%3Dfalse%26storyId%3D546109041%26agg%3DArray&quot;,&quot;shareUrl&quot;:&quot;https://www.npr.org/2017/08/27/546109041/eclipse-2017-one-nation-under-the-sun&quot;,&quot;embedLink&quot;:&quot;https://www.npr.org/templates/event/embeddedVideo.php?storyId=546109041&amp;mediaId=&quot;,&quot;webHost&quot;:&quot;https://www.npr.org&quot;,&quot;duration&quot;:&quot;111&quot;,&quot;mediaid&quot;:&quot;/2017/08/27/546109041/eclipse-2017-one-nation-under-the-sun&quot;,&quot;resId&quot;:&quot;723270318&quot;}]">
+</div>
+
+<!-- END ID='JWPLAYERLIST736699839' DATA-PLAYLIST-ID='JWPLAYLIST736699839' DATA-PLAYER-ID='PLAYER-SHELF736699839' -->
+
+
+     <div class="story-wrap">
+
+
+
+         <div class="story-text-wrap">
+             <div class="story-text">
+                 <a href="https://www.npr.org/series/736699839/latest-npr-videos" data-metrics="{&quot;action&quot; : &quot;Click Story 5&quot;}">
+                     <h3 class="title">Best of NPR Video</h3>
+                 </a>
+
+
+                 <a href="https://www.npr.org/series/736699839/latest-npr-videos" data-metrics="{&quot;action&quot; : &quot;Click Story 5&quot;}">
+                     <p class="teaser">Greatest hits from NPR's video team</p>
+                 </a>
+             </div> <!-- /.story-text -->
+
+         </div> <!-- /.story-text-wrap -->
+     </div> <!-- /.story-wrap -->
+ </div> <!-- /.story-wrap-outer -->
+</article>
+   <article class="hp-item volume-low post-type-standard has-image has-affiliation " id="story752820760">
+
+
+
+ <div class="story-wrap">
+
+     <figure class="thumb-image">
+         <div class="bucketwrap homeThumb">
+             <div class="imagewrap" data-crop-type="wide">
+ <a href="https://www.npr.org/2019/08/21/752820760/indian-relay-celebrates-history-and-culture-through-horse-racing" data-metrics="{&quot;action&quot;:&quot;Click Story 6&quot;}">
+     <img src="https://media.npr.org/assets/img/2019/08/21/indian-relay-2_wide-4dff01d90b2feda7412259926167d90f45a9cf4d-s400-c15.jpg" data-original="https://media.npr.org/assets/img/2019/08/21/indian-relay-2_wide-4dff01d90b2feda7412259926167d90f45a9cf4d-s400.jpg" class="img lazyOnLoad" alt="Indian Relay Celebrates History And Culture Through Horse Racing ">
+ </a>
+</div>
+<div class="credit-caption">
+ <div class="caption-wrap">
+     <div class="caption" aria-label="Image caption">
+         <p>
+             Raedeyn Teton, left, and Jessica Broncho, race side-by-side in an Indian Relay on the Fort Hall Indian Reservation in Idaho.
+
+             <b class="credit" aria-label="Image credit">
+
+                 Russel Daniels/KUER
+
+             </b>
+             <b class="hide-caption"><b>hide caption</b></b>
+         </p>
+     </div>
+
+
+         <b class="toggle-caption"><b>toggle caption</b></b>
+ </div>
+
+ <span class="credit" aria-label="Image credit">
+
+     Russel Daniels/KUER
+
+ </span>
+</div>
+
+         </div>
+     </figure>
+
+
+     <div class="story-text">
+             <div class="slug-wrap">
+
+                 <h2 class="slug">
+                     <a href="https://www.npr.org/sections/sports/" data-metrics="{&quot;action&quot;:&quot;Click Slug&quot;}">
+                     Sports
+                     </a>
+                 </h2>
+             </div>
+         <a href="https://www.npr.org/2019/08/21/752820760/indian-relay-celebrates-history-and-culture-through-horse-racing" data-metrics="{&quot;action&quot; : &quot;Click Story 6&quot;}">
+             <h3 class="title">Indian Relay Celebrates History And Culture Through Horse Racing</h3>
+         </a>
+
+             <b class="affiliation ">
+                 KUER 90.1
+             </b>
+
+         <a href="https://www.npr.org/2019/08/21/752820760/indian-relay-celebrates-history-and-culture-through-horse-racing" data-metrics="{&quot;action&quot; : &quot;Click Story 6&quot;}">
+             <p class="teaser">One of the ways Native tribes in the West celebrate their history and culture is through annual summer horse races. They're known as Indian Relays, and tribes call them America's first extreme sport.</p>
+         </a>
+     </div> <!-- /.story-text -->
+ </div> <!-- /.story-wrap -->
+</article>
+   <article class="hp-item volume-low post-type-standard has-image " id="story752869411">
+
+
+
+ <div class="story-wrap">
+
+     <figure class="thumb-image">
+         <div class="bucketwrap homeThumb">
+             <div class="imagewrap" data-crop-type="wide">
+ <a href="https://www.npr.org/2019/08/21/752869411/have-you-quit-smoking-npr-wants-to-hear-your-story" data-metrics="{&quot;action&quot;:&quot;Click Story 7&quot;}">
+     <img src="https://media.npr.org/assets/img/2019/08/21/gettyimages-183029444_wide-d6acb4a486b37fa3a48305a01a75cb899607849c-s400-c15.jpg" data-original="https://media.npr.org/assets/img/2019/08/21/gettyimages-183029444_wide-d6acb4a486b37fa3a48305a01a75cb899607849c-s400.jpg" class="img lazyOnLoad" alt="Have You Quit Smoking? NPR Wants To Hear Your Story">
+ </a>
+</div>
+<div class="credit-caption">
+ <div class="caption-wrap">
+     <div class="caption" aria-label="Image caption">
+     </div>
+
+
+ </div>
+
+ <span class="credit" aria-label="Image credit">
+
+     Mac99/Getty Images
+
+ </span>
+</div>
+
+         </div>
+     </figure>
+
+
+     <div class="story-text">
+             <div class="slug-wrap">
+
+                 <h2 class="slug">
+                     <a href="https://www.npr.org/series/676529561/life-kit" data-metrics="{&quot;action&quot;:&quot;Click Slug&quot;}">
+                     Life Kit
+                     </a>
+                 </h2>
+             </div>
+         <a href="https://www.npr.org/2019/08/21/752869411/have-you-quit-smoking-npr-wants-to-hear-your-story" data-metrics="{&quot;action&quot; : &quot;Click Story 7&quot;}">
+             <h3 class="title">Have You Quit Smoking? NPR Wants To Hear Your Story</h3>
+         </a>
+
+
+         <a href="https://www.npr.org/2019/08/21/752869411/have-you-quit-smoking-npr-wants-to-hear-your-story" data-metrics="{&quot;action&quot; : &quot;Click Story 7&quot;}">
+             <p class="teaser">Tell us about how you decided it was the right time to quit, what your strategy was, and what you learned that could be useful to other people trying to ditch the habit.</p>
+         </a>
+     </div> <!-- /.story-text -->
+ </div> <!-- /.story-wrap -->
+</article>
+   <article class="hp-item volume-high post-type-standard has-image has-status " id="story752484720">
+ <b class="status">Exclusive</b>
+
+
+
+
+     <div class="story-wrap">
+
+
+         <figure class="head-image">
+             <div class="bucketwrap homeLarge">
+                 <div class="imagewrap" data-crop-type="wide">
+ <a href="https://www.npr.org/2019/08/21/752484720/how-a-tip-and-facial-recognition-technology-helped-the-fbi-catch-a-killer" data-metrics="{&quot;action&quot;:&quot;Click Story 8&quot;}">
+     <img src="https://media.npr.org/assets/img/2019/08/21/ap_19044705974249_wide-f4b95df1989eec9bc2398c1379fa3a609f08f499-s900-c15.jpg" data-original="https://media.npr.org/assets/img/2019/08/21/ap_19044705974249_wide-f4b95df1989eec9bc2398c1379fa3a609f08f499-s900.jpg" class="img lazyOnLoad" alt="How A Tip — And Facial Recognition Technology — Helped The FBI Catch A Killer">
+ </a>
+</div>
+<div class="credit-caption">
+ <div class="caption-wrap">
+     <div class="caption" aria-label="Image caption">
+         <p>
+             An FBI agent displays seized firearms from a gang investigation. Digital facial recognition helped the bureau track down an MS-13 member wanted in connection with murder.
+
+             <b class="credit" aria-label="Image credit">
+
+                 Jae C. Hong/AP
+
+             </b>
+             <b class="hide-caption"><b>hide caption</b></b>
+         </p>
+     </div>
+
+
+         <b class="toggle-caption"><b>toggle caption</b></b>
+ </div>
+
+ <span class="credit" aria-label="Image credit">
+
+     Jae C. Hong/AP
+
+ </span>
+</div>
+
+             </div>
+         </figure>
+
+
+         <div class="story-text-wrap">
+             <div class="story-text">
+                     <div class="slug-wrap">
+
+                             <h2 class="slug">
+                                 <a href="https://www.npr.org/sections/national-security/" data-metrics="{&quot;action&quot;:&quot;Click Slug&quot;}">
+                                 National Security
+                                 </a>
+                             </h2>
+                     </div>
+                 <a href="https://www.npr.org/2019/08/21/752484720/how-a-tip-and-facial-recognition-technology-helped-the-fbi-catch-a-killer" data-metrics="{&quot;action&quot; : &quot;Click Story 8&quot;}">
+                     <h3 class="title">How A Tip — And Facial Recognition Technology — Helped The FBI Catch A Killer</h3>
+                 </a>
+
+
+                 <a href="https://www.npr.org/2019/08/21/752484720/how-a-tip-and-facial-recognition-technology-helped-the-fbi-catch-a-killer" data-metrics="{&quot;action&quot; : &quot;Click Story 8&quot;}">
+                     <p class="teaser">Even as civil libertarians warn about the increased use of facial recognition by federal authorities, the bureau is using it to track down some of its most wanted suspects.</p>
+                 </a>
+             </div> <!-- /.story-text -->
+
+         </div> <!-- /.story-text-wrap -->
+     </div> <!-- /.story-wrap -->
+
+</article>
+   <div class="variant-group">
+               <article class="hp-item volume-low post-type-audio has-image experimentVariant" id="story752378580A" data-experiment-variant-id="100000846:A">
+
+
+ <div class="story-wrap-outer">
+
+     <figure class="thumb-image">
+         <div class="bucketwrap homeThumb">
+             <div class="imagewrap" data-crop-type="wide">
+ <img src="https://media.npr.org/assets/img/2019/08/20/sweat-patch-1_wide-s1100-c15.jpeg" data-original="https://media.npr.org/assets/img/2019/08/20/sweat-patch-1_wide-s1100.jpeg" class="img lazyOnLoad" alt="Want To Know What's In Your Sweat? There's A Patch For That">
+</div>
+<div class="credit-caption">
+ <div class="caption-wrap">
+     <div class="caption" aria-label="Image caption">
+         <p>
+             A sensor developed by scientists at U.C. Berkeley can provide real-time measurements of sweat rate and electrolytes in sweat.
+
+             <b class="credit" aria-label="Image credit">
+
+                 Courtesy of Bijendra Maskey/Sunchon National University
+
+             </b>
+             <b class="hide-caption"><b>hide caption</b></b>
+         </p>
+     </div>
+
+
+         <b class="toggle-caption"><b>toggle caption</b></b>
+ </div>
+
+ <span class="credit" aria-label="Image credit">
+
+     Courtesy of Bijendra Maskey/Sunchon National University
+
+ </span>
+</div>
+
+         </div>
+     </figure>
+
+
+
+     <div class="story-wrap">
+
+         <div class="story-text">
+                 <div class="slug-wrap">
+
+                         <h2 class="slug">
+                             <a href="https://www.npr.org/sections/health-shots/" data-metrics="{&quot;action&quot;:&quot;Click Slug&quot;}">
+                                 Shots - Health News
+                             </a>
+                         </h2>
+                 </div>
+             <a href="https://www.npr.org/sections/health-shots/2019/08/20/752378580/want-to-know-whats-in-your-sweat-there-s-a-patch-for-that" data-metrics="{&quot;action&quot; : &quot;Click Story 9&quot;}">
+                 <h3 class="title">Want To Know What's In Your Sweat? There's A Patch For That</h3>
+             </a>
+
+
+             <a href="https://www.npr.org/sections/health-shots/2019/08/20/752378580/want-to-know-whats-in-your-sweat-there-s-a-patch-for-that" data-metrics="{&quot;action&quot; : &quot;Click Story 9&quot;}">
+                 <p class="teaser">Scientists are getting closer to developing a wearable patch that can measure hydration and other health markers — in sweat. The hope is it could give athletes more data to boost  their performance.</p>
+             </a>
+         </div> <!-- /.story-text -->
+
+         <article id="res752869603" class="bucketwrap resaudio insecure" aria-label="audio-module"><div class="audio-module">
+   <h4 class="audio-module-title">Want To Know What's In Your Sweat? There's A Patch For That</h4>
+<div class="audio-module-controls-wrap" data-audio="{&quot;uid&quot;:&quot;752378580:752869603&quot;,&quot;available&quot;:true,&quot;duration&quot;:144,&quot;title&quot;:&quot;Want To Know What's In Your Sweat? There's A Patch For That&quot;,&quot;audioUrl&quot;:&quot;aHR0cHM6Ly9vbmRlbWFuZC5ucHIub3JnL2Fub24ubnByLW1wMy9ucHIvYXRjLzIwMTkvMDgvMjAxOTA4MTZfYXRjX3N3ZWF0X3BhdGNoLm1wMz9vcmdJZD0xJnRvcGljSWQ9MTEyOCZhZ2dJZHM9MTU2NDkwNDE1JmQ9MTQ0JnN0b3J5PTc1MjM3ODU4MCZzaXRlcGxheWVyPXRydWUmc2l6ZT0yMzAwMTcy&quot;,&quot;storyUrl&quot;:&quot;https://www.npr.org/sections/health-shots/2019/08/20/752378580/want-to-know-whats-in-your-sweat-there-s-a-patch-for-that&quot;,&quot;slug&quot;:&quot;shots - health news&quot;,&quot;program&quot;:&quot;&quot;,&quot;affiliation&quot;:&quot;&quot;,&quot;song&quot;:&quot;&quot;,&quot;artist&quot;:&quot;&quot;,&quot;album&quot;:&quot;&quot;,&quot;track&quot;:0,&quot;type&quot;:&quot;segment&quot;,&quot;subtype&quot;:&quot;other&quot;}" data-audio-metrics="[]">
+     <div class="audio-module-controls">
+
+             <time class="audio-module-duration" datetime="P2M,24S">2:24</time>
+     </div>
+
+
+</div>
+
+
+ <div class="audio-module-tools">
+     <button class="audio-module-tools-toggle" data-metrics="{&quot;category&quot;:&quot;audio actions&quot;,&quot;action&quot;:&quot;open more options&quot;,&quot;label&quot;:null,&quot;noninteraction&quot;:true}">
+         <b class="icn-toggle"></b>
+         <b class="label">Toggle more options</b>
+     </button>
+     <ul class="audio-module-more-tools">
+
+             <li class="audio-tool audio-tool-embed">
+                 <button data-embed-url="https://www.npr.org/player/embed/752378580/752869603" data-metrics="{&quot;category&quot;:&quot;audio actions&quot;,&quot;action&quot;:&quot;embed audio&quot;,&quot;label&quot;:&quot;752378580&quot;,&quot;noninteraction&quot;:true}"><b class="button-inner"><b class="icn-embed"></b><b class="audio-tool-label">Embed</b></b></button>
+
+                 <div class="audio-embed-overlay">
+                     <button class="btn-close"></button>
+                     <label class="embed-label">
+                         <b class="audio-embed-overlay__icon"></b>
+                         <b class="label">Embed</b>
+                         <input class="embed-url embed-url-no-touch" readonly="" value="<iframe src=&quot;https://www.npr.org/player/embed/752378580/752869603&quot; width=&quot;100%&quot; height=&quot;290&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; title=&quot;NPR embedded audio player&quot;></iframe>">
+                     </label>
+
+                     <b class="embed-url embed-url-touch">
+                         <code><b class="punctuation">&lt;</b>iframe src="https://www.npr.org/player/embed/752378580/752869603" width="100%" height="290" frameborder="0" scrolling="no" title="NPR embedded audio player"&gt;</code>
+                     </b>
+
+                 </div>
+             </li>
+
+     </ul>
+ </div>
+</div>
+</article>
+     </div> <!-- /.story-wrap -->
+ </div> <!-- /.story-wrap-outer -->
+
+</article>
+      <article class="hp-item volume-low post-type-audio has-image experimentVariant" id="story752378580B" data-experiment-variant-id="100000846:B">
+
+
+ <div class="story-wrap-outer">
+
+     <figure class="thumb-image">
+         <div class="bucketwrap homeThumb">
+             <div class="imagewrap" data-crop-type="wide">
+ <img src="https://media.npr.org/assets/img/2019/08/20/sweat-patch-1_wide-s1100-c15.jpeg" data-original="https://media.npr.org/assets/img/2019/08/20/sweat-patch-1_wide-s1100.jpeg" class="img lazyOnLoad" alt="Want To Know What's In Your Sweat? There's A Patch For That">
+</div>
+<div class="credit-caption">
+ <div class="caption-wrap">
+     <div class="caption" aria-label="Image caption">
+         <p>
+             A sensor developed by scientists at U.C. Berkeley can provide real-time measurements of sweat rate and electrolytes in sweat.
+
+             <b class="credit" aria-label="Image credit">
+
+                 Courtesy of Bijendra Maskey/Sunchon National University
+
+             </b>
+             <b class="hide-caption"><b>hide caption</b></b>
+         </p>
+     </div>
+
+
+         <b class="toggle-caption"><b>toggle caption</b></b>
+ </div>
+
+ <span class="credit" aria-label="Image credit">
+
+     Courtesy of Bijendra Maskey/Sunchon National University
+
+ </span>
+</div>
+
+         </div>
+     </figure>
+
+
+
+     <div class="story-wrap">
+
+         <div class="story-text">
+                 <div class="slug-wrap">
+
+                         <h2 class="slug">
+                             <a href="https://www.npr.org/sections/health-shots/" data-metrics="{&quot;action&quot;:&quot;Click Slug&quot;}">
+                                 Shots - Health News
+                             </a>
+                         </h2>
+                 </div>
+             <a href="https://www.npr.org/sections/health-shots/2019/08/20/752378580/want-to-know-whats-in-your-sweat-there-s-a-patch-for-that" data-metrics="{&quot;action&quot; : &quot;Click Story 9&quot;}">
+                 <h3 class="title">Sweating Small Stuff: Patches Can Track How Fast You Lose Water, Electrolytes</h3>
+             </a>
+
+
+             <a href="https://www.npr.org/sections/health-shots/2019/08/20/752378580/want-to-know-whats-in-your-sweat-there-s-a-patch-for-that" data-metrics="{&quot;action&quot; : &quot;Click Story 9&quot;}">
+                 <p class="teaser">Scientists are getting closer to developing a wearable patch that can measure hydration and other health markers — in sweat. The hope is it could give athletes more data to boost  their performance.</p>
+             </a>
+         </div> <!-- /.story-text -->
+
+         <article id="res752869603" class="bucketwrap resaudio insecure" aria-label="audio-module"><div class="audio-module">
+   <h4 class="audio-module-title">Want To Know What's In Your Sweat? There's A Patch For That</h4>
+<div class="audio-module-controls-wrap" data-audio="{&quot;uid&quot;:&quot;752378580:752869603&quot;,&quot;available&quot;:true,&quot;duration&quot;:144,&quot;title&quot;:&quot;Want To Know What's In Your Sweat? There's A Patch For That&quot;,&quot;audioUrl&quot;:&quot;aHR0cHM6Ly9vbmRlbWFuZC5ucHIub3JnL2Fub24ubnByLW1wMy9ucHIvYXRjLzIwMTkvMDgvMjAxOTA4MTZfYXRjX3N3ZWF0X3BhdGNoLm1wMz9vcmdJZD0xJnRvcGljSWQ9MTEyOCZhZ2dJZHM9MTU2NDkwNDE1JmQ9MTQ0JnN0b3J5PTc1MjM3ODU4MCZzaXRlcGxheWVyPXRydWUmc2l6ZT0yMzAwMTcy&quot;,&quot;storyUrl&quot;:&quot;https://www.npr.org/sections/health-shots/2019/08/20/752378580/want-to-know-whats-in-your-sweat-there-s-a-patch-for-that&quot;,&quot;slug&quot;:&quot;shots - health news&quot;,&quot;program&quot;:&quot;&quot;,&quot;affiliation&quot;:&quot;&quot;,&quot;song&quot;:&quot;&quot;,&quot;artist&quot;:&quot;&quot;,&quot;album&quot;:&quot;&quot;,&quot;track&quot;:0,&quot;type&quot;:&quot;segment&quot;,&quot;subtype&quot;:&quot;other&quot;}" data-audio-metrics="[]">
+     <div class="audio-module-controls">
+
+             <time class="audio-module-duration" datetime="P2M,24S">2:24</time>
+     </div>
+
+
+</div>
+
+
+ <div class="audio-module-tools">
+     <button class="audio-module-tools-toggle" data-metrics="{&quot;category&quot;:&quot;audio actions&quot;,&quot;action&quot;:&quot;open more options&quot;,&quot;label&quot;:null,&quot;noninteraction&quot;:true}">
+         <b class="icn-toggle"></b>
+         <b class="label">Toggle more options</b>
+     </button>
+     <ul class="audio-module-more-tools">
+
+             <li class="audio-tool audio-tool-embed">
+                 <button data-embed-url="https://www.npr.org/player/embed/752378580/752869603" data-metrics="{&quot;category&quot;:&quot;audio actions&quot;,&quot;action&quot;:&quot;embed audio&quot;,&quot;label&quot;:&quot;752378580&quot;,&quot;noninteraction&quot;:true}"><b class="button-inner"><b class="icn-embed"></b><b class="audio-tool-label">Embed</b></b></button>
+
+                 <div class="audio-embed-overlay">
+                     <button class="btn-close"></button>
+                     <label class="embed-label">
+                         <b class="audio-embed-overlay__icon"></b>
+                         <b class="label">Embed</b>
+                         <input class="embed-url embed-url-no-touch" readonly="" value="<iframe src=&quot;https://www.npr.org/player/embed/752378580/752869603&quot; width=&quot;100%&quot; height=&quot;290&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; title=&quot;NPR embedded audio player&quot;></iframe>">
+                     </label>
+
+                     <b class="embed-url embed-url-touch">
+                         <code><b class="punctuation">&lt;</b>iframe src="https://www.npr.org/player/embed/752378580/752869603" width="100%" height="290" frameborder="0" scrolling="no" title="NPR embedded audio player"&gt;</code>
+                     </b>
+
+                 </div>
+             </li>
+
+     </ul>
+ </div>
+</div>
+</article>
+     </div> <!-- /.story-wrap -->
+ </div> <!-- /.story-wrap-outer -->
+
+</article>
+   </div>
+
+<!-- END CLASS="VARIANT-GROUP" -->
+   <article class="hp-item volume-low post-type-standard has-image " id="story753027363">
+
+
+
+ <div class="story-wrap">
+
+     <figure class="thumb-image">
+         <div class="bucketwrap homeThumb">
+             <div class="imagewrap" data-crop-type="wide">
+ <a href="https://www.npr.org/2019/08/21/753027363/trump-says-russia-should-be-allowed-into-g-7-moscow-wants-talks-to-continue" data-metrics="{&quot;action&quot;:&quot;Click Story 10&quot;}">
+     <img src="https://media.npr.org/assets/img/2019/08/21/gettyimages-1169208001_wide-5bba0c2b3689b4fe2cde2b1072a411025395de7d-s400-c15.jpg" data-original="https://media.npr.org/assets/img/2019/08/21/gettyimages-1169208001_wide-5bba0c2b3689b4fe2cde2b1072a411025395de7d-s400.jpg" class="img lazyOnLoad" alt="Trump Says Russia Should Be Allowed Into G-7, Moscow Wants Talks To Continue">
+ </a>
+</div>
+<div class="credit-caption">
+ <div class="caption-wrap">
+     <div class="caption" aria-label="Image caption">
+         <p>
+             President Trump speaks to reporters in the Oval Office on Tuesday. He said that Russia should be allowed back into the G-7.
+
+             <b class="credit" aria-label="Image credit">
+
+                 Alex Wong/Getty Images
+
+             </b>
+             <b class="hide-caption"><b>hide caption</b></b>
+         </p>
+     </div>
+
+
+         <b class="toggle-caption"><b>toggle caption</b></b>
+ </div>
+
+ <span class="credit" aria-label="Image credit">
+
+     Alex Wong/Getty Images
+
+ </span>
+</div>
+
+         </div>
+     </figure>
+
+
+     <div class="story-text">
+             <div class="slug-wrap">
+
+                 <h2 class="slug">
+                     <a href="https://www.npr.org/sections/world/" data-metrics="{&quot;action&quot;:&quot;Click Slug&quot;}">
+                     World
+                     </a>
+                 </h2>
+             </div>
+         <a href="https://www.npr.org/2019/08/21/753027363/trump-says-russia-should-be-allowed-into-g-7-moscow-wants-talks-to-continue" data-metrics="{&quot;action&quot; : &quot;Click Story 10&quot;}">
+             <h3 class="title">Trump Says Russia Should Be Allowed Into G-7; Moscow Wants Talks To Continue</h3>
+         </a>
+
+
+         <a href="https://www.npr.org/2019/08/21/753027363/trump-says-russia-should-be-allowed-into-g-7-moscow-wants-talks-to-continue" data-metrics="{&quot;action&quot; : &quot;Click Story 10&quot;}">
+             <p class="teaser">"I think it's much more appropriate to have Russia in," President Trump told reporters. In Russia, the foreign ministry spokeswoman said discussions should move from the media "to the expert level."</p>
+         </a>
+     </div> <!-- /.story-text -->
+ </div> <!-- /.story-wrap -->
+</article>
+   <article class="hp-item volume-low post-type-standard has-image " id="story753074028">
+
+
+
+ <div class="story-wrap">
+
+     <figure class="thumb-image">
+         <div class="bucketwrap homeThumb">
+             <div class="imagewrap" data-crop-type="wide">
+ <a href="https://www.npr.org/2019/08/21/753074028/court-limits-display-of-south-africas-old-apartheid-flag-citing-hateful-legacy" data-metrics="{&quot;action&quot;:&quot;Click Story 11&quot;}">
+     <img src="https://media.npr.org/assets/img/2019/08/21/south-africa-flag-ap_wide-a0a5e9942be2bcb4bfc77cc5ee20d52f788631a7-s400-c15.jpg" data-original="https://media.npr.org/assets/img/2019/08/21/south-africa-flag-ap_wide-a0a5e9942be2bcb4bfc77cc5ee20d52f788631a7-s400.jpg" class="img lazyOnLoad" alt="Court Limits Display Of South Africa's Old Apartheid Flag, Citing Hateful Legacy">
+ </a>
+</div>
+<div class="credit-caption">
+ <div class="caption-wrap">
+     <div class="caption" aria-label="Image caption">
+         <p>
+             Nelson Mandela Foundation CEO Sello Hatang points to South Africa's current flag as he welcomes a ruling against its old flag in Johannesburg Wednesday. At right is Ernst Roets, leader of the AfriForum group that was targeted in the foundation's lawsuit.
+
+             <b class="credit" aria-label="Image credit">
+
+                 Denis Farrell/AP
+
+             </b>
+             <b class="hide-caption"><b>hide caption</b></b>
+         </p>
+     </div>
+
+
+         <b class="toggle-caption"><b>toggle caption</b></b>
+ </div>
+
+ <span class="credit" aria-label="Image credit">
+
+     Denis Farrell/AP
+
+ </span>
+</div>
+
+         </div>
+     </figure>
+
+
+     <div class="story-text">
+             <div class="slug-wrap">
+
+                 <h2 class="slug">
+                     <a href="https://www.npr.org/sections/africa/" data-metrics="{&quot;action&quot;:&quot;Click Slug&quot;}">
+                     Africa
+                     </a>
+                 </h2>
+             </div>
+         <a href="https://www.npr.org/2019/08/21/753074028/court-limits-display-of-south-africas-old-apartheid-flag-citing-hateful-legacy" data-metrics="{&quot;action&quot; : &quot;Click Story 11&quot;}">
+             <h3 class="title">Court Limits Display Of South Africa's Old Apartheid Flag, Citing Hateful Legacy</h3>
+         </a>
+
+
+         <a href="https://www.npr.org/2019/08/21/753074028/court-limits-display-of-south-africas-old-apartheid-flag-citing-hateful-legacy" data-metrics="{&quot;action&quot; : &quot;Click Story 11&quot;}">
+             <p class="teaser">Saying the flag immortalizes an era of racial segregation, the Equality Court rules that it is "a vivid symbol of white supremacy and black disenfranchisement and suppression."</p>
+         </a>
+     </div> <!-- /.story-text -->
+ </div> <!-- /.story-wrap -->
+</article>
+   <article class="hp-item volume-high post-type-standard has-image " id="story751541321">
+
+
+
+
+     <div class="story-wrap">
+
+
+         <figure class="head-image">
+             <div class="bucketwrap homeLarge">
+                 <div class="imagewrap" data-crop-type="wide">
+ <a href="https://www.npr.org/2019/08/21/751541321/this-is-it-im-going-to-die-indias-minorities-are-targeted-in-lynchings" data-metrics="{&quot;action&quot;:&quot;Click Story 12&quot;}">
+     <img src="https://media.npr.org/assets/img/2019/08/21/hate-crimes-f-14--2_wide-e39d93d8e6ebc61271d1bcd8303b239c836f92c3-s900-c15.jpg" data-original="https://media.npr.org/assets/img/2019/08/21/hate-crimes-f-14--2_wide-e39d93d8e6ebc61271d1bcd8303b239c836f92c3-s900.jpg" class="img lazyOnLoad" alt="'This Is It. I'm Going To Die': India's Minorities Are Targeted In Lynchings">
+ </a>
+</div>
+<div class="credit-caption">
+ <div class="caption-wrap">
+     <div class="caption" aria-label="Image caption">
+         <p>
+             Long-distance truck driver Mohammad Hashim, 45, survived an attack by a Hindu mob last year. A dozen men on motorbikes forced him off the road and beat him. He suffered a broken leg and fractured vertebrae.
+
+             <b class="credit" aria-label="Image credit">
+
+                 Furkan Latif Khan/NPR
+
+             </b>
+             <b class="hide-caption"><b>hide caption</b></b>
+         </p>
+     </div>
+
+
+         <b class="toggle-caption"><b>toggle caption</b></b>
+ </div>
+
+ <span class="credit" aria-label="Image credit">
+
+     Furkan Latif Khan/NPR
+
+ </span>
+</div>
+
+             </div>
+         </figure>
+
+
+         <div class="story-text-wrap">
+             <div class="story-text">
+                     <div class="slug-wrap">
+
+                             <h2 class="slug">
+                                 <a href="https://www.npr.org/sections/world/" data-metrics="{&quot;action&quot;:&quot;Click Slug&quot;}">
+                                 World
+                                 </a>
+                             </h2>
+                     </div>
+                 <a href="https://www.npr.org/2019/08/21/751541321/this-is-it-im-going-to-die-indias-minorities-are-targeted-in-lynchings" data-metrics="{&quot;action&quot; : &quot;Click Story 12&quot;}">
+                     <h3 class="title">'This Is It. I'm Going To Die': India's Minorities Are Targeted In Lynchings</h3>
+                 </a>
+
+
+                 <a href="https://www.npr.org/2019/08/21/751541321/this-is-it-im-going-to-die-indias-minorities-are-targeted-in-lynchings" data-metrics="{&quot;action&quot; : &quot;Click Story 12&quot;}">
+                     <p class="teaser">"It's like they are trying to erase us — erase all of my people," says the widow of a Muslim dairy farmer who died after being assaulted by a mob while he was transporting cows.</p>
+                 </a>
+             </div> <!-- /.story-text -->
+
+         </div> <!-- /.story-text-wrap -->
+     </div> <!-- /.story-wrap -->
+
+</article>
+   <article class="hp-item volume-low post-type-standard has-image " id="story753060405">
+
+
+
+ <div class="story-wrap">
+
+     <figure class="thumb-image">
+         <div class="bucketwrap homeThumb">
+             <div class="imagewrap" data-crop-type="wide">
+ <a href="https://www.npr.org/2019/08/21/753060405/china-vows-sanctions-on-u-s-firms-for-arms-sales-to-taiwan" data-metrics="{&quot;action&quot;:&quot;Click Story 13&quot;}">
+     <img src="https://media.npr.org/assets/img/2019/08/21/ap_594111604490_wide-2ae3ffc326ef91da90efc33eebfd16823a527844-s400-c15.jpg" data-original="https://media.npr.org/assets/img/2019/08/21/ap_594111604490_wide-2ae3ffc326ef91da90efc33eebfd16823a527844-s400.jpg" class="img lazyOnLoad" alt="China Vows Sanctions On U.S. Firms For Arms Sales To Taiwan ">
+ </a>
+</div>
+<div class="credit-caption">
+ <div class="caption-wrap">
+     <div class="caption" aria-label="Image caption">
+         <p>
+             An F-16 jet fighter is washed on the tarmac at an air force base in Taiwan. The State Department has approved the sale of 66 fighter jets to the island.
+
+             <b class="credit" aria-label="Image credit">
+
+                 Wally Santana/AP
+
+             </b>
+             <b class="hide-caption"><b>hide caption</b></b>
+         </p>
+     </div>
+
+
+         <b class="toggle-caption"><b>toggle caption</b></b>
+ </div>
+
+ <span class="credit" aria-label="Image credit">
+
+     Wally Santana/AP
+
+ </span>
+</div>
+
+         </div>
+     </figure>
+
+
+     <div class="story-text">
+             <div class="slug-wrap">
+
+                 <h2 class="slug">
+                     <a href="https://www.npr.org/sections/asia/" data-metrics="{&quot;action&quot;:&quot;Click Slug&quot;}">
+                     Asia
+                     </a>
+                 </h2>
+             </div>
+         <a href="https://www.npr.org/2019/08/21/753060405/china-vows-sanctions-on-u-s-firms-for-arms-sales-to-taiwan" data-metrics="{&quot;action&quot; : &quot;Click Story 13&quot;}">
+             <h3 class="title">China Vows Sanctions On U.S. Firms For Arms Sales To Taiwan</h3>
+         </a>
+
+
+         <a href="https://www.npr.org/2019/08/21/753060405/china-vows-sanctions-on-u-s-firms-for-arms-sales-to-taiwan" data-metrics="{&quot;action&quot; : &quot;Click Story 13&quot;}">
+             <p class="teaser">The State Department approved an $8 billion sale of fighter jets and related equipment to the self-governing island. China views the sale as a violation of its sovereignty.</p>
+         </a>
+     </div> <!-- /.story-text -->
+ </div> <!-- /.story-wrap -->
+</article>
+   <article class="hp-item volume-low post-type-audio has-image " id="story752776136">
+
+
+ <div class="story-wrap-outer">
+
+     <figure class="thumb-image">
+         <div class="bucketwrap homeThumb">
+             <div class="imagewrap" data-crop-type="wide">
+ <a href="https://www.npr.org/2019/08/21/752776136/to-honor-john-mccain-his-wife-says-americans-could-be-nicer-to-one-another" data-metrics="{&quot;action&quot;:&quot;Click Story 14&quot;}">
+     <img src="https://media.npr.org/assets/img/2019/08/21/190819_cindymccain_ohara_resized21_wide-20bd42e42a78b61ef366ed5c969178573e4ef89c-s400-c15.jpg" data-original="https://media.npr.org/assets/img/2019/08/21/190819_cindymccain_ohara_resized21_wide-20bd42e42a78b61ef366ed5c969178573e4ef89c-s400.jpg" class="img lazyOnLoad" alt="To Honor John McCain, His Wife Says, Americans Could Be Nicer To One Another">
+ </a>
+</div>
+<div class="credit-caption">
+ <div class="caption-wrap">
+     <div class="caption" aria-label="Image caption">
+         <p>
+             Cindy McCain, widow of late Sen. John McCain, at home in Phoenix. She says she thinks Republicans and Democrats can get back to being more civil. "I think it's going to take some time. There's a lot of healing to be done. But I think we can do it," she says.
+
+             <b class="credit" aria-label="Image credit">
+
+                 Caitlin O'Hara for NPR
+
+             </b>
+             <b class="hide-caption"><b>hide caption</b></b>
+         </p>
+     </div>
+
+
+         <b class="toggle-caption"><b>toggle caption</b></b>
+ </div>
+
+ <span class="credit" aria-label="Image credit">
+
+     Caitlin O'Hara for NPR
+
+ </span>
+</div>
+
+         </div>
+     </figure>
+
+
+
+     <div class="story-wrap">
+
+         <div class="story-text">
+                 <div class="slug-wrap">
+
+                         <h2 class="slug">
+                             <a href="https://www.npr.org/sections/politics/" data-metrics="{&quot;action&quot;:&quot;Click Slug&quot;}">
+                                 Politics
+                             </a>
+                         </h2>
+                 </div>
+             <a href="https://www.npr.org/2019/08/21/752776136/to-honor-john-mccain-his-wife-says-americans-could-be-nicer-to-one-another" data-metrics="{&quot;action&quot; : &quot;Click Story 14&quot;}">
+                 <h3 class="title">To Honor John McCain, His Wife Says, Americans Could Be Nicer To One Another</h3>
+             </a>
+
+
+             <a href="https://www.npr.org/2019/08/21/752776136/to-honor-john-mccain-his-wife-says-americans-could-be-nicer-to-one-another" data-metrics="{&quot;action&quot; : &quot;Click Story 14&quot;}">
+                 <p class="teaser">Cindy McCain, the Arizona senator's widow, marks the first anniversary of his death by asking Americans to engage in acts of civility. "We're missing John's voice of reason right now in so many ways."</p>
+             </a>
+         </div> <!-- /.story-text -->
+
+         <article id="res753014830" class="bucketwrap resaudio" aria-label="audio-module"><div class="audio-module">
+   <h4 class="audio-module-title">To Honor John McCain, His Wife Says, Americans Could Be Nicer To One Another</h4>
+<div class="audio-module-controls-wrap" data-audio="{&quot;uid&quot;:&quot;752776136:753014830&quot;,&quot;available&quot;:true,&quot;duration&quot;:422,&quot;title&quot;:&quot;To Honor John McCain, His Wife Says, Americans Could Be Nicer To One Another&quot;,&quot;audioUrl&quot;:&quot;https://ondemand.npr.org/anon.npr-mp3/npr/me/2019/08/20190821_me_to_honor_john_mccain_his_wife_says_americans_could_be_nicer_to_one_another.mp3?orgId=1&amp;topicId=1014&amp;d=422&amp;p=3&amp;story=752776136&amp;siteplayer=true&amp;size=6751647&quot;,&quot;storyUrl&quot;:&quot;https://www.npr.org/2019/08/21/752776136/to-honor-john-mccain-his-wife-says-americans-could-be-nicer-to-one-another&quot;,&quot;slug&quot;:&quot;Politics&quot;,&quot;program&quot;:&quot;morning edition&quot;,&quot;affiliation&quot;:&quot;&quot;,&quot;song&quot;:&quot;&quot;,&quot;artist&quot;:&quot;&quot;,&quot;album&quot;:&quot;&quot;,&quot;track&quot;:0,&quot;type&quot;:&quot;segment&quot;,&quot;subtype&quot;:&quot;other&quot;}" data-audio-metrics="[]">
+     <div class="audio-module-controls">
+         <a class="audio-module-listen" href="https://ondemand.npr.org/anon.npr-mp3/npr/me/2019/08/20190821_me_to_honor_john_mccain_his_wife_says_americans_could_be_nicer_to_one_another.mp3?orgId=1&amp;topicId=1014&amp;d=422&amp;p=3&amp;story=752776136&amp;siteplayer=true&amp;size=6751647&amp;dl=1">
+             <b class="audio-module-listen-inner">
+                 <b class="audio-module-listen-icon icn-play"></b>
+                 <b class="audio-module-listen-text">
+                     <b class="audio-module-cta">Listen</b>
+                     <b class="audio-module-listen-duration">
+                         <span>· </span>
+                         <span>7:02</span>
+                     </b>
+                 </b>
+             </b>
+         </a>
+
+             <time class="audio-module-duration" datetime="P7M,2S">7:02</time>
+     </div>
+
+
+</div>
+
+
+ <div class="audio-module-tools">
+     <button class="audio-module-tools-toggle" data-metrics="{&quot;category&quot;:&quot;audio actions&quot;,&quot;action&quot;:&quot;open more options&quot;,&quot;label&quot;:null,&quot;noninteraction&quot;:true}">
+         <b class="icn-toggle"></b>
+         <b class="label">Toggle more options</b>
+     </button>
+     <ul class="audio-module-more-tools">
+             <li class="audio-tool audio-tool-download"><a href="https://ondemand.npr.org/anon.npr-mp3/npr/me/2019/08/20190821_me_to_honor_john_mccain_his_wife_says_americans_could_be_nicer_to_one_another.mp3?orgId=1&amp;topicId=1014&amp;d=422&amp;p=3&amp;story=752776136&amp;siteplayer=true&amp;size=6751647&amp;dl=1" data-metrics="{&quot;category&quot;:&quot;audio actions&quot;,&quot;action&quot;:&quot;download audio&quot;,&quot;label&quot;:&quot;752776136&quot;,&quot;noninteraction&quot;:true}"><b class="icn-download"></b><b class="audio-tool-label">Download</b></a>
+             </li>
+
+             <li class="audio-tool audio-tool-embed">
+                 <button data-embed-url="https://www.npr.org/player/embed/752776136/753014830" data-metrics="{&quot;category&quot;:&quot;audio actions&quot;,&quot;action&quot;:&quot;embed audio&quot;,&quot;label&quot;:&quot;752776136&quot;,&quot;noninteraction&quot;:true}"><b class="button-inner"><b class="icn-embed"></b><b class="audio-tool-label">Embed</b></b></button>
+
+                 <div class="audio-embed-overlay">
+                     <button class="btn-close"></button>
+                     <label class="embed-label">
+                         <b class="audio-embed-overlay__icon"></b>
+                         <b class="label">Embed</b>
+                         <input class="embed-url embed-url-no-touch" readonly="" value="<iframe src=&quot;https://www.npr.org/player/embed/752776136/753014830&quot; width=&quot;100%&quot; height=&quot;290&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; title=&quot;NPR embedded audio player&quot;></iframe>">
+                     </label>
+
+                     <b class="embed-url embed-url-touch">
+                         <code><b class="punctuation">&lt;</b>iframe src="https://www.npr.org/player/embed/752776136/753014830" width="100%" height="290" frameborder="0" scrolling="no" title="NPR embedded audio player"&gt;</code>
+                     </b>
+
+                 </div>
+             </li>
+
+     </ul>
+ </div>
+</div>
+</article>
+     </div> <!-- /.story-wrap -->
+ </div> <!-- /.story-wrap-outer -->
+
+</article>
+   <section class="attachment-group">
+<article class="hp-item volume-low post-type-standard has-attachment has-image " id="story751707831">
+
+
+
+ <div class="story-wrap">
+
+     <figure class="thumb-image">
+         <div class="bucketwrap homeThumb">
+             <div class="imagewrap" data-crop-type="wide">
+ <a href="https://www.npr.org/2019/08/21/751707831/the-outlaw-ocean-a-forgotten-frontier-where-slavery-and-illegal-activities-aboun" data-metrics="{&quot;action&quot;:&quot;Click Story 15&quot;}">
+     <img src="https://media.npr.org/assets/img/2019/08/21/theoutlawocean_pj_wide-20e32b48a3d9be3a3a13a4a952c646276ed34456-s400-c15.jpg" data-original="https://media.npr.org/assets/img/2019/08/21/theoutlawocean_pj_wide-20e32b48a3d9be3a3a13a4a952c646276ed34456-s400.jpg" class="img lazyOnLoad" alt="'The Outlaw Ocean': A Forgotten Frontier Where Slavery And Illegal Activities Abound">
+ </a>
+</div>
+<div class="credit-caption">
+ <div class="caption-wrap">
+     <div class="caption" aria-label="Image caption">
+         <p>
+             <em>The Outlaw Ocean: Journeys Across the Last Untamed Frontier</em>, by Ian Urbina
+
+             <b class="credit" aria-label="Image credit">
+
+                 Patrick Jarenwattananon/NPR
+
+             </b>
+             <b class="hide-caption"><b>hide caption</b></b>
+         </p>
+     </div>
+
+
+         <b class="toggle-caption"><b>toggle caption</b></b>
+ </div>
+
+ <span class="credit" aria-label="Image credit">
+
+     Patrick Jarenwattananon/NPR
+
+ </span>
+</div>
+
+         </div>
+     </figure>
+
+
+     <div class="story-text">
+             <div class="slug-wrap">
+                     <h2 class="slug-tag">
+
+                         Review
+
+                     </h2>
+
+                 <h2 class="slug">
+                     <a href="https://www.npr.org/sections/book-reviews/" data-metrics="{&quot;action&quot;:&quot;Click Slug&quot;}">
+                     Book Reviews
+                     </a>
+                 </h2>
+             </div>
+         <a href="https://www.npr.org/2019/08/21/751707831/the-outlaw-ocean-a-forgotten-frontier-where-slavery-and-illegal-activities-aboun" data-metrics="{&quot;action&quot; : &quot;Click Story 15&quot;}">
+             <h3 class="title">'The Outlaw Ocean': A Forgotten Frontier Where Slavery And Illegal Activities Abound</h3>
+         </a>
+
+
+         <a href="https://www.npr.org/2019/08/21/751707831/the-outlaw-ocean-a-forgotten-frontier-where-slavery-and-illegal-activities-aboun" data-metrics="{&quot;action&quot; : &quot;Click Story 15&quot;}">
+             <p class="teaser">Ian Urbina combines stellar investigative reporting skills and straightforward writing to convey what lies on the other side of the ocean — opposite cruise-ship vacations to beautiful beaches.</p>
+         </a>
+     </div> <!-- /.story-text -->
+ </div> <!-- /.story-wrap -->
+</article>
+<article class="hp-item attachment volume-low">
+ <a class="story-wrap" href="https://www.npr.org/2019/08/21/751237150/floating-coast-reads-like-a-eulogy-to-the-natural-world-with-a-sliver-of-hope" data-metrics="{&quot;action&quot; : &quot;Click Attached Story 15&quot;}">
+     <div class="story-text">
+         <h3 class="title">'Floating Coast' Reads Like A Eulogy To The Natural World — With A Sliver Of Hope</h3>
+     </div>
+ </a>
+</article>
+
+</section>
+   <article class="hp-item volume-high post-type-standard has-image " id="story752788649">
+
+
+
+
+     <div class="story-wrap">
+
+
+         <figure class="head-image">
+             <div class="bucketwrap homeLarge">
+                 <div class="imagewrap" data-crop-type="wide">
+ <a href="https://www.npr.org/2019/08/21/752788649/in-the-brisk-horror-comedy-ready-or-not-bluebloods-are-out-for-blood" data-metrics="{&quot;action&quot;:&quot;Click Story 16&quot;}">
+     <img src="https://media.npr.org/assets/img/2019/08/21/readyornot2_wide-c783ce3c01a4f27f62ee99db6ec27f1c9410f339-s900-c15.jpg" data-original="https://media.npr.org/assets/img/2019/08/21/readyornot2_wide-c783ce3c01a4f27f62ee99db6ec27f1c9410f339-s900.jpg" class="img lazyOnLoad" alt="In The Brisk Horror-Comedy 'Ready Or Not,' Bluebloods Are Out For Blood">
+ </a>
+</div>
+<div class="credit-caption">
+ <div class="caption-wrap">
+     <div class="caption" aria-label="Image caption">
+         <p>
+             Come out, come out, wherever you are! In <em>Ready or Not</em>, a bride takes on her new husband's wealthy, murderous family in a twisted game of hide and seek.
+
+             <b class="credit" aria-label="Image credit">
+
+                 Eric Zachanowich/Fox Searchlight
+
+             </b>
+             <b class="hide-caption"><b>hide caption</b></b>
+         </p>
+     </div>
+
+
+         <b class="toggle-caption"><b>toggle caption</b></b>
+ </div>
+
+ <span class="credit" aria-label="Image credit">
+
+     Eric Zachanowich/Fox Searchlight
+
+ </span>
+</div>
+
+             </div>
+         </figure>
+
+
+         <div class="story-text-wrap">
+             <div class="story-text">
+                     <div class="slug-wrap">
+                             <h2 class="slug-tag">
+
+                                 Review
+
+                             </h2>
+
+                             <h2 class="slug">
+                                 <a href="https://www.npr.org/series/pop-culture-happy-hour" data-metrics="{&quot;action&quot;:&quot;Click Slug&quot;}">
+                                 Pop Culture Happy Hour
+                                 </a>
+                             </h2>
+                     </div>
+                 <a href="https://www.npr.org/2019/08/21/752788649/in-the-brisk-horror-comedy-ready-or-not-bluebloods-are-out-for-blood" data-metrics="{&quot;action&quot; : &quot;Click Story 16&quot;}">
+                     <h3 class="title">In The Brisk Horror-Comedy 'Ready Or Not,' Bluebloods Are Out For Blood</h3>
+                 </a>
+
+
+                 <a href="https://www.npr.org/2019/08/21/752788649/in-the-brisk-horror-comedy-ready-or-not-bluebloods-are-out-for-blood" data-metrics="{&quot;action&quot; : &quot;Click Story 16&quot;}">
+                     <p class="teaser">The film, about a wealthy clan who play a deadly game of hide-and-seek with a young woman (the fantastic Samara Weaving) marrying into the family, is fast, fun and not for the squeamish.</p>
+                 </a>
+             </div> <!-- /.story-text -->
+
+         </div> <!-- /.story-text-wrap -->
+     </div> <!-- /.story-wrap -->
+
+</article>
+   <article class="hp-item volume-low post-type-standard has-image " id="story752989771">
+
+
+
+ <div class="story-wrap">
+
+     <figure class="thumb-image">
+         <div class="bucketwrap homeThumb">
+             <div class="imagewrap" data-crop-type="wide">
+ <a href="https://www.npr.org/2019/08/21/752989771/trump-to-skip-visiting-denmark-after-prime-minister-says-greenland-not-for-sale" data-metrics="{&quot;action&quot;:&quot;Click Story 17&quot;}">
+     <img src="https://media.npr.org/assets/img/2019/08/21/ap_19230755776279_wide-8ca4afc93f8ee103609415e1ca2ab17cbf73d8c9-s400-c15.jpg" data-original="https://media.npr.org/assets/img/2019/08/21/ap_19230755776279_wide-8ca4afc93f8ee103609415e1ca2ab17cbf73d8c9-s400.jpg" class="img lazyOnLoad" alt="Trump To Skip Visiting Denmark After Prime Minister Says Greenland 'Not For Sale'">
+ </a>
+</div>
+<div class="credit-caption">
+ <div class="caption-wrap">
+     <div class="caption" aria-label="Image caption">
+         <p>
+             President Donald Trump speaks with reporters before boarding Air Force One at Morristown Municipal Airport in Morristown, N.J., Sunday. Among the topics was Trump's interest in buying Greenland from Denmark.
+
+             <b class="credit" aria-label="Image credit">
+
+                 Patrick Semansky/AP
+
+             </b>
+             <b class="hide-caption"><b>hide caption</b></b>
+         </p>
+     </div>
+
+
+         <b class="toggle-caption"><b>toggle caption</b></b>
+ </div>
+
+ <span class="credit" aria-label="Image credit">
+
+     Patrick Semansky/AP
+
+ </span>
+</div>
+
+         </div>
+     </figure>
+
+
+     <div class="story-text">
+             <div class="slug-wrap">
+
+                 <h2 class="slug">
+                     <a href="https://www.npr.org/sections/politics/" data-metrics="{&quot;action&quot;:&quot;Click Slug&quot;}">
+                     Politics
+                     </a>
+                 </h2>
+             </div>
+         <a href="https://www.npr.org/2019/08/21/752989771/trump-to-skip-visiting-denmark-after-prime-minister-says-greenland-not-for-sale" data-metrics="{&quot;action&quot; : &quot;Click Story 17&quot;}">
+             <h3 class="title">Trump To Skip Visiting Denmark After Prime Minister Says Greenland 'Not For Sale'</h3>
+         </a>
+
+
+         <a href="https://www.npr.org/2019/08/21/752989771/trump-to-skip-visiting-denmark-after-prime-minister-says-greenland-not-for-sale" data-metrics="{&quot;action&quot; : &quot;Click Story 17&quot;}">
+             <p class="teaser">The president said he would postpone a planned trip to the Scandinavian country after Prime Minister Mette Frederiksen called his idea of buying the island "absurd."</p>
+         </a>
+     </div> <!-- /.story-text -->
+ </div> <!-- /.story-wrap -->
+</article>
+   <article class="hp-item volume-low post-type-audio has-image " id="story752815318">
+
+
+ <div class="story-wrap-outer">
+
+     <figure class="thumb-image">
+         <div class="bucketwrap homeThumb">
+             <div class="imagewrap" data-crop-type="wide">
+ <a href="https://www.npr.org/2019/08/21/752815318/florida-could-serve-as-example-for-lawmakers-considering-red-flag-laws" data-metrics="{&quot;action&quot;:&quot;Click Story 18&quot;}">
+     <img src="https://media.npr.org/assets/img/2019/08/21/ap_19045482279168_wide-4ebcf2deed0857fd416db44f6ab6fb0c83525856-s400-c15.jpg" data-original="https://media.npr.org/assets/img/2019/08/21/ap_19045482279168_wide-4ebcf2deed0857fd416db44f6ab6fb0c83525856-s400.jpg" class="img lazyOnLoad" alt="Florida Could Serve As Example For Lawmakers Considering Red Flag Laws">
+ </a>
+</div>
+<div class="credit-caption">
+ <div class="caption-wrap">
+     <div class="caption" aria-label="Image caption">
+         <p>
+             Suzanne Devine Clark, an art teacher at Deerfield Beach Elementary School, places painted stones at a memorial outside Marjory Stoneman Douglas High School during the one-year anniversary of the school shooting on Feb. 14, 2019, in Parkland, Fla. The state passed its red flag law in 2018 after the shootings at the high school.
+
+             <b class="credit" aria-label="Image credit">
+
+                 Wilfredo Lee/AP
+
+             </b>
+             <b class="hide-caption"><b>hide caption</b></b>
+         </p>
+     </div>
+
+
+         <b class="toggle-caption"><b>toggle caption</b></b>
+ </div>
+
+ <span class="credit" aria-label="Image credit">
+
+     Wilfredo Lee/AP
+
+ </span>
+</div>
+
+         </div>
+     </figure>
+
+
+
+     <div class="story-wrap">
+
+         <div class="story-text">
+                 <div class="slug-wrap">
+
+                         <h2 class="slug">
+                             <a href="https://www.npr.org/sections/law/" data-metrics="{&quot;action&quot;:&quot;Click Slug&quot;}">
+                                 Law
+                             </a>
+                         </h2>
+                 </div>
+             <a href="https://www.npr.org/2019/08/21/752815318/florida-could-serve-as-example-for-lawmakers-considering-red-flag-laws" data-metrics="{&quot;action&quot; : &quot;Click Story 18&quot;}">
+                 <h3 class="title">Florida Could Serve As Example For Lawmakers Considering Red Flag Laws</h3>
+             </a>
+
+
+             <a href="https://www.npr.org/2019/08/21/752815318/florida-could-serve-as-example-for-lawmakers-considering-red-flag-laws" data-metrics="{&quot;action&quot; : &quot;Click Story 18&quot;}">
+                 <p class="teaser">Florida adopted a red flag law last year after the shooting that killed 17 people at Marjory Stoneman Douglas High School. Since then, courts there have approved about 2,500 risk protection orders.</p>
+             </a>
+         </div> <!-- /.story-text -->
+
+         <article id="res753014842" class="bucketwrap resaudio" aria-label="audio-module"><div class="audio-module">
+   <h4 class="audio-module-title">Florida Could Serve As Example For Lawmakers Considering Red Flag Laws</h4>
+<div class="audio-module-controls-wrap" data-audio="{&quot;uid&quot;:&quot;752815318:753014842&quot;,&quot;available&quot;:true,&quot;duration&quot;:298,&quot;title&quot;:&quot;Florida Could Serve As Example For Lawmakers Considering Red Flag Laws&quot;,&quot;audioUrl&quot;:&quot;https://ondemand.npr.org/anon.npr-mp3/npr/me/2019/08/20190821_me_florida_could_serve_as_example_for_lawmakers_considering_red_flag_laws.mp3?orgId=1&amp;topicId=1070&amp;d=298&amp;p=3&amp;story=752815318&amp;siteplayer=true&amp;size=4768812&quot;,&quot;storyUrl&quot;:&quot;https://www.npr.org/2019/08/21/752815318/florida-could-serve-as-example-for-lawmakers-considering-red-flag-laws&quot;,&quot;slug&quot;:&quot;Law&quot;,&quot;program&quot;:&quot;morning edition&quot;,&quot;affiliation&quot;:&quot;&quot;,&quot;song&quot;:&quot;&quot;,&quot;artist&quot;:&quot;&quot;,&quot;album&quot;:&quot;&quot;,&quot;track&quot;:0,&quot;type&quot;:&quot;segment&quot;,&quot;subtype&quot;:&quot;other&quot;}" data-audio-metrics="[]">
+     <div class="audio-module-controls">
+         <a class="audio-module-listen" href="https://ondemand.npr.org/anon.npr-mp3/npr/me/2019/08/20190821_me_florida_could_serve_as_example_for_lawmakers_considering_red_flag_laws.mp3?orgId=1&amp;topicId=1070&amp;d=298&amp;p=3&amp;story=752815318&amp;siteplayer=true&amp;size=4768812&amp;dl=1">
+             <b class="audio-module-listen-inner">
+                 <b class="audio-module-listen-icon icn-play"></b>
+                 <b class="audio-module-listen-text">
+                     <b class="audio-module-cta">Listen</b>
+                     <b class="audio-module-listen-duration">
+                         <span>· </span>
+                         <span>4:58</span>
+                     </b>
+                 </b>
+             </b>
+         </a>
+
+             <time class="audio-module-duration" datetime="P4M,58S">4:58</time>
+     </div>
+
+
+</div>
+
+
+ <div class="audio-module-tools">
+     <button class="audio-module-tools-toggle" data-metrics="{&quot;category&quot;:&quot;audio actions&quot;,&quot;action&quot;:&quot;open more options&quot;,&quot;label&quot;:null,&quot;noninteraction&quot;:true}">
+         <b class="icn-toggle"></b>
+         <b class="label">Toggle more options</b>
+     </button>
+     <ul class="audio-module-more-tools">
+             <li class="audio-tool audio-tool-download"><a href="https://ondemand.npr.org/anon.npr-mp3/npr/me/2019/08/20190821_me_florida_could_serve_as_example_for_lawmakers_considering_red_flag_laws.mp3?orgId=1&amp;topicId=1070&amp;d=298&amp;p=3&amp;story=752815318&amp;siteplayer=true&amp;size=4768812&amp;dl=1" data-metrics="{&quot;category&quot;:&quot;audio actions&quot;,&quot;action&quot;:&quot;download audio&quot;,&quot;label&quot;:&quot;752815318&quot;,&quot;noninteraction&quot;:true}"><b class="icn-download"></b><b class="audio-tool-label">Download</b></a>
+             </li>
+
+             <li class="audio-tool audio-tool-embed">
+                 <button data-embed-url="https://www.npr.org/player/embed/752815318/753014842" data-metrics="{&quot;category&quot;:&quot;audio actions&quot;,&quot;action&quot;:&quot;embed audio&quot;,&quot;label&quot;:&quot;752815318&quot;,&quot;noninteraction&quot;:true}"><b class="button-inner"><b class="icn-embed"></b><b class="audio-tool-label">Embed</b></b></button>
+
+                 <div class="audio-embed-overlay">
+                     <button class="btn-close"></button>
+                     <label class="embed-label">
+                         <b class="audio-embed-overlay__icon"></b>
+                         <b class="label">Embed</b>
+                         <input class="embed-url embed-url-no-touch" readonly="" value="<iframe src=&quot;https://www.npr.org/player/embed/752815318/753014842&quot; width=&quot;100%&quot; height=&quot;290&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; title=&quot;NPR embedded audio player&quot;></iframe>">
+                     </label>
+
+                     <b class="embed-url embed-url-touch">
+                         <code><b class="punctuation">&lt;</b>iframe src="https://www.npr.org/player/embed/752815318/753014842" width="100%" height="290" frameborder="0" scrolling="no" title="NPR embedded audio player"&gt;</code>
+                     </b>
+
+                 </div>
+             </li>
+
+     </ul>
+ </div>
+</div>
+</article>
+     </div> <!-- /.story-wrap -->
+ </div> <!-- /.story-wrap-outer -->
+
+</article>
+   <article class="hp-item volume-low post-type-standard has-image " id="story753015161">
+
+
+
+ <div class="story-wrap">
+
+     <figure class="thumb-image">
+         <div class="bucketwrap homeThumb">
+             <div class="imagewrap" data-crop-type="wide">
+ <a href="https://www.npr.org/2019/08/21/753015161/china-confirms-british-consulate-employee-held-on-administrative-detention" data-metrics="{&quot;action&quot;:&quot;Click Story 19&quot;}">
+     <img src="https://media.npr.org/assets/img/2019/08/21/rts2n848_wide-9ad31505177e1d63fe600773af0035c8b3877790-s400-c15.jpg" data-original="https://media.npr.org/assets/img/2019/08/21/rts2n848_wide-9ad31505177e1d63fe600773af0035c8b3877790-s400.jpg" class="img lazyOnLoad" alt="China Confirms British Consulate Employee Held On 'Administrative Detention'">
+ </a>
+</div>
+<div class="credit-caption">
+ <div class="caption-wrap">
+     <div class="caption" aria-label="Image caption">
+         <p>
+             Simon Cheng, a staff member of Britain's consulate in Hong Kong, who has been detained by Chinese authorities in the neighboring mainland city of Shenzhen, is seen in an unknown location in this undated photo obtained from the Facebook page "Free Simon Cheng."
+
+             <b class="credit" aria-label="Image credit">
+
+                 Social Media/FACEBOOK / FREE SIMON CHENG
+
+             </b>
+             <b class="hide-caption"><b>hide caption</b></b>
+         </p>
+     </div>
+
+
+         <b class="toggle-caption"><b>toggle caption</b></b>
+ </div>
+
+ <span class="credit" aria-label="Image credit">
+
+     Social Media/FACEBOOK / FREE SIMON CHENG
+
+ </span>
+</div>
+
+         </div>
+     </figure>
+
+
+     <div class="story-text">
+             <div class="slug-wrap">
+
+                 <h2 class="slug">
+                     <a href="https://www.npr.org/sections/asia/" data-metrics="{&quot;action&quot;:&quot;Click Slug&quot;}">
+                     Asia
+                     </a>
+                 </h2>
+             </div>
+         <a href="https://www.npr.org/2019/08/21/753015161/china-confirms-british-consulate-employee-held-on-administrative-detention" data-metrics="{&quot;action&quot; : &quot;Click Story 19&quot;}">
+             <h3 class="title">China Confirms British Consulate Employee Held On 'Administrative Detention'</h3>
+         </a>
+
+
+         <a href="https://www.npr.org/2019/08/21/753015161/china-confirms-british-consulate-employee-held-on-administrative-detention" data-metrics="{&quot;action&quot; : &quot;Click Story 19&quot;}">
+             <p class="teaser">Hong Kong resident Simon Cheng disappeared on Aug. 8 during a business trip to neighboring Shenzhen. A Chinese official confirmed his arrest on Wednesday, saying it is an internal matter for Beijing.</p>
+         </a>
+     </div> <!-- /.story-text -->
+ </div> <!-- /.story-wrap -->
+</article>
+   <section class="attachment-group">
+<article class="hp-item volume-high post-type-standard has-attachment has-image " id="story752781642">
+
+
+
+
+     <div class="story-wrap">
+
+
+         <figure class="head-image">
+             <div class="bucketwrap homeLarge">
+                 <div class="imagewrap" data-crop-type="wide">
+ <a href="https://www.npr.org/2019/08/21/752781642/march-for-our-lives-no-longer-protesting-in-streets-unveils-gun-control-plan" data-metrics="{&quot;action&quot;:&quot;Click Story 20&quot;}">
+     <img src="https://media.npr.org/assets/img/2019/08/21/hogg_dsc2725_wide-0ab6bc417c47ef8dbbf5d75dc7fbc42ff4548aec-s900-c15.jpg" data-original="https://media.npr.org/assets/img/2019/08/21/hogg_dsc2725_wide-0ab6bc417c47ef8dbbf5d75dc7fbc42ff4548aec-s900.jpg" class="img lazyOnLoad" alt="March For Our Lives, No Longer Protesting In Streets, Unveils Gun Control Plan">
+ </a>
+</div>
+<div class="credit-caption">
+ <div class="caption-wrap">
+     <div class="caption" aria-label="Image caption">
+         <p>
+             David Hogg, now a Marjory Stoneman Douglas High School graduate, has become one of the most prominent figures in the March for Our Lives gun violence prevention movement.
+
+             <b class="credit" aria-label="Image credit">
+
+                 Laura Roman/NPR
+
+             </b>
+             <b class="hide-caption"><b>hide caption</b></b>
+         </p>
+     </div>
+
+
+         <b class="toggle-caption"><b>toggle caption</b></b>
+ </div>
+
+ <span class="credit" aria-label="Image credit">
+
+     Laura Roman/NPR
+
+ </span>
+</div>
+
+             </div>
+         </figure>
+
+
+         <div class="story-text-wrap">
+             <div class="story-text">
+                     <div class="slug-wrap">
+
+                             <h2 class="slug">
+                                 <a href="https://www.npr.org/sections/law/" data-metrics="{&quot;action&quot;:&quot;Click Slug&quot;}">
+                                 Law
+                                 </a>
+                             </h2>
+                     </div>
+                 <a href="https://www.npr.org/2019/08/21/752781642/march-for-our-lives-no-longer-protesting-in-streets-unveils-gun-control-plan" data-metrics="{&quot;action&quot; : &quot;Click Story 20&quot;}">
+                     <h3 class="title">March For Our Lives, No Longer Protesting In Streets, Unveils Gun Control Plan</h3>
+                 </a>
+
+
+                 <a href="https://www.npr.org/2019/08/21/752781642/march-for-our-lives-no-longer-protesting-in-streets-unveils-gun-control-plan" data-metrics="{&quot;action&quot; : &quot;Click Story 20&quot;}">
+                     <p class="teaser">The group says its plan could prevent 200,000 gun deaths over 10 years. It calls for creating a national registry and starting a buyback program and creating a national gun czar.</p>
+                 </a>
+             </div> <!-- /.story-text -->
+
+         </div> <!-- /.story-text-wrap -->
+     </div> <!-- /.story-wrap -->
+
+</article>
+<article class="hp-item attachment volume-low">
+ <a class="story-wrap" href="https://www.npr.org/2019/08/20/752427922/poll-americans-including-republicans-and-gun-owners-broadly-support-red-flag-law" data-metrics="{&quot;action&quot; : &quot;Click Attached Story 20&quot;}">
+     <div class="story-text">
+         <h3 class="title">Poll: Americans, Including Republicans And Gun Owners, Broadly Support Red Flag Laws</h3>
+     </div>
+ </a>
+</article>
+<article class="hp-item attachment volume-low">
+ <a class="story-wrap" href="https://www.npr.org/2019/08/10/749946102/elizabeth-warrens-new-plan-on-guns-has-a-goal-reduce-gun-deaths-by-80" data-metrics="{&quot;action&quot; : &quot;Click Attached Story 20&quot;}">
+     <div class="story-text">
+         <h3 class="title">Elizabeth Warren's New Plan On Guns Has A Goal: Reduce Gun Deaths By 80%</h3>
+     </div>
+ </a>
+</article>
+
+</section>
+   <article class="hp-item volume-low post-type-audio has-image " id="story752699106">
+
+
+ <div class="story-wrap-outer">
+
+     <figure class="thumb-image">
+         <div class="bucketwrap homeThumb">
+             <div class="imagewrap" data-crop-type="wide">
+ <a href="https://www.npr.org/2019/08/21/752699106/buoyed-by-fresh-support-rep-al-green-plans-new-call-to-impeach-trump" data-metrics="{&quot;action&quot;:&quot;Click Story 21&quot;}">
+     <img src="https://media.npr.org/assets/img/2019/08/21/gettyimages-1142458656_wide-e4a876b572de3ac9ab9738bed952b4d6a86391b3-s400-c15.jpg" data-original="https://media.npr.org/assets/img/2019/08/21/gettyimages-1142458656_wide-e4a876b572de3ac9ab9738bed952b4d6a86391b3-s400.jpg" class="img lazyOnLoad" alt="Buoyed By Fresh Support, Rep. Al Green Plans New Call To Impeach Trump">
+ </a>
+</div>
+<div class="credit-caption">
+ <div class="caption-wrap">
+     <div class="caption" aria-label="Image caption">
+         <p>
+             Rep. Al Green speaks during a press conference in May with activists urging Congress to begin impeachment proceedings against President Trump.
+
+             <b class="credit" aria-label="Image credit">
+
+                 Saul Loeb/AFP/Getty Images
+
+             </b>
+             <b class="hide-caption"><b>hide caption</b></b>
+         </p>
+     </div>
+
+
+         <b class="toggle-caption"><b>toggle caption</b></b>
+ </div>
+
+ <span class="credit" aria-label="Image credit">
+
+     Saul Loeb/AFP/Getty Images
+
+ </span>
+</div>
+
+         </div>
+     </figure>
+
+
+
+     <div class="story-wrap">
+
+         <div class="story-text">
+                 <div class="slug-wrap">
+
+                         <h2 class="slug">
+                             <a href="https://www.npr.org/sections/national/" data-metrics="{&quot;action&quot;:&quot;Click Slug&quot;}">
+                                 National
+                             </a>
+                         </h2>
+                 </div>
+             <a href="https://www.npr.org/2019/08/21/752699106/buoyed-by-fresh-support-rep-al-green-plans-new-call-to-impeach-trump" data-metrics="{&quot;action&quot; : &quot;Click Story 21&quot;}">
+                 <h3 class="title">Buoyed By Fresh Support, Rep. Al Green Plans New Call To Impeach Trump</h3>
+             </a>
+
+
+             <a href="https://www.npr.org/2019/08/21/752699106/buoyed-by-fresh-support-rep-al-green-plans-new-call-to-impeach-trump" data-metrics="{&quot;action&quot; : &quot;Click Story 21&quot;}">
+                 <p class="teaser">Green says he'll bring his articles of impeachment to the House floor for a fourth time. More than 120 House Democrats now say they support an inquiry.</p>
+             </a>
+         </div> <!-- /.story-text -->
+
+         <article id="res752944416" class="bucketwrap resaudio" aria-label="audio-module"><div class="audio-module">
+   <h4 class="audio-module-title">Buoyed By Fresh Support, Rep. Al Green Plans New Call To Impeach Trump</h4>
+<div class="audio-module-controls-wrap" data-audio="{&quot;uid&quot;:&quot;752699106:752944416&quot;,&quot;available&quot;:true,&quot;duration&quot;:225,&quot;title&quot;:&quot;Buoyed By Fresh Support, Rep. Al Green Plans New Call To Impeach Trump&quot;,&quot;audioUrl&quot;:&quot;https://ondemand.npr.org/anon.npr-mp3/npr/me/2019/08/20190820_me_house_speaker_pelosi_opposes_rep_greens_push_to_impeach_trump.mp3?orgId=1&amp;topicId=1003&amp;d=225&amp;story=752699106&amp;siteplayer=true&amp;size=3594957&quot;,&quot;storyUrl&quot;:&quot;https://www.npr.org/2019/08/21/752699106/buoyed-by-fresh-support-rep-al-green-plans-new-call-to-impeach-trump&quot;,&quot;slug&quot;:&quot;national&quot;,&quot;program&quot;:&quot;&quot;,&quot;affiliation&quot;:&quot;&quot;,&quot;song&quot;:&quot;&quot;,&quot;artist&quot;:&quot;&quot;,&quot;album&quot;:&quot;&quot;,&quot;track&quot;:0,&quot;type&quot;:&quot;segment&quot;,&quot;subtype&quot;:&quot;other&quot;}" data-audio-metrics="[]">
+     <div class="audio-module-controls">
+         <a class="audio-module-listen" href="https://ondemand.npr.org/anon.npr-mp3/npr/me/2019/08/20190820_me_house_speaker_pelosi_opposes_rep_greens_push_to_impeach_trump.mp3?orgId=1&amp;topicId=1003&amp;d=225&amp;story=752699106&amp;siteplayer=true&amp;size=3594957&amp;dl=1">
+             <b class="audio-module-listen-inner">
+                 <b class="audio-module-listen-icon icn-play"></b>
+                 <b class="audio-module-listen-text">
+                     <b class="audio-module-cta">Listen</b>
+                     <b class="audio-module-listen-duration">
+                         <span>· </span>
+                         <span>3:45</span>
+                     </b>
+                 </b>
+             </b>
+         </a>
+
+             <time class="audio-module-duration" datetime="P3M,45S">3:45</time>
+     </div>
+
+
+</div>
+
+
+ <div class="audio-module-tools">
+     <button class="audio-module-tools-toggle" data-metrics="{&quot;category&quot;:&quot;audio actions&quot;,&quot;action&quot;:&quot;open more options&quot;,&quot;label&quot;:null,&quot;noninteraction&quot;:true}">
+         <b class="icn-toggle"></b>
+         <b class="label">Toggle more options</b>
+     </button>
+     <ul class="audio-module-more-tools">
+             <li class="audio-tool audio-tool-download"><a href="https://ondemand.npr.org/anon.npr-mp3/npr/me/2019/08/20190820_me_house_speaker_pelosi_opposes_rep_greens_push_to_impeach_trump.mp3?orgId=1&amp;topicId=1003&amp;d=225&amp;story=752699106&amp;siteplayer=true&amp;size=3594957&amp;dl=1" data-metrics="{&quot;category&quot;:&quot;audio actions&quot;,&quot;action&quot;:&quot;download audio&quot;,&quot;label&quot;:&quot;752699106&quot;,&quot;noninteraction&quot;:true}"><b class="icn-download"></b><b class="audio-tool-label">Download</b></a>
+             </li>
+
+             <li class="audio-tool audio-tool-embed">
+                 <button data-embed-url="https://www.npr.org/player/embed/752699106/752944416" data-metrics="{&quot;category&quot;:&quot;audio actions&quot;,&quot;action&quot;:&quot;embed audio&quot;,&quot;label&quot;:&quot;752699106&quot;,&quot;noninteraction&quot;:true}"><b class="button-inner"><b class="icn-embed"></b><b class="audio-tool-label">Embed</b></b></button>
+
+                 <div class="audio-embed-overlay">
+                     <button class="btn-close"></button>
+                     <label class="embed-label">
+                         <b class="audio-embed-overlay__icon"></b>
+                         <b class="label">Embed</b>
+                         <input class="embed-url embed-url-no-touch" readonly="" value="<iframe src=&quot;https://www.npr.org/player/embed/752699106/752944416&quot; width=&quot;100%&quot; height=&quot;290&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; title=&quot;NPR embedded audio player&quot;></iframe>">
+                     </label>
+
+                     <b class="embed-url embed-url-touch">
+                         <code><b class="punctuation">&lt;</b>iframe src="https://www.npr.org/player/embed/752699106/752944416" width="100%" height="290" frameborder="0" scrolling="no" title="NPR embedded audio player"&gt;</code>
+                     </b>
+
+                 </div>
+             </li>
+
+     </ul>
+ </div>
+</div>
+</article>
+     </div> <!-- /.story-wrap -->
+ </div> <!-- /.story-wrap-outer -->
+
+</article>
+   <article class="hp-item volume-low post-type-standard has-image " id="story752952156">
+
+
+
+ <div class="story-wrap">
+
+     <figure class="thumb-image">
+         <div class="bucketwrap homeThumb">
+             <div class="imagewrap" data-crop-type="wide">
+ <a href="https://www.npr.org/2019/08/20/752952156/philadelphia-police-commissioner-richard-ross-abruptly-resigns" data-metrics="{&quot;action&quot;:&quot;Click Story 22&quot;}">
+     <img src="https://media.npr.org/assets/img/2019/08/20/ap_19199668792301_wide-099948d0ea7e5f28c5784173b49ccceccb64204b-s400-c15.jpg" data-original="https://media.npr.org/assets/img/2019/08/20/ap_19199668792301_wide-099948d0ea7e5f28c5784173b49ccceccb64204b-s400.jpg" class="img lazyOnLoad" alt="Philadelphia Police Commissioner Richard Ross Abruptly Resigns">
+ </a>
+</div>
+<div class="credit-caption">
+ <div class="caption-wrap">
+     <div class="caption" aria-label="Image caption">
+         <p>
+             Philadelphia Police Commissioner Richard Ross speaking during a news conference in Philadelphia on July 18. He abruptly resigned Tuesday.
+
+             <b class="credit" aria-label="Image credit">
+
+                 Matt Rourke/AP
+
+             </b>
+             <b class="hide-caption"><b>hide caption</b></b>
+         </p>
+     </div>
+
+
+         <b class="toggle-caption"><b>toggle caption</b></b>
+ </div>
+
+ <span class="credit" aria-label="Image credit">
+
+     Matt Rourke/AP
+
+ </span>
+</div>
+
+         </div>
+     </figure>
+
+
+     <div class="story-text">
+             <div class="slug-wrap">
+
+                 <h2 class="slug">
+                     <a href="https://www.npr.org/sections/law/" data-metrics="{&quot;action&quot;:&quot;Click Slug&quot;}">
+                     Law
+                     </a>
+                 </h2>
+             </div>
+         <a href="https://www.npr.org/2019/08/20/752952156/philadelphia-police-commissioner-richard-ross-abruptly-resigns" data-metrics="{&quot;action&quot; : &quot;Click Story 22&quot;}">
+             <h3 class="title">Philadelphia Police Commissioner Richard Ross Abruptly Resigns</h3>
+         </a>
+
+
+         <a href="https://www.npr.org/2019/08/20/752952156/philadelphia-police-commissioner-richard-ross-abruptly-resigns" data-metrics="{&quot;action&quot; : &quot;Click Story 22&quot;}">
+             <p class="teaser">An aide to Philadelphia's mayor said Ross failed to act on allegations of sexual, racial and gender harassment and discrimination in his department.</p>
+         </a>
+     </div> <!-- /.story-text -->
+ </div> <!-- /.story-wrap -->
+</article>
+   <article class="hp-item volume-high post-type-standard has-image " id="story752808217">
+
+
+
+
+     <div class="story-wrap">
+
+
+         <figure class="head-image">
+             <div class="bucketwrap homeLarge">
+                 <div class="imagewrap" data-crop-type="wide">
+ <a href="https://www.npr.org/2019/08/21/752808217/nicole-bus-tiny-desk-concert" data-metrics="{&quot;action&quot;:&quot;Click Story 23&quot;}">
+     <img src="https://media.npr.org/assets/img/2019/08/21/nicolebus_wide-eb1eba5641758249747ee57e2023032765894408-s900-c15.jpg" data-original="https://media.npr.org/assets/img/2019/08/21/nicolebus_wide-eb1eba5641758249747ee57e2023032765894408-s900.jpg" class="img lazyOnLoad" alt="Nicole Bus: Tiny Desk Concert">
+ </a>
+</div>
+<div class="credit-caption">
+ <div class="caption-wrap">
+     <div class="caption" aria-label="Image caption">
+         <p>
+             Nicole Bus plays a Tiny Desk Concert on July 8, 2019 (Olivia Falcigno/NPR).
+
+             <b class="credit" aria-label="Image credit">
+
+                 Olivia Falcigno/NPR
+
+             </b>
+             <b class="hide-caption"><b>hide caption</b></b>
+         </p>
+     </div>
+
+
+         <b class="toggle-caption"><b>toggle caption</b></b>
+ </div>
+
+ <span class="credit" aria-label="Image credit">
+
+     Olivia Falcigno/NPR
+
+ </span>
+</div>
+
+             </div>
+         </figure>
+
+
+         <div class="story-text-wrap">
+             <div class="story-text">
+                     <div class="slug-wrap">
+
+                             <h2 class="slug">
+                                 <a href="https://www.npr.org/series/tiny-desk-concerts/" data-metrics="{&quot;action&quot;:&quot;Click Slug&quot;}">
+                                 Tiny Desk
+                                 </a>
+                             </h2>
+                     </div>
+                 <a href="https://www.npr.org/2019/08/21/752808217/nicole-bus-tiny-desk-concert" data-metrics="{&quot;action&quot; : &quot;Click Story 23&quot;}">
+                     <h3 class="title">Nicole Bus: Tiny Desk Concert</h3>
+                 </a>
+
+
+                 <a href="https://www.npr.org/2019/08/21/752808217/nicole-bus-tiny-desk-concert" data-metrics="{&quot;action&quot; : &quot;Click Story 23&quot;}">
+                     <p class="teaser">Nicole Bus' sound is reminiscent of vintage R&amp;B, yet still feels current and capable of transcending age and demographics.</p>
+                 </a>
+             </div> <!-- /.story-text -->
+
+         </div> <!-- /.story-text-wrap -->
+     </div> <!-- /.story-wrap -->
+
+</article>
+   <article class="hp-item volume-low post-type-standard has-image " id="story752811433">
+
+
+
+ <div class="story-wrap">
+
+     <figure class="thumb-image">
+         <div class="bucketwrap homeThumb">
+             <div class="imagewrap" data-crop-type="wide">
+ <a href="https://www.npr.org/2019/08/21/752811433/this-way-up-deserves-a-spot-on-your-crowded-viewing-list" data-metrics="{&quot;action&quot;:&quot;Click Story 24&quot;}">
+     <img src="https://media.npr.org/assets/img/2019/08/21/thiswayup_wide-f42a491177e1d08065af533718a7e0300f834ba8-s400-c15.jpg" data-original="https://media.npr.org/assets/img/2019/08/21/thiswayup_wide-f42a491177e1d08065af533718a7e0300f834ba8-s400.jpg" class="img lazyOnLoad" alt="'This Way Up' Deserves A Spot On Your Crowded Viewing List">
+ </a>
+</div>
+<div class="credit-caption">
+ <div class="caption-wrap">
+     <div class="caption" aria-label="Image caption">
+         <p>
+             Aisling Bea stars as Aine in <em>This Way Up</em>, a new series available on Hulu.
+
+             <b class="credit" aria-label="Image credit">
+
+                 Channel 4/Hulu
+
+             </b>
+             <b class="hide-caption"><b>hide caption</b></b>
+         </p>
+     </div>
+
+
+         <b class="toggle-caption"><b>toggle caption</b></b>
+ </div>
+
+ <span class="credit" aria-label="Image credit">
+
+     Channel 4/Hulu
+
+ </span>
+</div>
+
+         </div>
+     </figure>
+
+
+     <div class="story-text">
+             <div class="slug-wrap">
+                     <h2 class="slug-tag">
+
+                         Review
+
+                     </h2>
+
+                 <h2 class="slug">
+                     <a href="https://www.npr.org/series/pop-culture-happy-hour" data-metrics="{&quot;action&quot;:&quot;Click Slug&quot;}">
+                     Pop Culture Happy Hour
+                     </a>
+                 </h2>
+             </div>
+         <a href="https://www.npr.org/2019/08/21/752811433/this-way-up-deserves-a-spot-on-your-crowded-viewing-list" data-metrics="{&quot;action&quot; : &quot;Click Story 24&quot;}">
+             <h3 class="title">'This Way Up' Deserves A Spot On Your Crowded Viewing List</h3>
+         </a>
+
+
+         <a href="https://www.npr.org/2019/08/21/752811433/this-way-up-deserves-a-spot-on-your-crowded-viewing-list" data-metrics="{&quot;action&quot; : &quot;Click Story 24&quot;}">
+             <p class="teaser">It can be hard not to miss lower-profile streaming shows. But <em>This Way Up</em>, a comedy created by Irish actress Aisling Bea and streaming on Hulu, has a sweet and funny story to tell.</p>
+         </a>
+     </div> <!-- /.story-text -->
+ </div> <!-- /.story-wrap -->
+</article>
+   <article class="hp-item volume-low post-type-standard has-image " id="story752791717">
+
+
+
+ <div class="story-wrap">
+
+     <figure class="thumb-image">
+         <div class="bucketwrap homeThumb">
+             <div class="imagewrap" data-crop-type="wide">
+ <a href="https://www.npr.org/2019/08/20/752791717/2-condos-were-illegally-converted-into-18-micro-apartments-in-nyc" data-metrics="{&quot;action&quot;:&quot;Click Story 25&quot;}">
+     <img src="https://media.npr.org/assets/img/2019/08/20/henryst-ext_wide-cf371e57a3f06c2d4d25cf546963939c4561282d-s400-c15.jpg" data-original="https://media.npr.org/assets/img/2019/08/20/henryst-ext_wide-cf371e57a3f06c2d4d25cf546963939c4561282d-s400.jpg" class="img lazyOnLoad" alt="2 Condos Were Illegally Converted Into 18 Micro Apartments In NYC">
+ </a>
+</div>
+<div class="credit-caption">
+ <div class="caption-wrap">
+     <div class="caption" aria-label="Image caption">
+         <p>
+             The exterior of the condo building at 165 Henry St in Manhattan's Lower East Side hints at the split-level apartments inside, as air conditioners, at left, are positioned at both upper and lower windows.
+
+             <b class="credit" aria-label="Image credit">
+
+                 Google Maps / Screenshot by NPR
+
+             </b>
+             <b class="hide-caption"><b>hide caption</b></b>
+         </p>
+     </div>
+
+
+         <b class="toggle-caption"><b>toggle caption</b></b>
+ </div>
+
+ <span class="credit" aria-label="Image credit">
+
+     Google Maps / Screenshot by NPR
+
+ </span>
+</div>
+
+         </div>
+     </figure>
+
+
+     <div class="story-text">
+             <div class="slug-wrap">
+
+                 <h2 class="slug">
+                     <a href="https://www.npr.org/sections/strange-news/" data-metrics="{&quot;action&quot;:&quot;Click Slug&quot;}">
+                     Strange News
+                     </a>
+                 </h2>
+             </div>
+         <a href="https://www.npr.org/2019/08/20/752791717/2-condos-were-illegally-converted-into-18-micro-apartments-in-nyc" data-metrics="{&quot;action&quot; : &quot;Click Story 25&quot;}">
+             <h3 class="title">2 Condos Were Illegally Converted Into 18 Micro Apartments In NYC</h3>
+         </a>
+
+
+         <a href="https://www.npr.org/2019/08/20/752791717/2-condos-were-illegally-converted-into-18-micro-apartments-in-nyc" data-metrics="{&quot;action&quot; : &quot;Click Story 25&quot;}">
+             <p class="teaser">"The ceiling heights were 4.5 feet to 6 feet tall on each level, depending on where you were standing," says a spokesperson  for the New York Department of Buildings.</p>
+         </a>
+     </div> <!-- /.story-text -->
+ </div> <!-- /.story-wrap -->
+</article>
+   <article class="hp-item volume-high post-type-audio has-image " id="story752911330">
+
+ <div class="story-wrap-outer">
+
+     <div class="story-wrap">
+
+
+         <figure class="head-image">
+             <div class="bucketwrap homeLarge">
+                 <div class="imagewrap" data-crop-type="wide">
+ <a href="https://www.npr.org/2019/08/21/752911330/billie-eilishs-bad-guy-is-the-new-no-1-song-on-the-billboard-hot-100" data-metrics="{&quot;action&quot;:&quot;Click Story 26&quot;}">
+     <img src="https://media.npr.org/assets/img/2019/08/21/gettyimages-1161521857_wide-632d44f3cc12379117d0c99d3cff2fc3d9e831be-s900-c15.jpg" data-original="https://media.npr.org/assets/img/2019/08/21/gettyimages-1161521857_wide-632d44f3cc12379117d0c99d3cff2fc3d9e831be-s900.jpg" class="img lazyOnLoad" alt="Billie Eilish's 'Bad Guy' Is The New No. 1 Song On The Billboard Hot 100 ">
+ </a>
+</div>
+<div class="credit-caption">
+ <div class="caption-wrap">
+     <div class="caption" aria-label="Image caption">
+         <p>
+             Billie Eilish's "bad guy" is officially the No. 1 song on the <em>Billboard</em> Hot 100.
+
+             <b class="credit" aria-label="Image credit">
+
+                 Scott Dudelson/Getty Images
+
+             </b>
+             <b class="hide-caption"><b>hide caption</b></b>
+         </p>
+     </div>
+
+
+         <b class="toggle-caption"><b>toggle caption</b></b>
+ </div>
+
+ <span class="credit" aria-label="Image credit">
+
+     Scott Dudelson/Getty Images
+
+ </span>
+</div>
+
+             </div>
+         </figure>
+
+
+         <div class="story-text-wrap">
+             <div class="story-text">
+                     <div class="slug-wrap">
+
+                             <h2 class="slug">
+                                 <a href="https://www.npr.org/sections/music-news/" data-metrics="{&quot;action&quot;:&quot;Click Slug&quot;}">
+                                 Music News
+                                 </a>
+                             </h2>
+                     </div>
+                 <a href="https://www.npr.org/2019/08/21/752911330/billie-eilishs-bad-guy-is-the-new-no-1-song-on-the-billboard-hot-100" data-metrics="{&quot;action&quot; : &quot;Click Story 26&quot;}">
+                     <h3 class="title">Billie Eilish's 'Bad Guy' Is The New No. 1 Song On The Billboard Hot 100</h3>
+                 </a>
+
+
+                 <a href="https://www.npr.org/2019/08/21/752911330/billie-eilishs-bad-guy-is-the-new-no-1-song-on-the-billboard-hot-100" data-metrics="{&quot;action&quot; : &quot;Click Story 26&quot;}">
+                     <p class="teaser">Billie Eilish hits No. 1 on <em>Billboard</em>'s Hot 100 with her song "bad guy," making her the first artist born in this century to top the chart.</p>
+                 </a>
+             </div> <!-- /.story-text -->
+
+                 <article id="res753014836" class="bucketwrap resaudio" aria-label="audio-module"><div class="audio-module">
+   <h4 class="audio-module-title">Billie Eilish's 'Bad Guy' Is The New No. 1 Song On The Billboard Hot 100 </h4>
+<div class="audio-module-controls-wrap" data-audio="{&quot;uid&quot;:&quot;752911330:753014836&quot;,&quot;available&quot;:true,&quot;duration&quot;:100,&quot;title&quot;:&quot;Billie Eilish's 'Bad Guy' Is The New No. 1 Song On The Billboard Hot 100 &quot;,&quot;audioUrl&quot;:&quot;https://ondemand.npr.org/anon.npr-mp3/npr/me/2019/08/20190821_me_billie_eilishs_bad_guy_is_the_new_no_1_song_on_the_billboard_hot_100_.mp3?orgId=1&amp;topicId=1106&amp;d=100&amp;p=3&amp;story=752911330&amp;siteplayer=true&amp;size=1600863&quot;,&quot;storyUrl&quot;:&quot;https://www.npr.org/2019/08/21/752911330/billie-eilishs-bad-guy-is-the-new-no-1-song-on-the-billboard-hot-100&quot;,&quot;slug&quot;:&quot;Music News&quot;,&quot;program&quot;:&quot;morning edition&quot;,&quot;affiliation&quot;:&quot;&quot;,&quot;song&quot;:&quot;&quot;,&quot;artist&quot;:&quot;&quot;,&quot;album&quot;:&quot;&quot;,&quot;track&quot;:0,&quot;type&quot;:&quot;segment&quot;,&quot;subtype&quot;:&quot;other&quot;}" data-audio-metrics="[]">
+     <div class="audio-module-controls">
+         <a class="audio-module-listen" href="https://ondemand.npr.org/anon.npr-mp3/npr/me/2019/08/20190821_me_billie_eilishs_bad_guy_is_the_new_no_1_song_on_the_billboard_hot_100_.mp3?orgId=1&amp;topicId=1106&amp;d=100&amp;p=3&amp;story=752911330&amp;siteplayer=true&amp;size=1600863&amp;dl=1">
+             <b class="audio-module-listen-inner">
+                 <b class="audio-module-listen-icon icn-play"></b>
+                 <b class="audio-module-listen-text">
+                     <b class="audio-module-cta">Listen</b>
+                     <b class="audio-module-listen-duration">
+                         <span>· </span>
+                         <span>1:40</span>
+                     </b>
+                 </b>
+             </b>
+         </a>
+
+             <time class="audio-module-duration" datetime="P1M,40S">1:40</time>
+     </div>
+
+
+</div>
+
+
+ <div class="audio-module-tools">
+     <button class="audio-module-tools-toggle" data-metrics="{&quot;category&quot;:&quot;audio actions&quot;,&quot;action&quot;:&quot;open more options&quot;,&quot;label&quot;:null,&quot;noninteraction&quot;:true}">
+         <b class="icn-toggle"></b>
+         <b class="label">Toggle more options</b>
+     </button>
+     <ul class="audio-module-more-tools">
+             <li class="audio-tool audio-tool-download"><a href="https://ondemand.npr.org/anon.npr-mp3/npr/me/2019/08/20190821_me_billie_eilishs_bad_guy_is_the_new_no_1_song_on_the_billboard_hot_100_.mp3?orgId=1&amp;topicId=1106&amp;d=100&amp;p=3&amp;story=752911330&amp;siteplayer=true&amp;size=1600863&amp;dl=1" data-metrics="{&quot;category&quot;:&quot;audio actions&quot;,&quot;action&quot;:&quot;download audio&quot;,&quot;label&quot;:&quot;752911330&quot;,&quot;noninteraction&quot;:true}"><b class="icn-download"></b><b class="audio-tool-label">Download</b></a>
+             </li>
+
+             <li class="audio-tool audio-tool-embed">
+                 <button data-embed-url="https://www.npr.org/player/embed/752911330/753014836" data-metrics="{&quot;category&quot;:&quot;audio actions&quot;,&quot;action&quot;:&quot;embed audio&quot;,&quot;label&quot;:&quot;752911330&quot;,&quot;noninteraction&quot;:true}"><b class="button-inner"><b class="icn-embed"></b><b class="audio-tool-label">Embed</b></b></button>
+
+                 <div class="audio-embed-overlay">
+                     <button class="btn-close"></button>
+                     <label class="embed-label">
+                         <b class="audio-embed-overlay__icon"></b>
+                         <b class="label">Embed</b>
+                         <input class="embed-url embed-url-no-touch" readonly="" value="<iframe src=&quot;https://www.npr.org/player/embed/752911330/753014836&quot; width=&quot;100%&quot; height=&quot;290&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; title=&quot;NPR embedded audio player&quot;></iframe>">
+                     </label>
+
+                     <b class="embed-url embed-url-touch">
+                         <code><b class="punctuation">&lt;</b>iframe src="https://www.npr.org/player/embed/752911330/753014836" width="100%" height="290" frameborder="0" scrolling="no" title="NPR embedded audio player"&gt;</code>
+                     </b>
+
+                 </div>
+             </li>
+
+     </ul>
+ </div>
+</div>
+</article>
+         </div> <!-- /.story-text-wrap -->
+     </div> <!-- /.story-wrap -->
+ </div> <!-- /.story-wrap-outer -->
+</article>
+   <article class="hp-item volume-low post-type-standard has-image " id="story752928905">
+
+
+
+ <div class="story-wrap">
+
+     <figure class="thumb-image">
+         <div class="bucketwrap homeThumb">
+             <div class="imagewrap" data-crop-type="wide">
+ <a href="https://www.npr.org/2019/08/20/752928905/former-arkansas-va-doctor-charged-with-involuntary-manslaughter-in-3-deaths" data-metrics="{&quot;action&quot;:&quot;Click Story 27&quot;}">
+     <img src="https://media.npr.org/assets/img/2019/08/20/ap_19232748424896_wide-13ea5bf9a04d55004053f72553b41034e8f2bf6b-s400-c15.jpg" data-original="https://media.npr.org/assets/img/2019/08/20/ap_19232748424896_wide-13ea5bf9a04d55004053f72553b41034e8f2bf6b-s400.jpg" class="img lazyOnLoad" alt="Former Arkansas VA Doctor Charged With Involuntary Manslaughter In 3 Deaths">
+ </a>
+</div>
+<div class="credit-caption">
+ <div class="caption-wrap">
+     <div class="caption" aria-label="Image caption">
+         <p>
+             Dr. Robert Levy, a pathologist fired from an Arkansas veterans hospital after officials said he had been impaired while on duty.
+
+             <b class="credit" aria-label="Image credit">
+
+                 Washington County Sheriff's Department via AP
+
+             </b>
+             <b class="hide-caption"><b>hide caption</b></b>
+         </p>
+     </div>
+
+
+         <b class="toggle-caption"><b>toggle caption</b></b>
+ </div>
+
+ <span class="credit" aria-label="Image credit">
+
+     Washington County Sheriff's Department via AP
+
+ </span>
+</div>
+
+         </div>
+     </figure>
+
+
+     <div class="story-text">
+             <div class="slug-wrap">
+
+                 <h2 class="slug">
+                     <a href="https://www.npr.org/sections/law/" data-metrics="{&quot;action&quot;:&quot;Click Slug&quot;}">
+                     Law
+                     </a>
+                 </h2>
+             </div>
+         <a href="https://www.npr.org/2019/08/20/752928905/former-arkansas-va-doctor-charged-with-involuntary-manslaughter-in-3-deaths" data-metrics="{&quot;action&quot; : &quot;Click Story 27&quot;}">
+             <h3 class="title">Former Arkansas VA Doctor Charged With Involuntary Manslaughter In 3 Deaths</h3>
+         </a>
+
+
+         <a href="https://www.npr.org/2019/08/20/752928905/former-arkansas-va-doctor-charged-with-involuntary-manslaughter-in-3-deaths" data-metrics="{&quot;action&quot; : &quot;Click Story 27&quot;}">
+             <p class="teaser">A former pathologist was under scrutiny after being found drunk on the job. A review of his work found more than 3,000 misdiagnoses of patients.</p>
+         </a>
+     </div> <!-- /.story-text -->
+ </div> <!-- /.story-wrap -->
+</article>
+   <article class="hp-item volume-high post-type-audio has-image " id="story752721793">
+
+ <div class="story-wrap-outer">
+
+     <div class="story-wrap">
+
+
+         <figure class="head-image">
+             <div class="bucketwrap homeLarge">
+                 <div class="imagewrap" data-crop-type="wide">
+ <a href="https://www.npr.org/sections/allsongs/2019/08/21/752721793/new-mix-brittany-howard-big-thief-the-messthetics-more" data-metrics="{&quot;action&quot;:&quot;Click Story 28&quot;}">
+     <img src="https://media.npr.org/assets/img/2019/08/21/collage20190821_wide-cb74e14f840e4f69a80caf0ee3512791b11f61cf-s900-c15.jpg" data-original="https://media.npr.org/assets/img/2019/08/21/collage20190821_wide-cb74e14f840e4f69a80caf0ee3512791b11f61cf-s900.jpg" class="img lazyOnLoad" alt="New Mix: Brittany Howard, Big Thief, The Messthetics, More">
+ </a>
+</div>
+<div class="credit-caption">
+ <div class="caption-wrap">
+     <div class="caption" aria-label="Image caption">
+         <p>
+             Clockwise from upper left: Big Thief, Shannon Lay, Queen of Jeans, Brittany Howard
+
+             <b class="credit" aria-label="Image credit">
+
+                 Courtesy of the artists
+
+             </b>
+             <b class="hide-caption"><b>hide caption</b></b>
+         </p>
+     </div>
+
+
+         <b class="toggle-caption"><b>toggle caption</b></b>
+ </div>
+
+ <span class="credit" aria-label="Image credit">
+
+     Courtesy of the artists
+
+ </span>
+</div>
+
+             </div>
+         </figure>
+
+
+         <div class="story-text-wrap">
+             <div class="story-text">
+                     <div class="slug-wrap">
+
+                             <h2 class="slug">
+                                 <a href="https://www.npr.org/sections/allsongs/" data-metrics="{&quot;action&quot;:&quot;Click Slug&quot;}">
+                                 All Songs Considered
+                                 </a>
+                             </h2>
+                     </div>
+                 <a href="https://www.npr.org/sections/allsongs/2019/08/21/752721793/new-mix-brittany-howard-big-thief-the-messthetics-more" data-metrics="{&quot;action&quot; : &quot;Click Story 28&quot;}">
+                     <h3 class="title">New Mix: Brittany Howard, Big Thief, The Messthetics, More</h3>
+                 </a>
+
+
+                 <a href="https://www.npr.org/sections/allsongs/2019/08/21/752721793/new-mix-brittany-howard-big-thief-the-messthetics-more" data-metrics="{&quot;action&quot; : &quot;Click Story 28&quot;}">
+                     <p class="teaser">This week's essential mix includes stirring solo work from Alabama Shakes singer Brittany Howard, a surprise release from Big Thief, a cathartic instrumental from The Messthetics and more.</p>
+                 </a>
+             </div> <!-- /.story-text -->
+
+                 <article id="res752974386" class="bucketwrap resaudio" aria-label="audio-module"><div class="audio-module">
+   <h4 class="audio-module-title">New Mix: Brittany Howard, Big Thief, The Messthetics, More</h4>
+<div class="audio-module-controls-wrap" data-audio="{&quot;uid&quot;:&quot;752721793:752974386&quot;,&quot;available&quot;:true,&quot;duration&quot;:3217,&quot;title&quot;:&quot;New Mix: Brittany Howard, Big Thief, The Messthetics, More&quot;,&quot;audioUrl&quot;:&quot;https://ondemand.npr.org/anon.npr-mp3/npr/asc/2019/08/20190821_asc_20190820-rx.mp3?orgId=1&amp;topicId=1039&amp;d=3217&amp;story=752721793&amp;siteplayer=true&amp;size=102839435&quot;,&quot;storyUrl&quot;:&quot;https://www.npr.org/sections/allsongs/2019/08/21/752721793/new-mix-brittany-howard-big-thief-the-messthetics-more&quot;,&quot;slug&quot;:&quot;all songs considered&quot;,&quot;program&quot;:&quot;&quot;,&quot;affiliation&quot;:&quot;&quot;,&quot;song&quot;:&quot;&quot;,&quot;artist&quot;:&quot;&quot;,&quot;album&quot;:&quot;&quot;,&quot;track&quot;:0,&quot;type&quot;:&quot;segment&quot;,&quot;subtype&quot;:&quot;other&quot;}" data-audio-metrics="[]">
+     <div class="audio-module-controls">
+         <a class="audio-module-listen" href="https://ondemand.npr.org/anon.npr-mp3/npr/asc/2019/08/20190821_asc_20190820-rx.mp3?orgId=1&amp;topicId=1039&amp;d=3217&amp;story=752721793&amp;siteplayer=true&amp;size=102839435&amp;dl=1">
+             <b class="audio-module-listen-inner">
+                 <b class="audio-module-listen-icon icn-play"></b>
+                 <b class="audio-module-listen-text">
+                     <b class="audio-module-cta">Listen</b>
+                     <b class="audio-module-listen-duration">
+                         <span>· </span>
+                         <span>53:37</span>
+                     </b>
+                 </b>
+             </b>
+         </a>
+
+             <time class="audio-module-duration" datetime="P53M,37S">53:37</time>
+     </div>
+
+
+</div>
+
+
+ <div class="audio-module-tools">
+     <button class="audio-module-tools-toggle" data-metrics="{&quot;category&quot;:&quot;audio actions&quot;,&quot;action&quot;:&quot;open more options&quot;,&quot;label&quot;:null,&quot;noninteraction&quot;:true}">
+         <b class="icn-toggle"></b>
+         <b class="label">Toggle more options</b>
+     </button>
+     <ul class="audio-module-more-tools">
+             <li class="audio-tool audio-tool-download"><a href="https://ondemand.npr.org/anon.npr-mp3/npr/asc/2019/08/20190821_asc_20190820-rx.mp3?orgId=1&amp;topicId=1039&amp;d=3217&amp;story=752721793&amp;siteplayer=true&amp;size=102839435&amp;dl=1" data-metrics="{&quot;category&quot;:&quot;audio actions&quot;,&quot;action&quot;:&quot;download audio&quot;,&quot;label&quot;:&quot;752721793&quot;,&quot;noninteraction&quot;:true}"><b class="icn-download"></b><b class="audio-tool-label">Download</b></a>
+             </li>
+
+             <li class="audio-tool audio-tool-embed">
+                 <button data-embed-url="https://www.npr.org/player/embed/752721793/752974386" data-metrics="{&quot;category&quot;:&quot;audio actions&quot;,&quot;action&quot;:&quot;embed audio&quot;,&quot;label&quot;:&quot;752721793&quot;,&quot;noninteraction&quot;:true}"><b class="button-inner"><b class="icn-embed"></b><b class="audio-tool-label">Embed</b></b></button>
+
+                 <div class="audio-embed-overlay">
+                     <button class="btn-close"></button>
+                     <label class="embed-label">
+                         <b class="audio-embed-overlay__icon"></b>
+                         <b class="label">Embed</b>
+                         <input class="embed-url embed-url-no-touch" readonly="" value="<iframe src=&quot;https://www.npr.org/player/embed/752721793/752974386&quot; width=&quot;100%&quot; height=&quot;290&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; title=&quot;NPR embedded audio player&quot;></iframe>">
+                     </label>
+
+                     <b class="embed-url embed-url-touch">
+                         <code><b class="punctuation">&lt;</b>iframe src="https://www.npr.org/player/embed/752721793/752974386" width="100%" height="290" frameborder="0" scrolling="no" title="NPR embedded audio player"&gt;</code>
+                     </b>
+
+                 </div>
+             </li>
+
+     </ul>
+ </div>
+</div>
+</article>
+         </div> <!-- /.story-text-wrap -->
+     </div> <!-- /.story-wrap -->
+ </div> <!-- /.story-wrap-outer -->
+</article>
+   <article class="hp-item volume-low post-type-standard has-image " id="story750864036">
+
+
+
+ <div class="story-wrap">
+
+     <figure class="thumb-image">
+         <div class="bucketwrap homeThumb">
+             <div class="imagewrap" data-crop-type="wide">
+ <a href="https://www.npr.org/2019/08/20/750864036/u-s-recycling-industry-is-struggling-to-figure-out-a-future-without-china" data-metrics="{&quot;action&quot;:&quot;Click Story 29&quot;}">
+     <img src="https://media.npr.org/assets/img/2019/08/20/plastics-china_wide-eff50cb720aff05935722bccc9f6006ae595f6b2-s400-c15.jpg" data-original="https://media.npr.org/assets/img/2019/08/20/plastics-china_wide-eff50cb720aff05935722bccc9f6006ae595f6b2-s400.jpg" class="img lazyOnLoad" alt="U.S. Recycling Industry Is Struggling To Figure Out A Future Without China">
+ </a>
+</div>
+<div class="credit-caption">
+ <div class="caption-wrap">
+     <div class="caption" aria-label="Image caption">
+         <p>
+             Recycling material moves along a conveyor belt to be sorted at Waste Management's Material Recovery Facility in Elkridge, Md. In 2018, China announced it would no longer buy most plastic waste from places like the U.S.
+
+             <b class="credit" aria-label="Image credit">
+
+                 Saul Loeb/AFP/Getty Images
+
+             </b>
+             <b class="hide-caption"><b>hide caption</b></b>
+         </p>
+     </div>
+
+
+         <b class="toggle-caption"><b>toggle caption</b></b>
+ </div>
+
+ <span class="credit" aria-label="Image credit">
+
+     Saul Loeb/AFP/Getty Images
+
+ </span>
+</div>
+
+         </div>
+     </figure>
+
+
+     <div class="story-text">
+             <div class="slug-wrap">
+
+                 <h2 class="slug">
+                     <a href="https://www.npr.org/sections/science/" data-metrics="{&quot;action&quot;:&quot;Click Slug&quot;}">
+                     Science
+                     </a>
+                 </h2>
+             </div>
+         <a href="https://www.npr.org/2019/08/20/750864036/u-s-recycling-industry-is-struggling-to-figure-out-a-future-without-china" data-metrics="{&quot;action&quot; : &quot;Click Story 29&quot;}">
+             <h3 class="title">U.S. Recycling Industry Is Struggling To Figure Out A Future Without China</h3>
+         </a>
+
+
+         <a href="https://www.npr.org/2019/08/20/750864036/u-s-recycling-industry-is-struggling-to-figure-out-a-future-without-china" data-metrics="{&quot;action&quot; : &quot;Click Story 29&quot;}">
+             <p class="teaser">China is no longer taking the world's waste. The U.S. recycling industry is overwhelmed — it can't keep up with the plastic being churned out. This doesn't bode well for our plastic waste problem.</p>
+         </a>
+     </div> <!-- /.story-text -->
+ </div> <!-- /.story-wrap -->
+</article>
+   <article class="hp-item volume-high post-type-video has-image " id="story748738191">
+
+ <div class="story-wrap-outer">
+     <div id="res753080317" class="bucketwrap video youtube-video large">
+ <div class="video-wrap">
+     <iframe src="https://www.youtube.com/embed/LOUTCXW2CzI?rel=0" width="100%" height="100%" frameborder="0" allowfullscreen=""></iframe>
+ </div>
+     <div class="credit-caption externalasset">
+
+
+             <b class="credit">
+
+                 <b class="source">YouTube</b>
+             </b>
+     </div>
+</div>
+
+
+     <div class="story-wrap">
+
+
+
+         <div class="story-text-wrap">
+             <div class="story-text">
+                     <div class="slug-wrap">
+
+                             <h2 class="slug">
+                                 <a href="https://www.npr.org/series/746417755/turning-the-tables-8-women-who-invented-american-popular-music" data-metrics="{&quot;action&quot;:&quot;Click Slug&quot;}">
+                                 8 Women Who Invented American Popular Music
+                                 </a>
+                             </h2>
+                     </div>
+                 <a href="https://www.npr.org/2019/08/21/748738191/poems-for-billie-holiday-and-bessie-smith-from-the-blair-house-collective" data-metrics="{&quot;action&quot; : &quot;Click Story 30&quot;}">
+                     <h3 class="title">Poems For Billie Holiday And Bessie Smith From The Blair House Collective</h3>
+                 </a>
+
+
+                 <a href="https://www.npr.org/2019/08/21/748738191/poems-for-billie-holiday-and-bessie-smith-from-the-blair-house-collective" data-metrics="{&quot;action&quot; : &quot;Click Story 30&quot;}">
+                     <p class="teaser">Poets Ciona Rouse, Caroline Randall Williams and Adia Victoria are the Blair House Collective. These poems honor two of the "living, breathing, earthbound women" who inspire the Collective's work.</p>
+                 </a>
+             </div> <!-- /.story-text -->
+
+         </div> <!-- /.story-text-wrap -->
+     </div> <!-- /.story-wrap -->
+ </div> <!-- /.story-wrap-outer -->
+</article>
+   <div id="hp-more-list">
+            </div>
+
+<!-- END ID="HP-MORE-LIST" -->
+</div>
+
+<!-- END CLASS="STORIES-WRAP STORIES-WRAP-TWO" DATA-METRICS-CATEGORY="CURATED LIST" -->
+<div id="hp-more" data-metrics-all="">
+         <div class="hp-label">
+      more from
+   </div>
+   <ul>
+               <li><a href="/sections/news/" class="more-button option" data-metrics-category="Curated List" data-metrics-action="More Stories" data-metrics-label="news"><b>news</b></a></li>
+      <li><a href="/sections/arts/" class="more-button option" data-metrics-category="Curated List" data-metrics-action="More Stories" data-metrics-label="arts &amp; life"><b>arts &amp; life</b></a></li>
+      <li><a href="/music/" class="more-button option" data-metrics-category="Curated List" data-metrics-action="More Stories" data-metrics-label="music"><b>music</b></a></li>
+   </ul>
+   <div class="hp-item more-card">
+            </div>
+</div>
+
+<!-- END ID="HP-MORE" DATA-METRICS-ALL -->
+</div>
+
+<!-- END ID="CONTENTWRAP" -->
+<div id="newsletter-acquisition-callout-data" data-newsletter="{&quot;newsletterId&quot;:&quot;news&quot;,&quot;title&quot;:&quot;Daily News&quot;,&quot;marketingHeader&quot;:&quot;Sign Up For The NPR Daily Newsletter&quot;,&quot;frequency&quot;:&quot;each weekday&quot;,&quot;shortDescription&quot;:&quot;Catch up on the latest headlines and unique NPR stories, sent every weekday.&quot;,&quot;contentImage&quot;:&quot;https://media.npr.org/assets/img/2018/07/18/dailynews-june27-screencap-cropped-small_custom.png&quot;,&quot;staticMarkupDir&quot;:&quot;/buckets/topics/header1001.html&quot;,&quot;brandingDir&quot;:&quot;/branding/sections/news/&quot;,&quot;brandingLink&quot;:&quot;https://www.npr.org/sections/news/&quot;,&quot;organizationId&quot;:1,&quot;recaptchaSiteKey&quot;:&quot;6LfD6CYUAAAAAIBeUekwZ9KCjF4UyLFtu7NWNaEK&quot;}">
+</div>
+
+<!-- END ID="NEWSLETTER-ACQUISITION-CALLOUT-DATA" DATA-NEWSLETTER="{&QUOT;NEWSLETTERID&QUOT;:&QUOT;NEWS&QUOT;,&QUOT;TITLE&QUOT;:&QUOT;DAILY NEWS&QUOT;,&QUOT;MARKETINGHEADER&QUOT;:&QUOT;SIGN UP FOR THE NPR DAILY NEWSLETTER&QUOT;,&QUOT;FREQUENCY&QUOT;:&QUOT;EACH WEEKDAY&QUOT;,&QUOT;SHORTDESCRIPTION&QUOT;:&QUOT;CATCH UP ON THE LATEST HEADLINES AND UNIQUE NPR STORIES, SENT EVERY WEEKDAY.&QUOT;,&QUOT;CONTENTIMAGE&QUOT;:&QUOT;HTTPS://MEDIA.NPR.ORG/ASSETS/IMG/2018/07/18/DAILYNEWS-JUNE27-SCREENCAP-CROPPED-SMALL_CUSTOM.PNG&QUOT;,&QUOT;STATICMARKUPDIR&QUOT;:&QUOT;/BUCKETS/TOPICS/HEADER1001.HTML&QUOT;,&QUOT;BRANDINGDIR&QUOT;:&QUOT;/BRANDING/SECTIONS/NEWS/&QUOT;,&QUOT;BRANDINGLINK&QUOT;:&QUOT;HTTPS://WWW.NPR.ORG/SECTIONS/NEWS/&QUOT;,&QUOT;ORGANIZATIONID&QUOT;:1,&QUOT;RECAPTCHASITEKEY&QUOT;:&QUOT;6LFD6CYUAAAAAIBEUEKWZ9KCJF4UYLFTU7NWNAEK&QUOT;}" -->
+<div id="callout-end-of-story-mount" class="hidden">
+</div>
+
+<!-- END ID="CALLOUT-END-OF-STORY-MOUNT" CLASS="HIDDEN" -->
+<footer id="npr-footer" class="npr-footer" role="contentinfo" aria-label="NPR footer"><div class="npr-footer__content" data-metrics-category="Global Footer" data-metrics-label="Footer">
+ <div class="npr-footer__module-group">
+     <div class="npr-footer__module">
+         <h6 class="npr-footer__header">Read &amp; Listen</h6>
+
+         <ul>
+             <li class="npr-footer__item"><a href="/" data-metrics-action="Click Homepage">Home</a></li>
+             <li class="npr-footer__item"><a href="/sections/news/" data-metrics-action="Click News">News</a></li>
+             <li class="npr-footer__item"><a href="/sections/arts/" data-metrics-action="Click Arts &amp; Life">Arts &amp; Life</a></li>
+             <li class="npr-footer__item"><a href="/music/" data-metrics-action="Click Music">Music</a></li>
+             <li class="npr-footer__item"><a href="/podcasts/" data-metrics-action="Click Podcasts">Podcasts</a></li>
+             <li class="npr-footer__item"><a href="/programs/" data-metrics-action="Click Programs">Programs</a></li>
+         </ul>
+     </div>
+
+     <div class="npr-footer__module">
+         <h6 class="npr-footer__header">Connect</h6>
+
+         <ul>
+             <li class="npr-footer__item"><a href="/newsletters/" data-metrics-action="Click Newsletters">Newsletters</a></li>
+             <li class="npr-footer__item"><a href="https://www.facebook.com/NPR/" data-metrics-action="Click Facebook">Facebook</a></li>
+             <li class="npr-footer__item"><a href="https://twitter.com/NPR" data-metrics-action="Click Twitter">Twitter</a></li>
+             <li class="npr-footer__item"><a href="https://www.instagram.com/npr/" data-metrics-action="Click Instagram">Instagram</a></li>
+             <li class="npr-footer__item"><a href="https://www.npr.org/contact" data-metrics-action="Click Contact">Contact</a></li>
+             <li class="npr-footer__item"><a href="https://help.npr.org" data-metrics-action="Click Help">Help</a></li>
+         </ul>
+     </div>
+
+     <div class="npr-footer__module">
+         <h6 class="npr-footer__header">About NPR</h6>
+
+         <ul>
+             <li class="npr-footer__item"><a href="/about/" data-metrics-action="Click Overview">Overview</a></li>
+             <li class="npr-footer__item"><a href="/about-npr/178660742/public-radio-finances" data-metrics-action="Click Finances">Finances</a></li>
+             <li class="npr-footer__item"><a href="/about-npr/179803822/people-at-npr" data-metrics-action="Click People">People</a></li>
+             <li class="npr-footer__item"><a href="/press/" data-metrics-action="Click Press">Press</a></li>
+             <li class="npr-footer__item"><a href="/sections/publiceditor/" data-metrics-action="Click Public Editor">Public Editor</a></li>
+             <li class="npr-footer__item"><a href="/corrections/" data-metrics-action="Click Corrections">Corrections</a></li>
+         </ul>
+     </div>
+
+     <div class="npr-footer__module">
+         <h6 class="npr-footer__header">Get Involved</h6>
+
+         <ul>
+             <li class="npr-footer__item"><a href="/support/" data-metrics-action="Click Support Public Radio">Support Public Radio</a></li>
+             <li class="npr-footer__item"><a href="/about-npr/186948703/corporate-sponsorship" data-metrics-action="Click Sponsor NPR">Sponsor NPR</a></li>
+             <li class="npr-footer__item"><a href="/careers/" data-metrics-action="Click NPR Careers">NPR Careers</a></li>
+             <li class="npr-footer__item"><a href="https://shop.npr.org/" data-metrics-action="Click NPR Shop">NPR Shop</a></li>
+             <li class="npr-footer__item"><a href="https://www.nprpresents.org" data-metrics-action="Click NPR Events">NPR Events</a></li>
+             <li class="npr-footer__item"><a href="/about-npr/177066727/visit-npr" data-metrics-action="Click Visit NPR">Visit NPR</a></li>
+         </ul>
+     </div>
+ </div>
+
+ <div class="npr-footer__module npr-footer__module--secondary">
+     <ul>
+         <li class="npr-footer__item"><a href="/about-npr/179876898/terms-of-use" data-metrics-action="Click Terms of Use">Terms of Use</a></li>
+         <li class="npr-footer__item"><a href="/about-npr/179878450/privacy-policy" data-metrics-action="Click Privacy">Privacy</a></li>
+         <li class="npr-footer__item"><a href="/about-npr/179878450/privacy-policy#yourchoices" data-metrics-action="Click Your Privacy Choices">Your Privacy Choices</a></li>
+         <li class="npr-footer__item"><a href="https://text.npr.org/" data-metrics-action="Click Text Only">Text Only</a></li>
+         <li class="npr-footer__item"><span class="copy-year"></span></li>
+     </ul>
+ </div>
+</div></footer></section>   <div id="main-sidebar">
+         <aside id="ad-standard-wrap" aria-label="advertisement">
+
+
+ <div id="ad-standard-homepage" class="ad-standard" data-ad-config="{&quot;network&quot;:&quot;/6735/&quot;,&quot;site&quot;:{&quot;default&quot;:&quot;n6735.NPR&quot;,&quot;mobile&quot;:&quot;n6735.NPRMOBILE&quot;},&quot;zone&quot;:&quot;homepage&quot;,&quot;targets&quot;:{&quot;testserver&quot;:&quot;false&quot;,&quot;storyId&quot;:&quot;1002&quot;},&quot;location&quot;:&quot;standard&quot;,&quot;deferred&quot;:false,&quot;isBetweenContent&quot;:false,&quot;isAggSponsorship&quot;:false,&quot;borderClass&quot;:&quot;&quot;}"></div>
+ <p class="left">NPR thanks our sponsors</p><p class="right"><a href="/about-npr/186948703/corporate-sponsorship">Become an NPR sponsor</a></p>
+
+</aside>
+</div>
+
+<!-- END ID="MAIN-SIDEBAR" -->
+</div>
+
+<!-- END ID="WRAPPER" -->
+<script type="text/javascript">
+(function () {
+ var loadPageJs = function () { webpackJsonp([76,25],{0:function(n,t,c){n.exports=c(1828)},1828:function(n,t,c){"use strict";c.p=NPR.serverVars.webpackPublicPath,function(){var n=2,t=function(){--n<1&&function(n){c(46),c(2220),c(2221),c(263),c(407),c(377),c(795),c(573),c(1402),c(354)}(c)}.bind(this);c.e(0,t),c.e(9,t)}.call(this)}}); };
+ if (document.readyState === 'complete') {
+     loadPageJs();
+ } else {
+     window.addEventListener('load', function load() {
+         window.removeEventListener('load', load, false);
+         loadPageJs();
+     });
+ }
+})();
+</script>
+</main><iframe src="https://a11107397707.cdn.optimizely.com/client_storage/a11107397707.html" hidden="" aria-hidden="true" tabindex="-1" title="Optimizely Internal Frame" height="0" width="0" style="display: none;"></iframe><noscript><iframe style="display:none;padding:0;margin:0;" width="0" height="0" src="//20655831p.rfihub.com/ca.html?rb=3035&ca=20501671&ra=gtmcb"></iframe></noscript><noscript><iframe><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1621557368158968&ev=PageView&noscript=1" /></iframe></noscript><script type="text/javascript">
+ var _sf_async_config = _sf_async_config || {};
+ /** CONFIGURATION START **/
+ _sf_async_config.uid = '18888';
+ _sf_async_config.domain = NPR.ServerConstants.cbHost;
+ _sf_async_config.useCanonical = true;
+
+ /** CONFIGURATION END **/
+ (function() {
+     function loadChartbeat() {
+         // Wait until the metric for chartbeat have been setup
+         // in templates/javascript/metrics/chartbeat.js
+         if( !!NPR.ChartbeatLoaded) {
+             var e = document.createElement('script');
+             e.setAttribute('language', 'javascript');
+             e.setAttribute('type', 'text/javascript');
+             e.setAttribute('src', 'https://static.chartbeat.com/js/chartbeat.js');
+             document.body.appendChild(e);
+         } else {
+             setTimeout(loadChartbeat, 1000);
+         }
+     }
+
+     var oldonload = window.onload;
+     window.onload = (typeof window.onload != 'function') ?
+             loadChartbeat : function() {
+         oldonload();
+         window._sf_endpt = (new Date()).getTime();
+         loadChartbeat();
+     };
+ })();
+</script><style>@media (max-width: 470px), (max-height: 700px) { optly-preview__firstvisit { display: none; } optly-preview { top: 75px; right: 15px; max-width: calc(100vw - 30px); } optly-preview optly-wrap { border-width: 0; } optly-preview.is-collapsed { opacity: .25; } optly-preview .optly-tabs-nav__item:last-child { padding-left: 40px; } } .hide-optly-qa-modal optly-preview__firstvisit { display: none; }.hide-optly-qa-modal  optly-preview { top: 75px; right: 15px; max-width: calc(100vw - 30px); }.hide-optly-qa-modal  optly-preview optly-wrap { border-width: 0; }.hide-optly-qa-modal  optly-preview.is-collapsed { opacity: .25; }.hide-optly-qa-modal  optly-preview .optly-tabs-nav__item:last-child { padding-left: 40px; } @media (min-width:471px) and (min-height:701px) { .hide-optly-qa-modal optly-preview.is-collapsed:hover { opacity: 1; } }</style></body></html>"
