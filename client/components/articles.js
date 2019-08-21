@@ -2,7 +2,7 @@
 import React, {Component} from 'react'
 import {getFavArticles} from '../store/articles'
 import {connect} from 'react-redux'
-import {Card, Icon, Image} from 'semantic-ui-react'
+import {Card, Icon, Image, Grid} from 'semantic-ui-react'
 
 class Articles extends Component {
   componentDidMount() {
@@ -11,17 +11,19 @@ class Articles extends Component {
   render() {
     return (
       <div>
-        {this.props.articles &&
-          this.props.articles.map(article => (
-            <a href={article.url}>
-              <Card>
-                <Image src={article.imageUrl} wrapped ui={false} />
-                <Card.Content>
-                  <Card.Header>{article.title}</Card.Header>
-                </Card.Content>
-              </Card>
-            </a>
-          ))}
+        <Grid celled>
+          {this.props.articles &&
+            this.props.articles.map(article => (
+              <a href={article.url}>
+                <Card>
+                  <Image src={article.imageUrl} wrapped ui={false} />
+                  <Card.Content>
+                    <Card.Header>{article.title}</Card.Header>
+                  </Card.Content>
+                </Card>
+              </a>
+            ))}
+        </Grid>
       </div>
     )
   }
