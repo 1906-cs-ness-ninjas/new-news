@@ -1,6 +1,6 @@
 const router = require('express').Router()
 const {bbcArticles, User, Topic} = require('../../db/models')
-const Sequelize = require('sequelize')
+
 module.exports = router
 
 router.get('/', async (req, res, next) => {
@@ -20,7 +20,6 @@ router.get('/:userId', async (req, res, next) => {
       },
       include: [{model: Topic}]
     })
-    // res.json(user)
     const topics = []
     user.topics.forEach(element => topics.push(element.name.toLowerCase()))
     const articles = await bbcArticles.findAll({
