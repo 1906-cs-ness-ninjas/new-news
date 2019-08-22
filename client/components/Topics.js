@@ -6,7 +6,7 @@ import {
   removeFavoriteThunk
 } from '../store/favoriteTopicStore'
 import {connect} from 'react-redux'
-import {Form, Dropdown} from 'semantic-ui-react'
+import {Form, Dropdown, Checkbox} from 'semantic-ui-react'
 import {getFavArticles} from '../store/articles'
 
 class Topics extends Component {
