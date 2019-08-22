@@ -1,42 +1,46 @@
-const savePageButton = document.getElementById('save-page-btn')
+const favoriteBtn = document.getElementById('save-page-btn')
 const pageSavedMessage = document.getElementById('page-saved-message')
-// import scraper from './scraping/index.js'
+const loginForm = document.getElementById('auth-form')
+const userName = document.getElementById('username')
+const password = document.getElementById('password')
+const loginErrorMessage = document.getElementById('login-error-message')
+const loginInfo = document.getElementById('login-info')
 
 checkLoginStatus()
-var url, site
+
+let url, site, com
 chrome.tabs.query({active: true, currentWindow: true}, tabs => {
   url = tabs[0].url
-  const urlTail = url.split('www.')[1]
-  if (urlTail) site = urlTail.split('.com')[0]
+  site = url.split('.')[1]
+  com = url.split('.')[2].split('/')[0]
+  chrome.tabs.executeScript(tabs[0].id, {
+    code: `console.log("1")`
+  })
 })
 
-// savePageButton.addEventListener('click', function(event) {
-//   event.preventDefault()
-//   scraper[site](url).then(article => {
-//     fetch('https://simmer.brook.li/api/articles/scraped', {
-//       method: 'POST',
-//       mode: 'cors',
-//       credentials: 'include',
-//       headers: {
-//         'Content-Type': 'application/json'
-//       },
-//       body: JSON.stringify(article)
-//     })
-//       .then(response => {
-//         if (response.status >= 400 && response.status < 500)
-//           throw new Error('Sorry, the page cannot be scraped')
-//         else pageSavedMessage.innerText = 'Page saved successfully!'
-//       })
-//       .catch(error => {
-//         pageSavedMessage.innerText = 'Page saving failed: ' + error.message
-//       })
-//   })
-// })
-
-const loginForm = document.getElementById('auth-form')
-const usernameInput = document.getElementById('username')
-const passwordInput = document.getElementById('password')
-const loginErrorMessage = document.getElementById('login-error-message')
+favoriteBtn.addEventListener('click', function(event) {
+  event.preventDefault()
+  fetch('http://localhost:8080/auth/me', {
+    method: 'GET',
+    mode: 'cors',
+    credentials: 'include'
+  }).then(res =>
+    res.json().then(user =>
+      fetch('http://localhost:8080/api/favoriteSite', {
+        method: 'POST',
+        mode: 'cors',
+        credentials: 'include',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+          userId: `${user.id}`,
+          url: `https://www.${site}.${com}/`
+        })
+      })
+    )
+  )
+})
 
 loginForm.addEventListener('submit', function(event) {
   event.preventDefault()
@@ -48,8 +52,8 @@ loginForm.addEventListener('submit', function(event) {
       'Content-Type': 'application/json'
     },
     body: JSON.stringify({
-      email: usernameInput.value,
-      password: passwordInput.value
+      email: userName.value,
+      password: password.value
     })
   })
     .then(response => {
@@ -65,8 +69,6 @@ loginForm.addEventListener('submit', function(event) {
   loginForm.reset()
 })
 
-const loginInfo = document.getElementById('login-info')
-
 function checkLoginStatus() {
   fetch('http://localhost:8080/auth/me', {
     method: 'GET',
@@ -75,14 +77,13 @@ function checkLoginStatus() {
   })
     .then(response => {
       if (response.status === 200) {
-        console.log(response)
         response.json().then(data => {
           const logoutButton = document.createElement('button')
           logoutButton.innerText = 'logout'
-          // if (url) savePageButton.disabled = false
+          // if (url) favoriteBtn.disabled = false
           logoutButton.onclick = function() {
-            // savePageButton.disabled = true
-            fetch('http://localhost:8080/logout', {
+            // favoriteBtn.disabled = true
+            fetch('http://localhost:8080/auth/logout', {
               method: 'POST',
               mode: 'cors',
               credentials: 'include'
@@ -94,11 +95,11 @@ function checkLoginStatus() {
                 console.error(error)
               })
           }
-          loginInfo.innerHTML = '<p>Hello, ' + data.email + '<p>'
+          loginInfo.innerHTML = '<p>Welcome, ' + data.email + '<p>'
           loginInfo.appendChild(logoutButton)
         })
       }
-      // savePageButton.disabled = true
+      // favoriteBtn.disabled = true
     })
     .catch(error => {
       console.error(error)
