@@ -12,7 +12,7 @@ export const UserHome = props => {
 
   return (
     <div>
-      <h3>Here are your news for today</h3>
+      <h3>Here are your top stories for today</h3>
       <Grid celled>
         <Articles />
       </Grid>
