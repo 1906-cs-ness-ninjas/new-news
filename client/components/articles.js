@@ -2,11 +2,11 @@
 import React, {Component} from 'react'
 import {getFavArticles} from '../store/articles'
 import {connect} from 'react-redux'
-import {Card, Icon, Image, Grid} from 'semantic-ui-react'
+import {Card, Image, Grid} from 'semantic-ui-react'
 
 class Articles extends Component {
   componentDidMount() {
-    this.props.getFavArticles(this.props.userId)
+    this.props.getFavArticles()
   }
   render() {
     return (
@@ -14,11 +14,17 @@ class Articles extends Component {
         <Grid celled>
           {this.props.articles &&
             this.props.articles.map(article => (
-              <a href={article.url}>
+              <a href={article.url} key={article.id}>
                 <Card>
                   <Image src={article.imageUrl} wrapped ui={false} />
                   <Card.Content>
                     <Card.Header>{article.title}</Card.Header>
+                  </Card.Content>
+
+                  <Card.Content extra>
+                    #{article.category.replace(/\w/, char =>
+                      char.toUpperCase()
+                    )}
                   </Card.Content>
                 </Card>
               </a>
@@ -30,13 +36,12 @@ class Articles extends Component {
 }
 const mapStateToProps = state => {
   return {
-    userId: state.user.id,
     articles: state.articles
   }
 }
 const mapDispatchToProps = dispatch => {
   return {
-    getFavArticles: userId => dispatch(getFavArticles(userId))
+    getFavArticles: () => dispatch(getFavArticles())
   }
 }
 export default connect(mapStateToProps, mapDispatchToProps)(Articles)

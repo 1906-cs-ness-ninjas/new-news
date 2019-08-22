@@ -10,9 +10,12 @@ const gotFavArticles = articles => ({
 })
 
 // Thunk Creator
-export const getFavArticles = userId => async dispatch => {
+export const getFavArticles = () => async (dispatch, store) => {
   try {
+    const userId = store().user.id
+
     const {data} = await axios.get(`/api/bbcArticles/${userId}`)
+
     dispatch(gotFavArticles(data))
   } catch (error) {
     console.log(error)
