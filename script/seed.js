@@ -13,7 +13,7 @@ const {scrapeNPRArticles} = require('../server/scrapers/nprScraper')
 
 const topics = [
   {name: 'science'},
-  {name: 'sport'},
+  {name: 'sports'},
   {name: 'tech'},
   {name: 'world'},
   {name: 'politics'}
@@ -27,26 +27,26 @@ const sites = [
 ]
 
 async function seed() {
-  await db.sync({force: true})
+  await db.sync({force: false})
   console.log('db synced!')
 
-  const browser = await puppeteer.launch({headless: false})
-  try {
-    const page = await browser.newPage()
-    //!NPR Scraper
-    const NPRHeadlines = await scrapeNPRHeadlines(page)
-    await scrapeNPRArticles(NPRHeadlines, page)
-    //!HUffpost Scraper
-    const HPheadlines = await scrapeHuffPostHeadlines(page)
-    await scrapeHuffPostArticles(HPheadlines, page)
-    // //!BBC Scraper
-    const BBCheadlines = await srapeBBCHeadlines(page)
-    await scrapeBBCArticles(BBCheadlines, page)
-  } catch (error) {
-    console.log(error)
-  } finally {
-    await browser.close()
-  }
+  // const browser = await puppeteer.launch({headless: false})
+  // try {
+  //   const page = await browser.newPage()
+  //   //!NPR Scraper
+  //   const NPRHeadlines = await scrapeNPRHeadlines(page)
+  //   await scrapeNPRArticles(NPRHeadlines, page)
+  //   //!HUffpost Scraper
+  //   const HPheadlines = await scrapeHuffPostHeadlines(page)
+  //   await scrapeHuffPostArticles(HPheadlines, page)
+  //   // //!BBC Scraper
+  //   const BBCheadlines = await srapeBBCHeadlines(page)
+  //   await scrapeBBCArticles(BBCheadlines, page)
+  // } catch (error) {
+  //   console.log(error)
+  // } finally {
+  //   await browser.close()
+  // }
 
   await Promise.all([
     User.create({email: 'bob@email.com', password: '123'}),

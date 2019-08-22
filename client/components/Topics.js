@@ -35,6 +35,7 @@ class Topics extends Component {
         <Form>
           <Form.Group grouped>
             <Dropdown
+              style={{fontSize: '20px'}}
               placeholder="Favorite Topics"
               fluid
               multiple
