@@ -25,7 +25,8 @@ router.get('/:userId', async (req, res, next) => {
     user.topics.forEach(element => topics.push(element.name.toLowerCase()))
     const articles = await bbcArticles.findAll({
       where: {
-        category: topics
+        category: topics,
+        favorited: false
       }
     })
     res.json(articles)

@@ -1,0 +1,56 @@
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script type="module" src="popup.js" defer></script>
+    <script type="module" src="background.js"></script>
+    <style>
+      body {
+        background-color: pink;
+        color: black;
+      }
+      #save-page-btn {
+        height: 30px;
+        font-size: 12px;
+        background: rgb(255, 0, 0);
+        text-align: center;
+        border-radius: 5px;
+        text-align: center;
+        cursor: pointer;
+        font-weight: bold;
+      }
+      #save-page-btn[disabled] {
+        background-color: #cccccc;
+        color: #666666;
+        cursor: auto;
+      }
+      #auth-form > * {
+        margin: 5px;
+      }
+      #login-info button {
+        background-color: rgb(220, 0, 0);
+        border-radius: 17px;
+        cursor: pointer;
+        color: #ffffff;
+        font-size: 15px;
+        padding: 6px 13px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div>
+      <button id="save-page-btn" type="button" disabled>Add Recipe</button>
+      <p id="page-saved-message"></p>
+    </div>
+    <div id="login-info">
+      <form id="auth-form">
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" />
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" />
+        <button type="submit">Login</button>
+      </form>
+      <p id="login-error-message"></p>
+    </div>
+  </body>
+</html>

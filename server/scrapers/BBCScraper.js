@@ -6,7 +6,7 @@ const {User, Favorite, Topic, bbcArticles} = require('../db/models')
 // console.log(`seeded ${users.length} users`)
 console.log(`seeded successfully`)
 
-async function srapeBBCHeadlines(page) {
+async function scrapeBBCHeadlines(page) {
   const pageUrl = 'https://www.bbc.com'
   await page.goto('https://www.bbc.com/news', {
     timeout: 0
@@ -66,4 +66,4 @@ async function scrapeBBCArticles(headlines, page) {
   }
 }
 
-module.exports = {scrapeBBCArticles, srapeBBCHeadlines}
+module.exports = {scrapeBBCArticles, scrapeBBCHeadlines}

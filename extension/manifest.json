@@ -5,7 +5,7 @@
   "description":
     "Read more of what you want and what you didn't know you wanted",
   "author": "1906 Ness's Ninjas",
-  "browser_action": {"default_popup": "login.html"},
+  "browser_action": {"default_popup": "popup.html"},
   "content_security_policy":
     "script-src 'self' https://ajax.googleapis.com; object-src 'self'",
   "content_scripts": [
@@ -14,5 +14,7 @@
       "js": ["content.js", "login.js"]
     }
   ],
-  "permissions": ["storage", "https://localhost/8080/"]
+  "permissions": ["storage", "activeTab", "tabs", "http://localhost:8080/"],
+  "content_security_policy":
+    "script-src 'self' https://ajax.googleapis.com; object-src 'self'"
 }

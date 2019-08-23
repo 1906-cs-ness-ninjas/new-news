@@ -1,15 +1,7 @@
 'use strict'
 
 const db = require('../server/db')
-const {User, Favorite, Topic, bbcArticles} = require('../server/db/models')
-const puppeteer = require('puppeteer')
-const cheerio = require('cheerio')
-const {scrapeBBCArticles} = require('../server/scrapers/BBCScraper')
-const {srapeBBCHeadlines} = require('../server/scrapers/BBCScraper')
-const {scrapeHuffPostHeadlines} = require('../server/scrapers/huffPostscraper')
-const {scrapeHuffPostArticles} = require('../server/scrapers/huffPostscraper')
-const {scrapeNPRHeadlines} = require('../server/scrapers/nprScraper')
-const {scrapeNPRArticles} = require('../server/scrapers/nprScraper')
+const {User, Favorite, Topic} = require('../server/db/models')
 
 const topics = [
   {name: 'science'},
@@ -27,27 +19,9 @@ const sites = [
 ]
 
 async function seed() {
-  await db.sync({force: true})
+  await db.sync({force: false})
   console.log('db synced!')
-
-  const browser = await puppeteer.launch({headless: false})
-  try {
-    const page = await browser.newPage()
-    //!NPR Scraper
-    const NPRHeadlines = await scrapeNPRHeadlines(page)
-    await scrapeNPRArticles(NPRHeadlines, page)
-    //!HUffpost Scraper
-    const HPheadlines = await scrapeHuffPostHeadlines(page)
-    await scrapeHuffPostArticles(HPheadlines, page)
-    // //!BBC Scraper
-    const BBCheadlines = await srapeBBCHeadlines(page)
-    await scrapeBBCArticles(BBCheadlines, page)
-  } catch (error) {
-    console.log(error)
-  } finally {
-    await browser.close()
-  }
-
+  console.log(db.models.user)
   await Promise.all([
     User.create({email: 'bob@email.com', password: '123'}),
     User.create({email: 'murphy@email.com', password: '123'})
