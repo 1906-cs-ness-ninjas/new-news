@@ -20,7 +20,7 @@ const topics = [
 ]
 
 const sites = [
-  {website: 'https://www.bbc.com'},
+  {website: 'https://www.bbc.com/'},
   {website: 'https://www.huffpost.com/'},
   {website: 'https://news.yahoo.com/'},
   {website: 'https://www.npr.org/'}
@@ -48,22 +48,22 @@ async function seed() {
     await browser.close()
   }
 
-  await Promise.all([
-    User.create({email: 'bob@email.com', password: '123'}),
-    User.create({email: 'murphy@email.com', password: '123'})
-  ])
+  // await Promise.all([
+  //   User.create({email: 'bob@email.com', password: '123'}),
+  //   User.create({email: 'murphy@email.com', password: '123'})
+  // ])
 
-  await Promise.all(
-    sites.map(site => {
-      return Favorite.create(site)
-    })
-  )
+  // await Promise.all(
+  //   sites.map(site => {
+  //     return Favorite.create(site)
+  //   })
+  // )
 
-  await Promise.all(
-    topics.map(topic => {
-      return Topic.create(topic)
-    })
-  )
+  // await Promise.all(
+  //   topics.map(topic => {
+  //     return Topic.create(topic)
+  //   })
+  // )
 }
 
 // We've separated the `seed` function from the `runSeed` function.

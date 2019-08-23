@@ -7,16 +7,17 @@ const {User, Favorite, Topic, bbcArticles} = require('../db/models')
 console.log(`seeded successfully`)
 
 async function srapeBBCHeadlines(page) {
+  const checkDuplicateCache = {}
   const pageUrl = 'https://www.bbc.com'
   await page.goto('https://www.bbc.com/news', {
     timeout: 0
   })
   const html = await page.content()
   const $ = cheerio.load(html)
-  const headlines = $('.gs-c-promo')
-    .map((index, element) => {
+  const headlines = []
+  $('.gs-c-promo')
+    .each((index, element) => {
       const bodyElement = $(element).find('.gs-c-promo-body')
-      const imageElement = $(element).find('.gs-c-promo-image')
       const headerElement = $(bodyElement).find('.gs-c-promo-heading')
       const titleElement = $(element).find('.gs-c-promo-heading__title')
 
@@ -32,16 +33,17 @@ async function srapeBBCHeadlines(page) {
       ) || ['miscellaneous']
       const title = $(titleElement).text()
 
-      return {title, url, category: category[0]}
+      if ($(headerElement).attr('href') && !checkDuplicateCache[title]) {
+        headlines.push({title, url, category: category[0]})
+        checkDuplicateCache[title] = true
+      }
     })
     .get()
   return headlines
 }
 async function scrapeBBCArticles(headlines, page) {
-  for (var i = 0; i < headlines.length; i++) {
-    // const browser = await puppeteer.launch({ headless: false});
-    // const page = await browser.newPage();
-    // console.log(headlines[i].url)
+  let articles = []
+  for (let i = 0; i < headlines.length; i++) {
     await page.goto(headlines[i].url, {
       timeout: 0
     })
@@ -62,8 +64,9 @@ async function scrapeBBCArticles(headlines, page) {
       continue
     }
 
-    bbcArticles.create(headlines[i])
+    articles.push(bbcArticles.create(headlines[i]))
   }
+  await Promise.all(articles)
 }
 
 module.exports = {scrapeBBCArticles, srapeBBCHeadlines}
