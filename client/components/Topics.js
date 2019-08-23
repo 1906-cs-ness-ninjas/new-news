@@ -7,6 +7,7 @@ import {
 } from '../store/favoriteTopicStore'
 import {connect} from 'react-redux'
 import {Form, Dropdown} from 'semantic-ui-react'
+import {getFavArticles} from '../store/articles'
 
 class Topics extends Component {
   componentDidMount() {
@@ -14,32 +15,24 @@ class Topics extends Component {
     this.props.getSelectTopicsThunk()
   }
 
-  onSubmit = ev => {
-    ev.preventDefault()
-    this.props.addFavoriteThunk(
-      [...ev.target.elements]
-        .filter(topic => topic.checked)
-        .map(selected => selected.name)
-    )
-  }
-
   isChecked = id => {
     return this.props.favoriteTopic.includes(id)
   }
 
-  onChange = ev => {
-    console.log(ev.target.name)
+  onChange = async ev => {
     if (ev.target.checked) {
-      this.props.addFavoriteThunk(ev.target.name)
+      await this.props.addFavoriteThunk(ev.target.name)
+      await this.props.getFavArticlesThunk()
     } else {
-      this.props.removeFavoriteThunk(ev.target.name)
+      await this.props.removeFavoriteThunk(ev.target.name)
+      await this.props.getFavArticlesThunk()
     }
   }
 
   render() {
     return (
       <div>
-        <Form onSubmit={ev => this.onSubmit(ev)}>
+        <Form>
           <Form.Group grouped>
             <Dropdown
               placeholder="Favorite Topics"
@@ -51,6 +44,7 @@ class Topics extends Component {
                 this.props.topics.map(topic => {
                   return (
                     <Form.Field
+                      key={topic.id}
                       id={topic.id}
                       onChange={e => this.onChange(e)}
                       label={topic.name}
@@ -65,7 +59,6 @@ class Topics extends Component {
                 })
               }
             />
-            {/* <button>Select Favorite Topics</button> */}
           </Form.Group>
         </Form>
       </div>
@@ -85,7 +78,8 @@ const mapDispatchToProps = dispatch => {
     getTopicsThunk: () => dispatch(getTopicsThunk()),
     addFavoriteThunk: topics => dispatch(addFavoriteThunk(topics)),
     removeFavoriteThunk: topic => dispatch(removeFavoriteThunk(topic)),
-    getSelectTopicsThunk: () => dispatch(getSelectTopicsThunk())
+    getSelectTopicsThunk: () => dispatch(getSelectTopicsThunk()),
+    getFavArticlesThunk: () => dispatch(getFavArticles())
   }
 }
 
