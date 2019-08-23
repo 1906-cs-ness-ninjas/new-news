@@ -68,7 +68,9 @@ class Articles extends Component {
                     wrapped
                   />
                   <Modal.Description>
-                    <p>{article.article}</p>
+                    {article.article.split('/n').map(paragraph => {
+                      return <p>{paragraph}</p>
+                    })}
                   </Modal.Description>
                 </Modal.Content>
               </Modal>
