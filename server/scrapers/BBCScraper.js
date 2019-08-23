@@ -39,21 +39,30 @@ async function srapeBBCHeadlines(page) {
 }
 async function scrapeBBCArticles(headlines, page) {
   for (var i = 0; i < headlines.length; i++) {
-    // const browser = await puppeteer.launch({ headless: false});
-    // const page = await browser.newPage();
-    // console.log(headlines[i].url)
     await page.goto(headlines[i].url, {
       timeout: 0
     })
     const html = await page.content()
     const $ = cheerio.load(html)
-    const article = $('.story-body__inner').text()
+    let header = $('.story-body__inner')
+    let arr = []
+    header.find('p').each((i, element) => arr.push(element.children[0].data))
+    const articleStr = arr.join('/n')
+    // console.log(article)
     const imgElement = $(
       '#page > div:nth-child(1) > div.container > div > div.column--primary > div.story-body > div.story-body__inner > figure > span > img'
     )
-    const imageUrl = $(imgElement).attr('src')
+
+    let imageUrl
+
+    if (imgElement) {
+      imageUrl = $(imgElement).attr('src')
+    } else {
+      imageUrl = $($('.p_holding_image')[0]).attr('src')
+    }
+
     await page.waitFor(5000)
-    headlines[i].article = article || 'Not found'
+    headlines[i].article = articleStr || 'Not found'
     headlines[i].imageUrl = imageUrl || 'No image'
     if (
       headlines[i].imageUrl === 'No image' ||
