@@ -11,9 +11,7 @@ export const UserHome = props => {
   return (
     <div>
       <h3 align="center">Here are your top stories for today</h3>
-      <Grid celled centered>
-        <Articles />
-      </Grid>
+      <Articles />
     </div>
   )
 }

@@ -30,55 +30,45 @@ class Articles extends Component {
     const {visible} = this.state
 
     return (
-      <div>
-        <Grid celled>
-          {this.props.articles &&
-            this.props.articles.map(article => (
-              // <a href={article.url} key={article.id}>
-              <Modal
-                trigger={
-                  <Button>
-                    <Transition.Group
-                      animation="horizontal flip"
-                      duration={1000}
-                    >
-                      {visible && (
-                        <Card style={{marginTop: 50}}>
-                          <Card.Content extra>
-                            #{article.category.replace(/\w/, char =>
-                              char.toUpperCase()
-                            )}
-                          </Card.Content>
-                          <Image src={article.imageUrl} wrapped ui={false} />
-                          <Card.Content>
-                            <Card.Header>{article.title}</Card.Header>
-                          </Card.Content>
-                        </Card>
-                      )}
-                    </Transition.Group>
-                  </Button>
-                }
-              >
-                <Modal.Header>{article.title}</Modal.Header>
-                <Modal.Content image scrolling>
-                  <Image
-                    wrapped
-                    size="massive"
-                    src={article.imageUrl}
-                    wrapped
-                  />
-                  <Modal.Description>
-                    {article.article.split('/n').map(paragraph => {
-                      return <p>{paragraph}</p>
-                    })}
-                  </Modal.Description>
-                </Modal.Content>
-              </Modal>
+      <Grid celled centered>
+        {this.props.articles &&
+          this.props.articles.map(article => (
+            // <a href={article.url} key={article.id}>
+            <Modal
+              trigger={
+                <Button>
+                  <Transition.Group animation="horizontal flip" duration={1000}>
+                    {visible && (
+                      <Card style={{marginTop: 50}}>
+                        <Card.Content extra>
+                          #{article.category.replace(/\w/, char =>
+                            char.toUpperCase()
+                          )}
+                        </Card.Content>
+                        <Image src={article.imageUrl} wrapped ui={false} />
+                        <Card.Content>
+                          <Card.Header>{article.title}</Card.Header>
+                        </Card.Content>
+                      </Card>
+                    )}
+                  </Transition.Group>
+                </Button>
+              }
+            >
+              <Modal.Header>{article.title}</Modal.Header>
+              <Modal.Content image scrolling>
+                <Image wrapped size="massive" src={article.imageUrl} wrapped />
+                <Modal.Description>
+                  {article.article.split('/n').map(paragraph => {
+                    return <p>{paragraph}</p>
+                  })}
+                </Modal.Description>
+              </Modal.Content>
+            </Modal>
 
-              // </a>
-            ))}
-        </Grid>
-      </div>
+            // </a>
+          ))}
+      </Grid>
     )
   }
 }

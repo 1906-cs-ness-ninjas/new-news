@@ -95,7 +95,7 @@ function checkLoginStatus() {
                 console.error(error)
               })
           }
-          loginInfo.innerHTML = '<p>Welcome, ' + data.email + '<p>'
+          loginInfo.innerHTML = 'Would you like to start subscribing?'
           loginInfo.appendChild(logoutButton)
         })
       }

@@ -20,7 +20,7 @@ const topics = [
 ]
 
 const sites = [
-  {website: 'https://www.bbc.com'},
+  {website: 'https://www.bbc.com/'},
   {website: 'https://www.huffpost.com/'},
   {website: 'https://news.yahoo.com/'},
   {website: 'https://www.npr.org/'}
@@ -39,7 +39,7 @@ async function seed() {
     // !HUffpost Scraper
     const HPheadlines = await scrapeHuffPostHeadlines(page)
     await scrapeHuffPostArticles(HPheadlines, page)
-    // //!BBC Scraper
+    //!BBC Scraper
     const BBCheadlines = await srapeBBCHeadlines(page)
     await scrapeBBCArticles(BBCheadlines, page)
   } catch (error) {
