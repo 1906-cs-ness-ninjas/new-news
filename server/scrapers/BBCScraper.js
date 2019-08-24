@@ -63,12 +63,12 @@ async function scrapeBBCArticles(headlines, page) {
     )
 
     let imageUrl
-    console.log(imgElement.attr('src'))
+    // console.log(imgElement.attr('src'))
 
-    console.log(Object.keys(val.options))
-    // .find('img'))
-    // console.log($($('.p_holding_image')[0]).attr('src'), "$$$$")
-    console.log('.....................')
+    // console.log(Object.keys(val.options))
+    // // .find('img'))
+    // // console.log($($('.p_holding_image')[0]).attr('src'), "$$$$")
+    // console.log('.....................')
     if (imgElement) {
       imageUrl = $(imgElement).attr('src')
     } else {
