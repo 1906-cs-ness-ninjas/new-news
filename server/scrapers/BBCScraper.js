@@ -31,7 +31,7 @@ async function scrapeBBCHeadlines(page) {
         /(science|sports|technology|world|politics)/i
       ) || ['miscellaneous']
       const title = $(titleElement).text()
-
+      console.log(url)
       return {title, url, category: category[0]}
     })
     .get()
