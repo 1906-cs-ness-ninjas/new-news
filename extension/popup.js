@@ -14,7 +14,7 @@ chrome.tabs.query({active: true, currentWindow: true}, tabs => {
   site = url.split('.')[1]
   com = url.split('.')[2].split('/')[0]
   chrome.tabs.executeScript(tabs[0].id, {
-    code: ``
+    code: `console.log("Thanks for using New News!")`
   })
 })
 
