@@ -5,14 +5,14 @@ const {User, Favorite, Topic} = require('../server/db/models')
 
 const topics = [
   {name: 'science'},
-  {name: 'sport'},
+  {name: 'sports'},
   {name: 'tech'},
   {name: 'world'},
   {name: 'politics'}
 ]
 
 const sites = [
-  {website: 'https://www.bbc.com'},
+  {website: 'https://www.bbc.com/'},
   {website: 'https://www.huffpost.com/'},
   {website: 'https://news.yahoo.com/'},
   {website: 'https://www.npr.org/'}
