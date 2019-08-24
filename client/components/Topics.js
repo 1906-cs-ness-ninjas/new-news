@@ -6,7 +6,7 @@ import {
   removeFavoriteThunk
 } from '../store/favoriteTopicStore'
 import {connect} from 'react-redux'
-import {Form, Dropdown} from 'semantic-ui-react'
+import {Form, Dropdown, Checkbox} from 'semantic-ui-react'
 import {getFavArticles} from '../store/articles'
 
 class Topics extends Component {
@@ -35,6 +35,7 @@ class Topics extends Component {
         <Form>
           <Form.Group grouped>
             <Dropdown
+              style={{fontSize: '20px'}}
               placeholder="Favorite Topics"
               fluid
               multiple

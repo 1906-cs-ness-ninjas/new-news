@@ -8,27 +8,17 @@ import {Button} from 'semantic-ui-react'
 
 const Navbar = ({handleClick, isLoggedIn}) => (
   <div>
-    <div id="header">
-      <h1 className="heading" align="center">
-        New News
-      </h1>
-      <h3 className="slogan">
-        All of your favorite news articles in one place. Plus something new
-      </h3>
-    </div>
     <nav>
       {isLoggedIn ? (
         <div>
-          <Button as={Link} to="/home">
-            Home
-          </Button>
-
           <a>
             <Topics />
           </a>
-          <a href="#" onClick={handleClick}>
-            Logout
-          </a>
+          <Button size="mini" floated="right">
+            <a href="#" onClick={handleClick} align="right">
+              Logout
+            </a>
+          </Button>
         </div>
       ) : (
         <div>
@@ -38,6 +28,14 @@ const Navbar = ({handleClick, isLoggedIn}) => (
         </div>
       )}
     </nav>
+    <div id="header">
+      <h1 className="heading" align="center">
+        New News
+      </h1>
+      <h3 className="slogan">
+        All of your favorite news articles in one place. Plus something new
+      </h3>
+    </div>
     <hr />
   </div>
 )

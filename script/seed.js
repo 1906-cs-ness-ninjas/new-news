@@ -13,7 +13,7 @@ const {scrapeNPRArticles} = require('../server/scrapers/nprScraper')
 
 const topics = [
   {name: 'science'},
-  {name: 'sport'},
+  {name: 'sports'},
   {name: 'tech'},
   {name: 'world'},
   {name: 'politics'}
@@ -33,10 +33,10 @@ async function seed() {
   const browser = await puppeteer.launch({headless: false})
   try {
     const page = await browser.newPage()
-    // //!NPR Scraper
+    // // //!NPR Scraper
     // const NPRHeadlines = await scrapeNPRHeadlines(page)
     // await scrapeNPRArticles(NPRHeadlines, page)
-    // !HUffpost Scraper
+    // // !HUffpost Scraper
     // const HPheadlines = await scrapeHuffPostHeadlines(page)
     // await scrapeHuffPostArticles(HPheadlines, page)
     // //!BBC Scraper
