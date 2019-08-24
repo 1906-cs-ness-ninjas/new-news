@@ -1,10 +1,7 @@
-const puppeteer = require('puppeteer')
 const cheerio = require('cheerio')
-const db = require('../db')
-const {User, Favorite, Topic, bbcArticles} = require('../db/models')
+const {bbcArticles} = require('../db/models')
 
 async function scrapeHuffPostHeadlines(page) {
-  const pageUrl = 'https://www.huffpost.com/'
   await page.goto('https://www.huffpost.com/', {
     timeout: 0
   })
@@ -28,17 +25,34 @@ async function scrapeHuffPostHeadlines(page) {
   return headlines
 }
 async function scrapeHuffPostArticles(headlines, page) {
+  let articles = []
   for (var i = 0; i < headlines.length; i++) {
-    // const browser = await puppeteer.launch({ headless: false});
-    // const page = await browser.newPage();
-    // console.log(headlines[i].url)
     await page.goto(headlines[i].url, {
       timeout: 0
     })
     await page.waitFor(5000)
     const html = await page.content()
     const $ = cheerio.load(html)
-    const article = $('.content-list-component').text()
+    // const article = $('.content-list-component').text()
+    let article = []
+    $('.content-list-component')
+      .find('p')
+      .each((i, tag) => {
+        let arr = []
+        $(tag.children).each((idx, el) => {
+          // p tag
+          if (!el.data) {
+            // if it is an <a/> tag
+            arr.push(el.children[0].data)
+          } else {
+            arr.push(el.data)
+          }
+        })
+
+        article.push(arr.join(' '))
+      })
+
+    article = article.join('/n')
     headlines[i].article = article || 'Not Found'
     const tag = $('.entry-eyebrow__link')
       .text()
@@ -48,12 +62,13 @@ async function scrapeHuffPostArticles(headlines, page) {
     const category = tag.match(
       /(science|sports|technology|world|politics)/i
     ) || ['miscellaneous']
-    // console.log('********CATEGORY', category)
-    // console.log('********TAG', tag)
+
     headlines[i].category = category[0]
-    // console.log(headlines)
-    bbcArticles.create(headlines[i])
+
+    articles.push(bbcArticles.create(headlines[i]))
   }
+
+  await Promise.all(articles)
 }
 
 module.exports = {scrapeHuffPostArticles, scrapeHuffPostHeadlines}

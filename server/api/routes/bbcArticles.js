@@ -25,6 +25,7 @@ router.get('/:userId', async (req, res, next) => {
     const topics = []
     let articlesArr = []
     user.topics.forEach(element => topics.push(element.name.toLowerCase()))
+
     user.favorites.forEach(async element => {
       let articles = bbcArticles.findAll({
         where: {
@@ -33,7 +34,9 @@ router.get('/:userId', async (req, res, next) => {
         }
       })
       articlesArr = articlesArr.concat(articles)
+
     })
+    
     let allArticles = await Promise.all(articlesArr)
     const finalArray = []
     for (let i = 0; i < allArticles.length; i++) {

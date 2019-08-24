@@ -1,12 +1,7 @@
-const puppeteer = require('puppeteer')
 const cheerio = require('cheerio')
-const db = require('../db')
-const {User, Favorite, Topic, bbcArticles} = require('../db/models')
+const {bbcArticles} = require('../db/models')
 
-// console.log(`seeded ${users.length} users`)
-console.log(`seeded successfully`)
-
-async function srapeBBCHeadlines(page) {
+async function scrapeBBCHeadlines(page) {
   const checkDuplicateCache = {}
   const pageUrl = 'https://www.bbc.com'
   await page.goto('https://www.bbc.com/news', {
@@ -61,7 +56,6 @@ async function scrapeBBCArticles(headlines, page) {
     const imgElement = $(
       '#page > div:nth-child(1) > div.container > div > div.column--primary > div.story-body > div.story-body__inner > figure > span > img'
     )
-
     let imageUrl
 
     if (imgElement) {
@@ -85,4 +79,4 @@ async function scrapeBBCArticles(headlines, page) {
   await Promise.all(articles)
 }
 
-module.exports = {scrapeBBCArticles, srapeBBCHeadlines}
+module.exports = {scrapeBBCArticles, scrapeBBCHeadlines}
