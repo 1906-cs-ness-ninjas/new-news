@@ -21,13 +21,14 @@ module.exports = router
 router.post('/', async (req, res, next) => {
   try {
     const {url, userId} = req.body
-    console.log(req.body)
+
     const user = await User.findOne({
       where: {
         id: userId
       },
       include: [{model: Favorite}]
     })
+
     const urlId = await Favorite.findOne({
       where: {
         website: url
@@ -36,6 +37,7 @@ router.post('/', async (req, res, next) => {
     })
 
     await user.addFavorite(urlId)
+
     res.send(urlId)
   } catch (error) {
     next(error)
