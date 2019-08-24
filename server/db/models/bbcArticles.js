@@ -3,7 +3,7 @@ const db = require('../db')
 
 const bbcArticles = db.define('articles', {
   title: {
-    type: Sequelize.STRING
+    type: Sequelize.TEXT
   },
   url: {
     type: Sequelize.STRING

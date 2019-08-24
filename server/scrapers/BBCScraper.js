@@ -6,7 +6,7 @@ const {User, Favorite, Topic, bbcArticles} = require('../db/models')
 // console.log(`seeded ${users.length} users`)
 console.log(`seeded successfully`)
 
-async function srapeBBCHeadlines(page) {
+async function scrapeBBCHeadlines(page) {
   const checkDuplicateCache = {}
   const pageUrl = 'https://www.bbc.com'
   await page.goto('https://www.bbc.com/news', {
@@ -90,4 +90,4 @@ async function scrapeBBCArticles(headlines, page) {
   await Promise.all(articles)
 }
 
-module.exports = {scrapeBBCArticles, srapeBBCHeadlines}
+module.exports = {scrapeBBCArticles, scrapeBBCHeadlines}
