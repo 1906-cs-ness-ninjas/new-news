@@ -7,6 +7,7 @@
   "author": "1906 Ness's Ninjas",
   "browser_action": {
     "default_popup": "popup.html",
+    "icons": {"16": "icon16.png", "48": "icon48.png", "128": "icon128.png"},
     "default_icon": "icon48.png"
   },
 
