@@ -44,9 +44,8 @@ async function scrapeHuffPostArticles(headlines, page) {
       .text()
       .trim()
       .toLowerCase()
-
     const category = tag.match(
-      /(science|sports|technology|world|politics)/i
+      /(science|sports|technology|world|politics|environment|business)/i
     ) || ['miscellaneous']
     // console.log('********CATEGORY', category)
     // console.log('********TAG', tag)

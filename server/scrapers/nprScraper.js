@@ -24,16 +24,19 @@ async function scrapeNPRHeadlines(page) {
       let category = ''
 
       if (/(Asia|Europe|National|World)/i.test($(aTag[0]).text())) {
-        category = 'world'
+        category = ['world']
       } else {
         category = $(aTag[0])
           .text()
           .toLowerCase()
           .trim()
+          .match(
+            /(science|sports|technology|world|politics|environment|business)/i
+          ) || ['miscellaneous']
       }
 
       if (title && imageUrl && url) {
-        return {title, imageUrl, url, category}
+        return {title, imageUrl, url, category: category[0]}
       }
     })
     .get()

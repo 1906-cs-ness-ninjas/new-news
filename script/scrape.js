@@ -9,7 +9,7 @@ const {scrapeNPRHeadlines} = require('../server/scrapers/nprScraper')
 const {scrapeNPRArticles} = require('../server/scrapers/nprScraper')
 const {scrapeFoxHeadlines} = require('../server/scrapers/foxScraper')
 const {scrapeFoxArticles} = require('../server/scrapers/foxScraper')
-const {bbcArticles} = require('../server/db/models')
+const {bbcArticles, Topic} = require('../server/db/models')
 
 const puppeteer = require('puppeteer')
 
@@ -20,22 +20,56 @@ async function scrape() {
     truncate: true,
     force: true
   })
+  Topic.destroy({
+    where: {},
+    force: true
+  })
   console.log('db synced!')
   const browser = await puppeteer.launch({headless: false})
   try {
     const page = await browser.newPage()
+    const categoryHashMap = {}
     //!NPR Scraper
     // const NPRHeadlines = await scrapeNPRHeadlines(page)
     // await scrapeNPRArticles(NPRHeadlines, page)
+    // NPRHeadlines.forEach(element => {
+    //   let category = element.category;
+    //     if (!categoryHashMap[category]) {
+    //       Topic.create({name: category})
+    //       categoryHashMap[category] = true;
+    //     }
+    // })
     // //!Fox Scraper
-    // const Foxheadlines = await scrapeFoxHeadlines(page)
-    // await scrapeFoxArticles(Foxheadlines, page)
+    const Foxheadlines = await scrapeFoxHeadlines(page)
+    await scrapeFoxArticles(Foxheadlines, page)
+    Foxheadlines.forEach(element => {
+      let category = element.category
+      if (!categoryHashMap[category]) {
+        Topic.create({name: category})
+        categoryHashMap[category] = true
+      }
+    })
     // //!HUffpost Scraper
     // const HPheadlines = await scrapeHuffPostHeadlines(page)
     // await scrapeHuffPostArticles(HPheadlines, page)
+    // HPheadlines.forEach(element => {
+    //  let category = element.category;
+    //   if (!categoryHashMap[category]) {
+    //     Topic.create({name: category})
+    //     categoryHashMap[category] = true;
+    //   }
+    // })
     //!BBC Scraper
-    const BBCheadlines = await scrapeBBCHeadlines(page)
-    await scrapeBBCArticles(BBCheadlines, page)
+    // const BBCheadlines = await scrapeBBCHeadlines(page)
+    // await scrapeBBCArticles(BBCheadlines, page)
+    // console.log(BBCheadlines)
+    // BBCheadlines.forEach(element => {
+    //   let category = element.category;
+    //   if (!categoryHashMap[category]) {
+    //     Topic.create({name: category})
+    //     categoryHashMap[category] = true;
+    //   }
+    // })
   } catch (error) {
     console.log(error)
   } finally {
