@@ -14,7 +14,7 @@ chrome.tabs.query({active: true, currentWindow: true}, tabs => {
   site = url.split('.')[1]
   com = url.split('.')[2].split('/')[0]
   chrome.tabs.executeScript(tabs[0].id, {
-    code: `console.log("1")`
+    code: `console.log("Thanks for using New News!")`
   })
 })
 
@@ -40,6 +40,8 @@ favoriteBtn.addEventListener('click', function(event) {
       })
     )
   )
+
+  loginInfo.innerHTML = `<p>You are now subcribed to ${site}'s latest stories!</p>`
 })
 
 loginForm.addEventListener('submit', function(event) {
@@ -95,7 +97,7 @@ function checkLoginStatus() {
                 console.error(error)
               })
           }
-          loginInfo.innerHTML = '<p>Welcome, ' + data.email + '<p>'
+          loginInfo.innerHTML = `<p>Stay up to date with ${site}'s latest stories<p>`
           loginInfo.appendChild(logoutButton)
         })
       }

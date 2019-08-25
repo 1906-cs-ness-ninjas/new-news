@@ -50,26 +50,11 @@ async function scrape() {
       }
     })
     // //!HUffpost Scraper
-    // const HPheadlines = await scrapeHuffPostHeadlines(page)
-    // await scrapeHuffPostArticles(HPheadlines, page)
-    // HPheadlines.forEach(element => {
-    //  let category = element.category;
-    //   if (!categoryHashMap[category]) {
-    //     Topic.create({name: category})
-    //     categoryHashMap[category] = true;
-    //   }
-    // })
-    //!BBC Scraper
+    const HPheadlines = await scrapeHuffPostHeadlines(page)
+    await scrapeHuffPostArticles(HPheadlines, page)
+    // // !BBC Scraper
     // const BBCheadlines = await scrapeBBCHeadlines(page)
     // await scrapeBBCArticles(BBCheadlines, page)
-    // console.log(BBCheadlines)
-    // BBCheadlines.forEach(element => {
-    //   let category = element.category;
-    //   if (!categoryHashMap[category]) {
-    //     Topic.create({name: category})
-    //     categoryHashMap[category] = true;
-    //   }
-    // })
   } catch (error) {
     console.log(error)
   } finally {

@@ -19,7 +19,7 @@ const sites = [
 ]
 
 async function seed() {
-  await db.sync({force: false})
+  await db.sync({force: true})
   console.log('db synced!')
   console.log(db.models.user)
   await Promise.all([

@@ -1,4 +1,3 @@
-const puppeteer = require('puppeteer')
 const cheerio = require('cheerio')
 const db = require('../db')
 const {bbcArticles} = require('../db/models')
@@ -64,14 +63,8 @@ async function scrapeBBCArticles(headlines, page) {
     const imgElement = $(
       '#page > div:nth-child(1) > div.container > div > div.column--primary > div.story-body > div.story-body__inner > figure > span > img'
     )
-
     let imageUrl
-    // console.log(imgElement.attr('src'))
 
-    // console.log(Object.keys(val.options))
-    // // .find('img'))
-    // // console.log($($('.p_holding_image')[0]).attr('src'), "$$$$")
-    // console.log('.....................')
     if (imgElement) {
       imageUrl = $(imgElement).attr('src')
     } else {
