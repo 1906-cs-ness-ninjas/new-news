@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import {connect} from 'react-redux'
 import Articles from './articles'
-import {Grid, Transition} from 'semantic-ui-react'
+import {} from 'semantic-ui-react'
 
 /**
  * COMPONENT

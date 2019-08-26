@@ -18,28 +18,33 @@ module.exports = router
 //   }
 // })
 
-router.post('/', async (req, res, next) => {
+router.get('/:userId', async (req, res, next) => {
   try {
-    const {url, userId} = req.body
-
-    const user = await User.findOne({
+    const [sites] = await User.findAll({
+      include: [{model: Favorite}],
       where: {
-        id: userId
+        id: req.params.userId
+      }
+    })
+
+    res.json(sites.favorites)
+  } catch (error) {
+    next(error)
+  }
+})
+
+router.delete('/', async (req, res, next) => {
+  try {
+    const foundUser = await User.findOne({
+      where: {
+        id: req.body.id
       },
       include: [{model: Favorite}]
     })
 
-    const urlId = await Favorite.findOne({
-      where: {
-        website: url
-      },
-      attribute: ['id']
-    })
-
-    await user.addFavorite(urlId)
-
-    res.send(urlId)
+    await foundUser.removeFavorite(req.body.favorite)
+    res.sendStatus(204)
   } catch (error) {
-    next(error)
+    console.log(error)
   }
 })
