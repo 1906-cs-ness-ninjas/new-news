@@ -28,7 +28,7 @@ async function scrape() {
   const browser = await puppeteer.launch({headless: false})
   try {
     const page = await browser.newPage()
-    const categoryHashMap = {}
+    // const categoryHashMap = {}
     //!NPR Scraper
     // const NPRHeadlines = await scrapeNPRHeadlines(page)
     // await scrapeNPRArticles(NPRHeadlines, page)
@@ -42,16 +42,16 @@ async function scrape() {
     // //!Fox Scraper
     const Foxheadlines = await scrapeFoxHeadlines(page)
     await scrapeFoxArticles(Foxheadlines, page)
-    Foxheadlines.forEach(element => {
-      let category = element.category
-      if (!categoryHashMap[category]) {
-        Topic.create({name: category})
-        categoryHashMap[category] = true
-      }
-    })
+    // Foxheadlines.forEach(element => {
+    //   let category = element.category
+    //   if (!categoryHashMap[category]) {
+    //     Topic.create({name: category})
+    //     categoryHashMap[category] = true
+    //   }
+    // })
     // //!HUffpost Scraper
-    const HPheadlines = await scrapeHuffPostHeadlines(page)
-    await scrapeHuffPostArticles(HPheadlines, page)
+    // const HPheadlines = await scrapeHuffPostHeadlines(page)
+    // await scrapeHuffPostArticles(HPheadlines, page)
     // // !BBC Scraper
     // const BBCheadlines = await scrapeBBCHeadlines(page)
     // await scrapeBBCArticles(BBCheadlines, page)
