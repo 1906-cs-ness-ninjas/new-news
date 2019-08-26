@@ -46,6 +46,8 @@ favoriteBtn.addEventListener('click', function(event) {
       })
     )
   )
+
+  loginInfo.innerHTML = `<p>You are now subcribed to ${site}'s latest stories!</p>`
 })
 
 loginForm.addEventListener('submit', function(event) {
@@ -105,7 +107,7 @@ function checkLoginStatus() {
                 console.error(error)
               })
           }
-          loginInfo.innerHTML = '<p>Welcome, ' + data.email + '<p>'
+          loginInfo.innerHTML = `<p>Stay up to date with ${site}'s latest stories<p>`
           loginInfo.appendChild(logoutButton)
         })
       }
