@@ -1,10 +1,5 @@
-const puppeteer = require('puppeteer')
 const cheerio = require('cheerio')
-const db = require('../db')
 const {bbcArticles} = require('../db/models')
-
-// console.log(`seeded ${users.length} users`)
-console.log(`seeded successfully`)
 
 async function scrapeFoxHeadlines(page) {
   await page.goto('https://www.foxnews.com/', {
@@ -12,48 +7,77 @@ async function scrapeFoxHeadlines(page) {
   })
   const html = await page.content()
   const $ = cheerio.load(html)
-  const headlines = $('.content')
-    .map((index, element) => {
-      const singleArticle = $(element).find('article')
-      const bodyElement = $(singleArticle).find('.title')
-      const title = $(bodyElement)
-        .text()
-        .trim()
-      const urlElement = $(bodyElement).find('a')
-      let url = $(urlElement).attr('href')
-      if (url) {
-        if (!/https:/.test(url)) {
-          url = 'https:' + $(urlElement).attr('href')
+  let articles = []
+  $('.main')
+    .find('.article')
+    .each((i, el) => {
+      let url = $(el.children)
+        .find('a')
+        .attr('href')
+      let pic = $(el.children)
+        .find('img')
+        .attr('src')
+      let imageUrl
+      if (/static/g.test(pic)) {
+        let img = $(el.children).find('img')[0].attribs
+        if (img['data-src']) {
+          imageUrl = 'https:' + img['data-src']
+        } else {
+          imageUrl = 'http:' + img.src
         }
-      }
-      const imageElement = $(singleArticle).find('.m')
-      const imageSource = $(imageElement).find('img')
-      const imageUrl = 'https' + $(imageSource).attr('src')
+      } else if (/media/g.test(pic)) {
+          imageUrl = pic
+        } else {
+          imageUrl = 'https:' + pic
+        }
+      let category = url.replace(/.*\/(.*?)\/.*/g, '$1')
 
-      let category
-      if (url) {
-        category = url.replace(/.*\/(.*?)\/.*/g, '$1')
-      }
-      if (title && $(urlElement).attr('href') && imageUrl && category) {
-        return {title, url, imageUrl, category}
-      }
+      let article = {title: 'hello', imageUrl, url, category}
+      articles.push(article)
     })
-    .get()
-  return headlines
+  return articles
 }
 async function scrapeFoxArticles(headlines, page) {
+  let articles = []
   for (var i = 0; i < headlines.length; i++) {
     await page.goto(headlines[i].url, {
       timeout: 0
     })
     const html = await page.content()
     const $ = cheerio.load(html)
-    const article = $('.article-body')
-      .text()
-      .trim()
-    headlines[i].article = article
-    bbcArticles.create(headlines[i])
+    const title = $('.headline').text()
+    const article = []
+
+    $('.article-body')
+      .find('p')
+      .each((i, el) => {
+        let subArr = []
+        $(el.children).each((idx, element) => {
+          if (!element.data) {
+            if (element.children) {
+              if (element.children[0]) {
+                if (element.children[0].data) {
+                  subArr.push(element.children[0].data)
+                }
+              }
+            }
+          } else {
+            subArr.push(element.data)
+          }
+        })
+        article.push(subArr.join(' '))
+      })
+
+    // let article = $('.article-body').text().trim()
+
+    headlines[i].title = title
+    headlines[i].article = article.join('/n')
+    if (!title || !article) {
+      continue
+    }
+    articles.push(bbcArticles.create(headlines[i]))
   }
+  await Promise.all(articles)
 }
 
 module.exports = {scrapeFoxArticles, scrapeFoxHeadlines}

@@ -31,8 +31,8 @@ async function scrape() {
     const Foxheadlines = await scrapeFoxHeadlines(page)
     await scrapeFoxArticles(Foxheadlines, page)
     // //!HUffpost Scraper
-    const HPheadlines = await scrapeHuffPostHeadlines(page)
-    await scrapeHuffPostArticles(HPheadlines, page)
+    // const HPheadlines = await scrapeHuffPostHeadlines(page)
+    // await scrapeHuffPostArticles(HPheadlines, page)
     // // !BBC Scraper
     const BBCheadlines = await scrapeBBCHeadlines(page)
     await scrapeBBCArticles(BBCheadlines, page)

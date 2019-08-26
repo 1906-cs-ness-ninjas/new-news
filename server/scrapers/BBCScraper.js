@@ -48,11 +48,21 @@ async function scrapeBBCArticles(headlines, page) {
     let header = $('.story-body__inner')
     let arr = []
     header.find('p').each((i, element) => {
-      if (element.children[0]) {
-        arr.push(element.children[0].data)
-      }
+      // if (element.children[0]) {
+      //   arr.push(element.children[0].data)
+      // }
+      let subArr = []
+      $(element.children).each((idx, el) => {
+        if (!el.data) {
+          subArr.push(el.children[0].data)
+        } else {
+          subArr.push(el.data)
+        }
+      })
+      arr.push(subArr.join(' '))
     })
     const articleStr = arr.join('/n')
+
     const imgElement = $(
       '#page > div:nth-child(1) > div.container > div > div.column--primary > div.story-body > div.story-body__inner > figure > span > img'
     )
@@ -61,6 +71,7 @@ async function scrapeBBCArticles(headlines, page) {
     if (imgElement) {
       imageUrl = $(imgElement).attr('src')
     } else {
+      console.log(imageUrl)
       imageUrl = $($('.p_holding_image')[0]).attr('src')
     }
 

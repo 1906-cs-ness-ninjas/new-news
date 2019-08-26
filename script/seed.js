@@ -14,7 +14,7 @@ const topics = [
 const sites = [
   {website: 'https://www.bbc.com/'},
   {website: 'https://www.huffpost.com/'},
-  {website: 'https://news.yahoo.com/'},
+  {website: 'https://www.foxnews.com/'},
   {website: 'https://www.npr.org/'}
 ]
 
