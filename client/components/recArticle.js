@@ -1,0 +1,22 @@
+import React from 'react'
+import {Image, Grid, Header} from 'semantic-ui-react'
+
+export default function RecArticle(props) {
+  const recommendedArticle = props.recArticles.filter(
+    article => article.category === props.category
+  )
+  const index = Math.floor(Math.random() * recommendedArticle.length)
+  return (
+    <Grid>
+      <Grid.Row>
+        <Image
+          src={recommendedArticle[index].imageUrl}
+          wrapped
+          ui={false}
+          height={50}
+        />
+        <Header as="h4">{recommendedArticle[index].title}</Header>
+      </Grid.Row>
+    </Grid>
+  )
+}

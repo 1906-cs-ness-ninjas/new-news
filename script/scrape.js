@@ -20,34 +20,22 @@ async function scrape() {
     truncate: true,
     force: true
   })
-  Topic.destroy({
-    where: {},
-    force: true
-  })
   console.log('db synced!')
   const browser = await puppeteer.launch({headless: false})
   try {
     const page = await browser.newPage()
-    // const categoryHashMap = {}
     //!NPR Scraper
     // const NPRHeadlines = await scrapeNPRHeadlines(page)
     // await scrapeNPRArticles(NPRHeadlines, page)
-    // NPRHeadlines.forEach(element => {
-    //   let category = element.category;
-    //     if (!categoryHashMap[category]) {
-    //       Topic.create({name: category})
-    //       categoryHashMap[category] = true;
-    //     }
-    // })
     // //!Fox Scraper
-    const Foxheadlines = await scrapeFoxHeadlines(page)
-    await scrapeFoxArticles(Foxheadlines, page)
+    // const Foxheadlines = await scrapeFoxHeadlines(page)
+    // await scrapeFoxArticles(Foxheadlines, page)
     // //!HUffpost Scraper
-    // const HPheadlines = await scrapeHuffPostHeadlines(page)
-    // await scrapeHuffPostArticles(HPheadlines, page)
+    const HPheadlines = await scrapeHuffPostHeadlines(page)
+    await scrapeHuffPostArticles(HPheadlines, page)
     // // !BBC Scraper
-    // const BBCheadlines = await scrapeBBCHeadlines(page)
-    // await scrapeBBCArticles(BBCheadlines, page)
+    const BBCheadlines = await scrapeBBCHeadlines(page)
+    await scrapeBBCArticles(BBCheadlines, page)
   } catch (error) {
     console.log(error)
   } finally {
