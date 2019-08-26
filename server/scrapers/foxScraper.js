@@ -25,15 +25,11 @@ async function scrapeFoxHeadlines(page) {
         } else {
           imageUrl = 'http:' + img.src
         }
-      } else {
-        if (/media/g.test(pic)) {
+      } else if (/media/g.test(pic)) {
           imageUrl = pic
         } else {
           imageUrl = 'https:' + pic
         }
-
-        console.log('8888888888888888888888888')
-      }
 
       let category = url.replace(/.*\/(.*?)\/.*/g, '$1')
 
