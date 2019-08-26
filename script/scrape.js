@@ -42,13 +42,6 @@ async function scrape() {
     // //!Fox Scraper
     const Foxheadlines = await scrapeFoxHeadlines(page)
     await scrapeFoxArticles(Foxheadlines, page)
-    // Foxheadlines.forEach(element => {
-    //   let category = element.category
-    //   if (!categoryHashMap[category]) {
-    //     Topic.create({name: category})
-    //     categoryHashMap[category] = true
-    //   }
-    // })
     // //!HUffpost Scraper
     // const HPheadlines = await scrapeHuffPostHeadlines(page)
     // await scrapeHuffPostArticles(HPheadlines, page)

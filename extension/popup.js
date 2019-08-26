@@ -5,6 +5,12 @@ const userName = document.getElementById('username')
 const password = document.getElementById('password')
 const loginErrorMessage = document.getElementById('login-error-message')
 const loginInfo = document.getElementById('login-info')
+const support = {
+  bbc: true,
+  foxnews: true,
+  huffpost: true,
+  npr: true
+}
 
 checkLoginStatus()
 
@@ -82,7 +88,11 @@ function checkLoginStatus() {
         response.json().then(() => {
           const logoutButton = document.createElement('button')
           logoutButton.innerText = 'logout'
-          // if (url) favoriteBtn.disabled = false
+          if (support[site]) {
+            favoriteBtn.disabled = false
+          } else {
+            favoriteBtn.disabled = true
+          }
           logoutButton.onclick = function() {
             // favoriteBtn.disabled = true
             fetch('http://localhost:8080/auth/logout', {
