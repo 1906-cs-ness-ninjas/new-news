@@ -31,10 +31,7 @@ async function scrapeFoxHeadlines(page) {
         } else {
           imageUrl = 'https:' + pic
         }
-
-        console.log('8888888888888888888888888')
       }
-
       let category = url.replace(/.*\/(.*?)\/.*/g, '$1')
 
       let article = {title: 'hello', imageUrl, url, category}
