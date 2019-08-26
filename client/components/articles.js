@@ -33,7 +33,6 @@ class Articles extends Component {
       <Grid celled centered>
         {this.props.articles &&
           this.props.articles.map(article => (
-            // <a href={article.url} key={article.id}>
             <Modal
               trigger={
                 <Button>

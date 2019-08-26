@@ -30,7 +30,7 @@ class App extends Component {
   render() {
     const {visible} = this.state
     return (
-      <div className="landing-image">
+      <div>
         <Sidebar.Pushable as={Segment}>
           <Sidebar
             as={Menu}
@@ -42,6 +42,7 @@ class App extends Component {
             visible={visible}
             width="thin"
           >
+            <Menu.Item as="a" />
             <Menu.Item as="a">
               <Topics floated="left" />
             </Menu.Item>

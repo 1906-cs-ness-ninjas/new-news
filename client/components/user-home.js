@@ -2,7 +2,6 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import {connect} from 'react-redux'
 import Articles from './articles'
-import {} from 'semantic-ui-react'
 
 /**
  * COMPONENT
@@ -10,7 +9,9 @@ import {} from 'semantic-ui-react'
 export const UserHome = props => {
   return (
     <div>
-      <h3 align="center">Here are your top stories for today</h3>
+      <h3 align="center" className="welcome">
+        Hey {props.email}, here are your top stories for today
+      </h3>
       <Articles />
     </div>
   )
