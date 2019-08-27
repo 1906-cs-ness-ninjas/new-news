@@ -25,17 +25,17 @@ async function scrape() {
   try {
     const page = await browser.newPage()
     // !NPR Scraper
-    // const NPRHeadlines = await scrapeNPRHeadlines(page)
-    // await scrapeNPRArticles(NPRHeadlines, page)
+    const NPRHeadlines = await scrapeNPRHeadlines(page)
+    await scrapeNPRArticles(NPRHeadlines, page)
     // //!Fox Scraper
     const Foxheadlines = await scrapeFoxHeadlines(page)
     await scrapeFoxArticles(Foxheadlines, page)
     // //!HUffpost Scraper
-    // const HPheadlines = await scrapeHuffPostHeadlines(page)
-    // await scrapeHuffPostArticles(HPheadlines, page)
-    // // !BBC Scraper
-    // const BBCheadlines = await scrapeBBCHeadlines(page)
-    // await scrapeBBCArticles(BBCheadlines, page)
+    const HPheadlines = await scrapeHuffPostHeadlines(page)
+    await scrapeHuffPostArticles(HPheadlines, page)
+    // !BBC Scraper
+    const BBCheadlines = await scrapeBBCHeadlines(page)
+    await scrapeBBCArticles(BBCheadlines, page)
   } catch (error) {
     console.log(error)
   } finally {
