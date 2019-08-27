@@ -9,7 +9,7 @@ const {scrapeNPRHeadlines} = require('../server/scrapers/nprScraper')
 const {scrapeNPRArticles} = require('../server/scrapers/nprScraper')
 const {scrapeFoxHeadlines} = require('../server/scrapers/foxScraper')
 const {scrapeFoxArticles} = require('../server/scrapers/foxScraper')
-const {bbcArticles} = require('../server/db/models')
+const {bbcArticles, Topic} = require('../server/db/models')
 
 const puppeteer = require('puppeteer')
 
@@ -27,15 +27,15 @@ async function scrape() {
     // !NPR Scraper
     const NPRHeadlines = await scrapeNPRHeadlines(page)
     await scrapeNPRArticles(NPRHeadlines, page)
-    // //!Fox Scraper
-    const Foxheadlines = await scrapeFoxHeadlines(page)
-    await scrapeFoxArticles(Foxheadlines, page)
-    // //!HUffpost Scraper
-    const HPheadlines = await scrapeHuffPostHeadlines(page)
-    await scrapeHuffPostArticles(HPheadlines, page)
-    // !BBC Scraper
-    const BBCheadlines = await scrapeBBCHeadlines(page)
-    await scrapeBBCArticles(BBCheadlines, page)
+    // // //!Fox Scraper
+    // const Foxheadlines = await scrapeFoxHeadlines(page)
+    // await scrapeFoxArticles(Foxheadlines, page)
+    // // //!HUffpost Scraper
+    // const HPheadlines = await scrapeHuffPostHeadlines(page)
+    // await scrapeHuffPostArticles(HPheadlines, page)
+    // // // !BBC Scraper
+    // const BBCheadlines = await scrapeBBCHeadlines(page)
+    // await scrapeBBCArticles(BBCheadlines, page)
   } catch (error) {
     console.log(error)
   } finally {

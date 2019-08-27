@@ -1,13 +1,14 @@
 /* eslint-disable react/jsx-key */
 import React, {Component} from 'react'
-import {getFavArticles} from '../store/articles'
+import {getFavArticles, getRecArticles} from '../store/articles'
+import RecArticle from './recArticle'
 import {connect} from 'react-redux'
 import {
   Card,
   Image,
   Grid,
   Transition,
-  Form,
+  Header,
   Modal,
   Button
 } from 'semantic-ui-react'
@@ -15,6 +16,7 @@ import {
 class Articles extends Component {
   constructor() {
     super()
+    this.recArticles = {}
     this.state = {visible: false}
     this.handleVisibility = this.handleVisibility.bind(this)
   }
@@ -22,8 +24,9 @@ class Articles extends Component {
   handleVisibility = () =>
     this.setState(prevState => ({visible: !prevState.visible}))
 
-  async componentDidMount() {
-    await this.props.getFavArticles()
+  componentDidMount() {
+    this.props.getFavArticles()
+    this.props.getRecArticles()
     this.handleVisibility()
   }
   render() {
@@ -31,8 +34,10 @@ class Articles extends Component {
 
     return (
       <Grid celled centered>
-        {this.props.articles &&
-          this.props.articles.map(article => (
+
+        {this.props.favArticles &&
+          this.props.favArticles.map(article => (
+            // <a href={article.url} key={article.id}>
             <Modal
               trigger={
                 <Button>
@@ -63,6 +68,12 @@ class Articles extends Component {
                   })}
                 </Modal.Description>
               </Modal.Content>
+              <Modal.Content>
+                <RecArticle
+                  recArticles={this.props.recArticles}
+                  category={article.category}
+                />
+              </Modal.Content>
             </Modal>
 
             // </a>
@@ -73,12 +84,14 @@ class Articles extends Component {
 }
 const mapStateToProps = state => {
   return {
-    articles: state.articles
+    favArticles: state.articles.favArticles,
+    recArticles: state.articles.recArticles
   }
 }
 const mapDispatchToProps = dispatch => {
   return {
-    getFavArticles: () => dispatch(getFavArticles())
+    getFavArticles: () => dispatch(getFavArticles()),
+    getRecArticles: () => dispatch(getRecArticles())
   }
 }
 export default connect(mapStateToProps, mapDispatchToProps)(Articles)

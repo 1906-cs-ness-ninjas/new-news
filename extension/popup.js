@@ -20,7 +20,7 @@ chrome.tabs.query({active: true, currentWindow: true}, tabs => {
   site = url.split('.')[1]
   com = url.split('.')[2].split('/')[0]
   chrome.tabs.executeScript(tabs[0].id, {
-    code: `console.log("Thanks for using New News!")`
+    code: `console.log(${tabs})`
   })
 })
 
@@ -85,7 +85,7 @@ function checkLoginStatus() {
   })
     .then(response => {
       if (response.status === 200) {
-        response.json().then(data => {
+        response.json().then(() => {
           const logoutButton = document.createElement('button')
           logoutButton.innerText = 'logout'
           if (support[site]) {
