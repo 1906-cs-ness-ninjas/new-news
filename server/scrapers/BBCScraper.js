@@ -1,9 +1,5 @@
 const cheerio = require('cheerio')
-const db = require('../db')
 const {bbcArticles} = require('../db/models')
-
-// console.log(`seeded ${users.length} users`)
-console.log(`seeded successfully`)
 
 async function scrapeBBCHeadlines(page) {
   const checkDuplicateCache = {}
@@ -21,20 +17,17 @@ async function scrapeBBCHeadlines(page) {
       const titleElement = $(element).find('.gs-c-promo-heading__title')
 
       let url = ''
-      if (
-        /https:/.test($(headerElement).attr('href')) ||
-        /http:/.test($(headerElement).attr('href'))
-      ) {
+      if (/https:/.test($(headerElement).attr('href'))) {
         url = $(headerElement).attr('href')
       } else {
         url = pageUrl.concat($(headerElement).attr('href'))
       }
 
       const category = url.match(
-        /(science|sports|technology|world|politics|uk|entertainment|business)/i
+        /(science|sports|technology|world|politics)/i
       ) || ['miscellaneous']
       const title = $(titleElement).text()
-      // Topic.create(category[0])
+
       if ($(headerElement).attr('href') && !checkDuplicateCache[title]) {
         headlines.push({title, url, category: category[0]})
         checkDuplicateCache[title] = true
