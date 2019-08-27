@@ -25,13 +25,11 @@ async function scrapeFoxHeadlines(page) {
         } else {
           imageUrl = 'http:' + img.src
         }
-      } else {
-        if (/media/g.test(pic)) {
+      } else if (/media/g.test(pic)) {
           imageUrl = pic
         } else {
           imageUrl = 'https:' + pic
         }
-      }
       let category = url.replace(/.*\/(.*?)\/.*/g, '$1')
 
       let article = {title: 'hello', imageUrl, url, category}
