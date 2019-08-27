@@ -9,7 +9,7 @@ const {scrapeNPRHeadlines} = require('../server/scrapers/nprScraper')
 const {scrapeNPRArticles} = require('../server/scrapers/nprScraper')
 const {scrapeFoxHeadlines} = require('../server/scrapers/foxScraper')
 const {scrapeFoxArticles} = require('../server/scrapers/foxScraper')
-const {bbcArticles} = require('../server/db/models')
+const {bbcArticles, Topic} = require('../server/db/models')
 
 const puppeteer = require('puppeteer')
 
