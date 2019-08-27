@@ -15,11 +15,16 @@ h3 {
 }
 
 .landing-image {
-  background-image: linear-gradient(
-      rgba(255, 255, 255, 0.9),
-      rgba(255, 255, 255, 0.9)
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.8)
     ),
     url('https://www.wahmedia.in/wp-content/uploads/2018/03/newspaper-background.jpg');
+  margin: 0 auto;
+}
+
+.welcome {
+  font-style: italic;
 }
 
 body {

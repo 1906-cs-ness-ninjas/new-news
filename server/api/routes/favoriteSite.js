@@ -3,20 +3,19 @@ const {Favorite, User} = require('../../db/models')
 
 module.exports = router
 
-// router.get('/:userId', async (req, res, next) => {
-//   try {
-//     const user = await User.findOne({
-//         where: {
-//             id: req.params.userId
-//         },
-//         include: [{model: Favorite}]
-//     });
-
-//   }
-//   catch(error) {
-//     next(error);
-//   }
-// })
+router.get('/:userId', async (req, res, next) => {
+  try {
+    const user = await User.findOne({
+      where: {
+        id: req.params.userId
+      },
+      include: [{model: Favorite}]
+    })
+    res.send(user.favorites)
+  } catch (error) {
+    next(error)
+  }
+})
 
 router.post('/', async (req, res, next) => {
   try {

@@ -6,8 +6,15 @@ import user from './user'
 import topic from './topicStore'
 import favoriteTopic from './favoriteTopicStore'
 import articles from './articles'
+import favoriteSite from './favoriteSiteStore'
 
-const reducer = combineReducers({user, topic, favoriteTopic, articles})
+const reducer = combineReducers({
+  user,
+  topic,
+  favoriteTopic,
+  favoriteSite,
+  articles
+})
 const middleware = composeWithDevTools(
   applyMiddleware(thunkMiddleware, createLogger({collapsed: true}))
 )

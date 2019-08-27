@@ -4,6 +4,7 @@ import {connect} from 'react-redux'
 import {Link} from 'react-router-dom'
 import {logout} from '../store'
 import Topics from './Topics'
+import FavoriteSites from './FavoriteSites'
 import {Button} from 'semantic-ui-react'
 
 const Navbar = ({handleClick, isLoggedIn}) => (
@@ -12,13 +13,9 @@ const Navbar = ({handleClick, isLoggedIn}) => (
       {isLoggedIn ? (
         <div>
           <a>
-            <Topics />
+            <Topics visible="false" />
+            <FavoriteSites />
           </a>
-          <Button size="mini" floated="right">
-            <a href="#" onClick={handleClick} align="right">
-              Logout
-            </a>
-          </Button>
         </div>
       ) : (
         <div>

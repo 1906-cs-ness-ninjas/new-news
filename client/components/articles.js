@@ -34,6 +34,7 @@ class Articles extends Component {
 
     return (
       <Grid celled centered>
+
         {this.props.favArticles &&
           this.props.favArticles.map(article => (
             // <a href={article.url} key={article.id}>
