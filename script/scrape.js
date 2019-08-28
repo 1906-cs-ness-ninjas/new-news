@@ -15,11 +15,11 @@ const puppeteer = require('puppeteer')
 
 async function scrape() {
   await db.sync({force: false})
-  bbcArticles.destroy({
-    where: {},
-    truncate: true,
-    force: true
-  })
+  // bbcArticles.destroy({
+  //   where: {},
+  //   truncate: true,
+  //   force: true
+  // })
   console.log('db synced!')
   const browser = await puppeteer.launch({headless: false})
   try {
@@ -27,10 +27,10 @@ async function scrape() {
     // !NPR Scraper
     const NPRHeadlines = await scrapeNPRHeadlines(page)
     await scrapeNPRArticles(NPRHeadlines, page)
-    // //!Fox Scraper
+    //!Fox Scraper
     const Foxheadlines = await scrapeFoxHeadlines(page)
     await scrapeFoxArticles(Foxheadlines, page)
-    // //!HUffpost Scraper
+    //!HUffpost Scraper
     const HPheadlines = await scrapeHuffPostHeadlines(page)
     await scrapeHuffPostArticles(HPheadlines, page)
     // !BBC Scraper

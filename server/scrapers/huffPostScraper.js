@@ -30,7 +30,7 @@ async function scrapeHuffPostArticles(headlines, page) {
     await page.goto(headlines[i].url, {
       timeout: 0
     })
-    await page.waitFor(5000)
+    // await page.waitFor(5000)
     const html = await page.content()
     const $ = cheerio.load(html)
     // const article = $('.content-list-component').text()
@@ -41,7 +41,7 @@ async function scrapeHuffPostArticles(headlines, page) {
         let arr = []
         $(tag.children).each((idx, el) => {
           // p tag
-          if (!el.data) {
+          if (!el) {
             // if it is an <a/> tag
             arr.push(el.children[0].data)
           } else {
