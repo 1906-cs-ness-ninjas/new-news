@@ -30,6 +30,10 @@ h3 {
   height: 1000px;
 }
 
+.loginScreen {
+  display: flex;
+}
+
 .landing-image {
   background: linear-gradient(
       rgba(255, 255, 255, 0.9),

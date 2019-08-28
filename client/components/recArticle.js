@@ -8,7 +8,10 @@ export default function RecArticle(props) {
   const index = Math.floor(Math.random() * recommendedArticle.length)
   return (
     <Grid>
-      <Grid.Row>
+      <Grid.Row
+        href={recommendedArticle[index] && recommendedArticle[index].url}
+      >
+        {/* <a href={recommendedArticle[index].url}> */}
         <Image
           src={recommendedArticle[index] && recommendedArticle[index].imageUrl}
           wrapped
