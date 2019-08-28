@@ -42,3 +42,29 @@ router.post('/', async (req, res, next) => {
     next(error)
   }
 })
+
+router.delete('/', async (req, res, next) => {
+  try {
+    const {userId} = req.body
+
+    const user = await User.findOne({
+      where: {
+        id: userId
+      },
+      include: [{model: Favorite}]
+    })
+
+    // const urlId = await Favorite.findOne({
+    //   where: {
+    //     website: url
+    //   },
+    //   attribute: ['id']
+    // })
+    // console.log(req.body.site)
+    await user.removeFavorite(req.body.site)
+
+    res.send()
+  } catch (error) {
+    next(error)
+  }
+})
