@@ -66,8 +66,8 @@ router.get('/:userId/recArticles', async (req, res, next) => {
     user.favorites.forEach(async element => {
       let articles = bbcArticles.findAll({
         where: {
-          category: topics,
-          url: {[Op.notLike]: '%' + element.website.split('.')[1] + '%'}
+          url: {[Op.notLike]: '%' + element.website.split('.')[1]},
+          category: topics
         }
       })
       articlesArr = articlesArr.concat(articles)

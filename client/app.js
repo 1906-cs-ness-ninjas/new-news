@@ -42,12 +42,11 @@ class App extends Component {
             visible={visible}
             width="thin"
           >
-            <Menu.Item as="a" />
+            <Menu.Item as="a">{this.props.isLoggedIn && <Topics />}</Menu.Item>
             <Menu.Item as="a">
-              <Topics floated="left" />
-            </Menu.Item>
-            <Menu.Item as="a">
-              <FavoriteSites favoriteSites={this.props.favoriteSite} />
+              {this.props.isLoggedIn && (
+                <FavoriteSites favoriteSites={this.props.favoriteSite} />
+              )}
             </Menu.Item>
 
             <Menu.Item as="a">

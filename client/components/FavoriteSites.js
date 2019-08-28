@@ -1,7 +1,8 @@
 import React, {Component} from 'react'
 import {getSelectSiteThunk} from '../store/favoriteSiteStore'
 import {connect} from 'react-redux'
-import {Form, Dropdown} from 'semantic-ui-react'
+import {Form, Dropdown, Button} from 'semantic-ui-react'
+import {removeFavoriteThunk} from '../store/favoriteSiteStore'
 
 class FavoriteSites extends Component {
   componentDidMount() {
@@ -30,7 +31,8 @@ class FavoriteSites extends Component {
                       label={topic.website.split('.')[1]}
                       name={topic.website.split('.')[1]}
                       control="input"
-                      type="checkbox"
+                      type="button"
+                      onClick={() => this.props.delete(topic.id)}
                     />
                   )
                 })
@@ -51,7 +53,8 @@ const mapStateToProps = state => {
 
 const mapDispatchToProps = dispatch => {
   return {
-    getSelectSiteThunk: () => dispatch(getSelectSiteThunk())
+    getSelectSiteThunk: () => dispatch(getSelectSiteThunk()),
+    delete: id => dispatch(removeFavoriteThunk(id))
   }
 }
 
