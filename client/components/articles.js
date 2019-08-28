@@ -17,7 +17,7 @@ class Articles extends Component {
   constructor() {
     super()
     this.recArticles = {}
-    this.state = {visible: false, hasRec: true}
+    this.state = {visible: false}
     this.handleVisibility = this.handleVisibility.bind(this)
   }
 
@@ -35,9 +35,7 @@ class Articles extends Component {
     return (
       <Grid celled centered>
         {this.props.favArticles &&
-
           this.props.favArticles.map((article, idx) => (
-
             <Modal
               key={idx}
               trigger={
