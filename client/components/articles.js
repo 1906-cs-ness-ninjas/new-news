@@ -13,6 +13,7 @@ import {
   Button
 } from 'semantic-ui-react'
 
+
 class Articles extends Component {
   constructor() {
     super()
@@ -37,6 +38,7 @@ class Articles extends Component {
         {this.props.favArticles &&
 
           this.props.favArticles.map((article, idx) => (
+
 
             <Modal
               key={idx}
