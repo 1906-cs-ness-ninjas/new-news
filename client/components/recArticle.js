@@ -8,7 +8,8 @@ export default function RecArticle(props) {
   const index = Math.floor(Math.random() * recommendedArticle.length)
   return (
     <Grid>
-      <Grid.Row>
+      <Grid.Row href={recommendedArticle[index].url}>
+        {/* <a href={recommendedArticle[index].url}> */}
         <Image
           src={recommendedArticle[index].imageUrl}
           wrapped
@@ -16,6 +17,7 @@ export default function RecArticle(props) {
           height={50}
         />
         <Header as="h4">{recommendedArticle[index].title}</Header>
+        {/* </a> */}
       </Grid.Row>
     </Grid>
   )
