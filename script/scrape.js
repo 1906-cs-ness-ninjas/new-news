@@ -27,10 +27,11 @@ async function scrape() {
     // !NPR Scraper
     const NPRHeadlines = await scrapeNPRHeadlines(page)
     await scrapeNPRArticles(NPRHeadlines, page)
-    // // //!Fox Scraper
+
+    // !Fox Scraper
     // const Foxheadlines = await scrapeFoxHeadlines(page)
     // await scrapeFoxArticles(Foxheadlines, page)
-    // // //!HUffpost Scraper
+    // !HUffpost Scraper
     // const HPheadlines = await scrapeHuffPostHeadlines(page)
     // await scrapeHuffPostArticles(HPheadlines, page)
     // !BBC Scraper

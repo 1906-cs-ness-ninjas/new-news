@@ -67,6 +67,7 @@ router.get('/:userId/recArticles', async (req, res, next) => {
       huffpost: true
     }
 
+
     let allArticles = []
     user.favorites.forEach(favorite => {
       const fav = favorite.dataValues.website.split('.')[1]

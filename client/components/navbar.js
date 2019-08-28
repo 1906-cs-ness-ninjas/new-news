@@ -8,14 +8,11 @@ import FavoriteSites from './FavoriteSites'
 import {Button} from 'semantic-ui-react'
 
 const Navbar = ({handleClick, isLoggedIn}) => (
-  <div>
+  <div className="banner">
     <nav>
       {isLoggedIn ? (
         <div>
-          <a>
-            <Topics visible="false" />
-            <FavoriteSites />
-          </a>
+          <a />
         </div>
       ) : (
         <div>
