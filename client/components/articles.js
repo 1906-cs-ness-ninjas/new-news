@@ -12,7 +12,7 @@ import {
   Modal,
   Button
 } from 'semantic-ui-react'
-// import {threadId} from 'worker_threads'
+
 
 class Articles extends Component {
   constructor() {
@@ -36,7 +36,10 @@ class Articles extends Component {
     return (
       <Grid celled centered>
         {this.props.favArticles &&
+
           this.props.favArticles.map((article, idx) => (
+
+
             <Modal
               key={idx}
               trigger={
