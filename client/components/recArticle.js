@@ -10,12 +10,14 @@ export default function RecArticle(props) {
     <Grid>
       <Grid.Row>
         <Image
-          src={recommendedArticle[index].imageUrl}
+          src={recommendedArticle[index] && recommendedArticle[index].imageUrl}
           wrapped
           ui={false}
           height={50}
         />
-        <Header as="h4">{recommendedArticle[index].title}</Header>
+        <Header as="h4">
+          {recommendedArticle[index] && recommendedArticle[index].title}
+        </Header>
       </Grid.Row>
     </Grid>
   )
