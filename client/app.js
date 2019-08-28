@@ -44,9 +44,7 @@ class App extends Component {
           >
             <Menu.Item as="a">{this.props.isLoggedIn && <Topics />}</Menu.Item>
             <Menu.Item as="a">
-              {this.props.isLoggedIn && (
-                <FavoriteSites favoriteSites={this.props.favoriteSite} />
-              )}
+              {this.props.isLoggedIn && <FavoriteSites />}
             </Menu.Item>
 
             <Menu.Item as="a">
@@ -82,8 +80,7 @@ class App extends Component {
 
 const mapState = state => {
   return {
-    isLoggedIn: !!state.user.id,
-    favoriteSite: state.favoriteSite
+    isLoggedIn: !!state.user.id
   }
 }
 
