@@ -17,7 +17,7 @@ class Articles extends Component {
   constructor() {
     super()
     this.recArticles = {}
-    this.state = {visible: false}
+    this.state = {visible: false, hasRec: true}
     this.handleVisibility = this.handleVisibility.bind(this)
   }
 
@@ -35,8 +35,11 @@ class Articles extends Component {
     return (
       <Grid celled centered>
         {this.props.favArticles &&
-          this.props.favArticles.map(article => (
+
+          this.props.favArticles.map((article, idx) => (
+
             <Modal
+              key={idx}
               trigger={
                 <Button>
                   <Transition.Group animation="horizontal flip" duration={1000}>
@@ -61,8 +64,8 @@ class Articles extends Component {
               <Modal.Content image scrolling>
                 <Image wrapped size="massive" src={article.imageUrl} wrapped />
                 <Modal.Description>
-                  {article.article.split('/n').map(paragraph => {
-                    return <p>{paragraph}</p>
+                  {article.article.split('/n').map((paragraph, i) => {
+                    return <p key={i + 1}>{paragraph}</p>
                   })}
                 </Modal.Description>
               </Modal.Content>
@@ -73,8 +76,6 @@ class Articles extends Component {
                 />
               </Modal.Content>
             </Modal>
-
-            // </a>
           ))}
       </Grid>
     )
