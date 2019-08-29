@@ -1,8 +1,11 @@
 import React, {Component} from 'react'
-import {getSelectSiteThunk} from '../store/favoriteSiteStore'
+import {
+  getSelectSiteThunk,
+  removeFavoriteThunk
+} from '../store/favoriteSiteStore'
 import {connect} from 'react-redux'
-import {Form, Dropdown, Button} from 'semantic-ui-react'
-import {removeFavoriteThunk} from '../store/favoriteSiteStore'
+import {Form, Dropdown} from 'semantic-ui-react'
+import {getFavArticles} from '../store/articles'
 
 class FavoriteSites extends Component {
   componentDidMount() {
@@ -32,7 +35,11 @@ class FavoriteSites extends Component {
                       name={topic.website.split('.')[1]}
                       control="input"
                       type="button"
-                      onClick={() => this.props.delete(topic.id)}
+                      onClick={async () => {
+                        await this.props.delete(topic.id)
+                        this.props.getSelectSiteThunk()
+                        this.props.getFavArticlesThunk()
+                      }}
                     />
                   )
                 })
@@ -54,7 +61,8 @@ const mapStateToProps = state => {
 const mapDispatchToProps = dispatch => {
   return {
     getSelectSiteThunk: () => dispatch(getSelectSiteThunk()),
-    delete: id => dispatch(removeFavoriteThunk(id))
+    delete: id => dispatch(removeFavoriteThunk(id)),
+    getFavArticlesThunk: () => dispatch(getFavArticles())
   }
 }
 

@@ -3,15 +3,7 @@ import React, {Component} from 'react'
 import {getFavArticles, getRecArticles} from '../store/articles'
 import RecArticle from './recArticle'
 import {connect} from 'react-redux'
-import {
-  Card,
-  Image,
-  Grid,
-  Transition,
-  Header,
-  Modal,
-  Button
-} from 'semantic-ui-react'
+import {Card, Image, Grid, Transition, Modal, Button} from 'semantic-ui-react'
 
 class Articles extends Component {
   constructor() {
@@ -48,7 +40,7 @@ class Articles extends Component {
                             char.toUpperCase()
                           )}
                         </Card.Content>
-                        <Image src={article.imageUrl} wrapped ui={false} />
+                        <Image src={article.imageUrl} wrapped rounded fluid />
                         <Card.Content>
                           <Card.Header>{article.title}</Card.Header>
                         </Card.Content>
