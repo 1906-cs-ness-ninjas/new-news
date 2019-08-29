@@ -21,7 +21,7 @@ router.get('/:userId', async (req, res, next) => {
 router.post('/', async (req, res, next) => {
   try {
     const {url, userId} = req.body
-    console.log(userId, '...............................')
+
     const user = await User.findOne({
       where: {
         id: userId

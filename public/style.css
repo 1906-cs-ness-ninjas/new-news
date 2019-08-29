@@ -5,7 +5,7 @@ h3 {
 
 .heading {
   font-family: 'Abril Fatface', cursive;
-  font-size: 5em;
+  font-size: 6em;
 }
 
 .slogan {
@@ -22,8 +22,17 @@ h3 {
     url('https://i.imgur.com/HluxRkC.jpg');
 }
 
+.slogan {
+  font-size: 2em;
+}
+
+.loginForm {
+  display: flex;
+  justify-content: center;
+}
+
 .loginPlaceHolder {
-  background: url('https://i.imgur.com/Of4Qi4D.jpg');
+  background: url('https://i.imgur.com/ThKBbLs.jpg');
   background-size: cover;
   margin-left: auto;
   margin-right: auto;

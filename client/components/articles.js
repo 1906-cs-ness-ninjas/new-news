@@ -69,6 +69,9 @@ class Articles extends Component {
                 </Modal.Description>
               </Modal.Content>
               <Modal.Content>
+                <h1>
+                  Since you're into {article.category}, check this out too:
+                </h1>
                 <RecArticle
                   recArticles={this.props.recArticles}
                   category={article.category}
