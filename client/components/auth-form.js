@@ -34,7 +34,7 @@ const AuthForm = props => {
         <a href="/auth/google">{displayName} with Google</a>
       </Form>
       <div className="loginPlaceHolder">
-        <h1 className="loginScreen">Only read what you want </h1>
+        <h1 />
         {/* <img src="https://i.imgur.com/Of4Qi4D.jpg" /> */}
       </div>
     </div>

@@ -2,15 +2,7 @@ import React, {Component} from 'react'
 import {connect} from 'react-redux'
 import {Navbar} from './components'
 import Routes from './routes'
-import {
-  Button,
-  Header,
-  Icon,
-  Image,
-  Menu,
-  Segment,
-  Sidebar
-} from 'semantic-ui-react'
+import {Button, Icon, Menu, Segment, Sidebar} from 'semantic-ui-react'
 import {logout} from './store'
 import Topics from './components/Topics'
 import FavoriteSites from './components/FavoriteSites'
@@ -20,7 +12,7 @@ class App extends Component {
   state = {visible: false}
 
   componentDidMount() {
-    this.props.getSelectSiteThunk()
+    this.props.isLoggedIn && this.props.getSelectSiteThunk()
   }
 
   handleHideClick = () => this.setState({visible: false})
@@ -29,6 +21,7 @@ class App extends Component {
 
   render() {
     const {visible} = this.state
+    const {isLoggedIn, handleClick} = this.props
     return (
       <div>
         <Sidebar.Pushable as={Segment}>
@@ -42,17 +35,23 @@ class App extends Component {
             visible={visible}
             width="thin"
           >
-            <Menu.Item as="a">{this.props.isLoggedIn && <Topics />}</Menu.Item>
-            <Menu.Item as="a">
-              {this.props.isLoggedIn && <FavoriteSites />}
-            </Menu.Item>
+            {isLoggedIn && (
+              <Menu.Item as="a">
+                <Topics />
+              </Menu.Item>
+            )}
+            {isLoggedIn && (
+              <Menu.Item as="a">
+                <FavoriteSites />
+              </Menu.Item>
+            )}
 
-            <Menu.Item as="a">
-              <Icon name="hand peace" />
-              <a href="#" onClick={this.props.handleClick} align="right">
+            {isLoggedIn && (
+              <Menu.Item as="a" onClick={handleClick}>
+                <Icon name="hand peace" />
                 Logout
-              </a>
-            </Menu.Item>
+              </Menu.Item>
+            )}
           </Sidebar>
 
           <Sidebar.Pusher dimmed={visible}>
