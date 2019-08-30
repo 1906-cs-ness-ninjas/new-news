@@ -5,6 +5,7 @@ async function scrapeFoxHeadlines(page) {
   await page.goto('https://www.foxnews.com/', {
     timeout: 0
   })
+
   const html = await page.content()
   const $ = cheerio.load(html)
   let articles = []

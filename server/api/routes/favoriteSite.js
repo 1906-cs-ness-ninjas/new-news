@@ -21,7 +21,6 @@ router.get('/:userId', async (req, res, next) => {
 router.post('/', async (req, res, next) => {
   try {
     const {url, userId} = req.body
-
     const user = await User.findOne({
       where: {
         id: userId
@@ -47,7 +46,6 @@ router.post('/', async (req, res, next) => {
 router.delete('/', async (req, res, next) => {
   try {
     const {userId} = req.body
-    console.log(userId, '...............................')
     const user = await User.findOne({
       where: {
         id: userId

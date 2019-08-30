@@ -94,7 +94,6 @@ function checkLoginStatus() {
             favoriteBtn.disabled = true
           }
           logoutButton.onclick = function() {
-            // favoriteBtn.disabled = true
             fetch('http://localhost:8080/auth/logout', {
               method: 'POST',
               mode: 'cors',
@@ -111,7 +110,6 @@ function checkLoginStatus() {
           loginInfo.appendChild(logoutButton)
         })
       }
-      // favoriteBtn.disabled = true
     })
     .catch(error => {
       console.error(error)
