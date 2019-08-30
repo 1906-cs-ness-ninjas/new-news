@@ -9,7 +9,7 @@ class Articles extends Component {
   constructor() {
     super()
     this.recArticles = {}
-    this.state = {visible: false, hasRec: true}
+    this.state = {visible: false}
     this.handleVisibility = this.handleVisibility.bind(this)
   }
 
