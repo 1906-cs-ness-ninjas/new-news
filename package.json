@@ -19,7 +19,7 @@
     "scrape": "node script/scrape.js",
     "seed": "node script/seed.js",
     "start": "node server",
-    "start-dev": "NODE_ENV='development' npm run build-client-watch & NODE_ENV='development' npm run start-server",
+    "start-dev": "NODE_ENV='development' npm run build-client-watch & NODE_ENV='development' npm run start-server & node script/cronNode.js",
     "start-server": "nodemon server -e html,js,scss --ignore public --ignore client",
     "test": "NODE_ENV='test' mocha \"./server/**/*.spec.js\" \"./client/**/*.spec.js\" \"./script/**/*.spec.js\" --require @babel/polyfill --require @babel/register"
   },
@@ -51,6 +51,7 @@
     "express-session": "^1.15.1",
     "history": "^4.9.0",
     "morgan": "^1.9.1",
+    "node-cron": "^2.0.3",
     "passport": "^0.4.0",
     "passport-google-oauth": "^2.0.0",
     "pg": "^7.9.0",
@@ -67,6 +68,7 @@
     "secrets": "^0.1.0",
     "semantic-ui-react": "^0.87.3",
     "sequelize": "^5.15.1",
+    "shelljs": "^0.8.3",
     "socket.io": "^2.2.0",
     "types": "^0.1.1"
   },

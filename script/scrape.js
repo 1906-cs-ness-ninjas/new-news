@@ -23,11 +23,11 @@ const puppeteer = require('puppeteer')
 
 async function scrape() {
   await db.sync({force: false})
-  bbcArticles.destroy({
-    where: {},
-    truncate: true,
-    force: true
-  })
+  // bbcArticles.destroy({
+  //   where: {},
+  //   truncate: true,
+  //   force: true
+  // })
   console.log('db synced!')
   const browser = await puppeteer.launch({headless: false})
   try {
