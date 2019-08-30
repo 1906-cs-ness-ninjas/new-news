@@ -2,7 +2,7 @@ import React from 'react'
 import {connect} from 'react-redux'
 import PropTypes from 'prop-types'
 import {auth} from '../store'
-import {Form} from 'semantic-ui-react'
+import {Form, Button, Icon} from 'semantic-ui-react'
 
 /**
  * COMPONENT
@@ -12,30 +12,30 @@ const AuthForm = props => {
 
   return (
     <div>
-      <Form centered>
-        <form onSubmit={handleSubmit} name={name}>
-          <div>
-            <label htmlFor="email">
-              <label>Email</label>
-            </label>
-            <input name="email" type="text" />
-          </div>
-          <div>
-            <label htmlFor="password">
-              <label>Password</label>
-            </label>
-            <input name="password" type="password" />
-          </div>
-          <div>
-            <button type="submit">{displayName}</button>
-          </div>
-          {error && error.response && <div> {error.response.data} </div>}
-        </form>
-        <a href="/auth/google">{displayName} with Google</a>
-      </Form>
       <div className="loginPlaceHolder">
-        <h1 />
-        {/* <img src="https://i.imgur.com/Of4Qi4D.jpg" /> */}
+        <div className="loginForm">
+          <Form centered>
+            <form onSubmit={handleSubmit} name={name}>
+              <div>
+                <label htmlFor="email">{/* <label>Email</label> */}</label>
+                <input placeholder="Email" name="email" type="text" />
+              </div>
+              <div>
+                <label htmlFor="password">
+                  {/* <label>Password</label> */}
+                </label>
+                <input placeholder="Password" name="password" type="password" />
+              </div>
+              <div>
+                <Button icon type="submit">
+                  <Icon name="newspaper outline" />
+                  {displayName}
+                </Button>
+              </div>
+              {error && error.response && <div> {error.response.data} </div>}
+            </form>
+          </Form>
+        </div>
       </div>
     </div>
   )
