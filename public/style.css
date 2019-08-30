@@ -5,7 +5,7 @@ h3 {
 
 .heading {
   font-family: 'Abril Fatface', cursive;
-  font-size: 5em;
+  font-size: 6em;
 }
 
 .slogan {
@@ -14,10 +14,39 @@ h3 {
   font-style: italic;
 }
 
+.banner {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.6),
+      rgba(255, 255, 255, 0.8)
+    ),
+    url('https://i.imgur.com/HluxRkC.jpg');
+}
+
+.slogan {
+  font-size: 2em;
+}
+
+.loginForm {
+  display: flex;
+  justify-content: center;
+}
+
+.loginPlaceHolder {
+  background: url('https://i.imgur.com/ThKBbLs.jpg');
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+  height: 1000px;
+}
+
+.loginScreen {
+  display: flex;
+}
+
 .landing-image {
   background: linear-gradient(
-      rgba(255, 255, 255, 0.8),
-      rgba(255, 255, 255, 0.8)
+      rgba(255, 255, 255, 0.9),
+      rgba(255, 255, 255, 0.9)
     ),
     url('https://www.wahmedia.in/wp-content/uploads/2018/03/newspaper-background.jpg');
   margin: 0 auto;

@@ -5,6 +5,7 @@ module.exports = router
 
 router.get('/:userId', async (req, res, next) => {
   try {
+    console.log(req.params.userId, '...............................')
     const user = await User.findOne({
       where: {
         id: req.params.userId
@@ -38,6 +39,32 @@ router.post('/', async (req, res, next) => {
     await user.addFavorite(urlId)
 
     res.send(urlId)
+  } catch (error) {
+    next(error)
+  }
+})
+
+router.delete('/', async (req, res, next) => {
+  try {
+    const {userId} = req.body
+    console.log(userId, '...............................')
+    const user = await User.findOne({
+      where: {
+        id: userId
+      },
+      include: [{model: Favorite}]
+    })
+
+    // const urlId = await Favorite.findOne({
+    //   where: {
+    //     website: url
+    //   },
+    //   attribute: ['id']
+    // })
+    // console.log(req.body.site)
+    await user.removeFavorite(req.body.site)
+
+    res.send()
   } catch (error) {
     next(error)
   }

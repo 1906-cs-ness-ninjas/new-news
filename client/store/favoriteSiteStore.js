@@ -4,8 +4,8 @@ import axios from 'axios'
  * ACTION TYPES
  */
 const GET_FAV_SITES = 'GET_FAV_SITES'
-const ADD_FAV_SITE = 'ADD_FAV_SITE'
 const REMOVE_FAV_SITE = 'REMOVE_FAV_SITE'
+// const ADD_FAV_SITE = 'ADD_FAV_SITE'
 
 /**
  * INITIAL STATE
@@ -16,8 +16,8 @@ const favSites = []
  * ACTION CREATORS
  */
 const getFavSites = sites => ({type: GET_FAV_SITES, sites})
-const addFavs = site => ({type: ADD_FAV_SITE, site})
 const removeFavs = site => ({type: REMOVE_FAV_SITE, site})
+// const addFavs = site => ({type: ADD_FAV_SITE, site})
 
 /**
  * THUNK CREATORS
@@ -41,14 +41,17 @@ export const getSelectSiteThunk = () => async (dispatch, state) => {
 //     console.log(error)
 //   }
 // }
-// export const removeFavoriteThunk = topic => async (dispatch, state) => {
-//   try {
-//     await axios.delete('/api/topics/', {data: {topic, id: state().user.id}})
-//     dispatch(removeFavs(topic))
-//   } catch (error) {
-//     console.log(error)
-//   }
-// }
+
+export const removeFavoriteThunk = site => async (dispatch, state) => {
+  try {
+    await axios.delete('/api/favoriteSite/', {
+      data: {site, userId: state().user.id}
+    })
+    dispatch(removeFavs(site))
+  } catch (error) {
+    console.log(error)
+  }
+}
 
 /**
  * REDUCER

@@ -9,14 +9,11 @@ import {Button} from 'semantic-ui-react'
 import {SideMenu} from './SideMenu'
 
 const Navbar = ({handleClick, isLoggedIn}) => (
-  <div>
+  <div className="banner">
     <nav>
       {isLoggedIn ? (
         <div>
-          <a>
-            <Topics visible="false" />
-            <FavoriteSites />
-          </a>
+          <a />
         </div>
       ) : (
         <div>
