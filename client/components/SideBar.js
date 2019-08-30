@@ -1,14 +1,12 @@
 import React, {Component} from 'react'
 import {connect} from 'react-redux'
-import {Navbar} from './components'
-import Routes from './routes'
 import {Button, Icon, Menu, Segment, Sidebar} from 'semantic-ui-react'
-import {logout} from './store'
-import Topics from './components/Topics'
-import FavoriteSites from './components/FavoriteSites'
-import {getSelectSiteThunk} from './store/favoriteSiteStore'
+import {logout} from '../store'
+import Topics from './Topics'
+import FavoriteSites from './FavoriteSites'
+import {getSelectSiteThunk} from '../store/favoriteSiteStore'
 
-class App extends Component {
+class SideBar extends Component {
   state = {visible: false}
 
   componentDidMount() {
@@ -66,8 +64,6 @@ class App extends Component {
                     <Icon name="sidebar" />
                   </Button>
                 </Button.Group>
-                <Navbar />
-                <Routes />
               </Segment>
             </div>
           </Sidebar.Pusher>
@@ -92,4 +88,4 @@ const mapDispatch = dispatch => {
   }
 }
 
-export default connect(mapState, mapDispatch)(App)
+export default connect(mapState, mapDispatch)(SideBar)

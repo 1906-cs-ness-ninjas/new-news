@@ -1,42 +1,52 @@
 'use strict'
 
 const db = require('../server/db')
-const {scrapeBBCArticles} = require('../server/scrapers/BBCScraper')
-const {scrapeBBCHeadlines} = require('../server/scrapers/BBCScraper')
-const {scrapeHuffPostHeadlines} = require('../server/scrapers/huffPostscraper')
-const {scrapeHuffPostArticles} = require('../server/scrapers/huffPostscraper')
-const {scrapeNPRHeadlines} = require('../server/scrapers/nprScraper')
-const {scrapeNPRArticles} = require('../server/scrapers/nprScraper')
-const {scrapeFoxHeadlines} = require('../server/scrapers/foxScraper')
-const {scrapeFoxArticles} = require('../server/scrapers/foxScraper')
-const {bbcArticles, Topic} = require('../server/db/models')
+const {
+  scrapeBBCArticles,
+  scrapeBBCHeadlines
+} = require('../server/scrapers/BBCScraper')
+const {
+  scrapeHuffPostHeadlines,
+  scrapeHuffPostArticles
+} = require('../server/scrapers/huffPostscraper')
+const {
+  scrapeNPRHeadlines,
+  scrapeNPRArticles
+} = require('../server/scrapers/nprScraper')
+const {
+  scrapeFoxHeadlines,
+  scrapeFoxArticles
+} = require('../server/scrapers/foxScraper')
+const {bbcArticles} = require('../server/db/models')
 
 const puppeteer = require('puppeteer')
 
 async function scrape() {
   await db.sync({force: false})
-  // bbcArticles.destroy({
-  //   where: {},
-  //   truncate: true,
-  //   force: true
-  // })
+  bbcArticles.destroy({
+    where: {},
+    truncate: true,
+    force: true
+  })
   console.log('db synced!')
   const browser = await puppeteer.launch({headless: false})
   try {
     const page = await browser.newPage()
-    // !NPR Scraper
+    /*!NPR Scraper*/
     const NPRHeadlines = await scrapeNPRHeadlines(page)
     await scrapeNPRArticles(NPRHeadlines, page)
 
-    // !Fox Scraper
-    // const Foxheadlines = await scrapeFoxHeadlines(page)
-    // await scrapeFoxArticles(Foxheadlines, page)
-    // !HUffpost Scraper
-    // const HPheadlines = await scrapeHuffPostHeadlines(page)
-    // await scrapeHuffPostArticles(HPheadlines, page)
-    // !BBC Scraper
-    // const BBCheadlines = await scrapeBBCHeadlines(page)
-    // await scrapeBBCArticles(BBCheadlines, page)
+    /*!Fox Scraper*/
+    const Foxheadlines = await scrapeFoxHeadlines(page)
+    await scrapeFoxArticles(Foxheadlines, page)
+
+    /*!HUffpost Scraper*/
+    const HPheadlines = await scrapeHuffPostHeadlines(page)
+    await scrapeHuffPostArticles(HPheadlines, page)
+
+    /*!BBC Scraper */
+    const BBCheadlines = await scrapeBBCHeadlines(page)
+    await scrapeBBCArticles(BBCheadlines, page)
   } catch (error) {
     console.log(error)
   } finally {

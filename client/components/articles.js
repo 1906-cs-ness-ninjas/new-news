@@ -3,22 +3,13 @@ import React, {Component} from 'react'
 import {getFavArticles, getRecArticles} from '../store/articles'
 import RecArticle from './recArticle'
 import {connect} from 'react-redux'
-import {
-  Card,
-  Image,
-  Grid,
-  Transition,
-  Header,
-  Modal,
-  Button
-} from 'semantic-ui-react'
-
+import {Card, Image, Grid, Transition, Modal, Button} from 'semantic-ui-react'
 
 class Articles extends Component {
   constructor() {
     super()
     this.recArticles = {}
-    this.state = {visible: false, hasRec: true}
+    this.state = {visible: false}
     this.handleVisibility = this.handleVisibility.bind(this)
   }
 
@@ -36,10 +27,7 @@ class Articles extends Component {
     return (
       <Grid celled centered>
         {this.props.favArticles &&
-
           this.props.favArticles.map((article, idx) => (
-
-
             <Modal
               key={idx}
               trigger={
@@ -52,7 +40,7 @@ class Articles extends Component {
                             char.toUpperCase()
                           )}
                         </Card.Content>
-                        <Image src={article.imageUrl} wrapped ui={false} />
+                        <Image src={article.imageUrl} wrapped rounded fluid />
                         <Card.Content>
                           <Card.Header>{article.title}</Card.Header>
                         </Card.Content>
