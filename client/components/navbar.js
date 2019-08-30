@@ -6,6 +6,7 @@ import {logout} from '../store'
 import Topics from './Topics'
 import FavoriteSites from './FavoriteSites'
 import {Button} from 'semantic-ui-react'
+import {SideMenu} from './SideMenu'
 
 const Navbar = ({handleClick, isLoggedIn}) => (
   <div>
@@ -25,13 +26,16 @@ const Navbar = ({handleClick, isLoggedIn}) => (
         </div>
       )}
     </nav>
-    <div id="header">
-      <h1 className="heading" align="center">
-        New News
-      </h1>
-      <h3 className="slogan">
-        All of your favorite news articles in one place. Plus something new
-      </h3>
+    <div>
+      <SideMenu />
+      <div id="header">
+        <h1 className="heading" align="center">
+          New News
+        </h1>
+        <h3 className="slogan">
+          All of your favorite news articles in one place. Plus something new
+        </h3>
+      </div>
     </div>
     <hr />
   </div>
