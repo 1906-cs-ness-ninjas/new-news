@@ -6,7 +6,7 @@ import {logout} from '../store'
 import Topics from './Topics'
 import FavoriteSites from './FavoriteSites'
 import {Button} from 'semantic-ui-react'
-// import {SideMenu} from './SideMenu'
+
 
 const Navbar = ({handleClick, isLoggedIn}) => (
   <div className="banner">
@@ -24,7 +24,6 @@ const Navbar = ({handleClick, isLoggedIn}) => (
       )}
     </nav>
     <div>
-      {/* <SideMenu /> */}
       <div id="header">
         <h1 className="heading" align="center">
           New News
