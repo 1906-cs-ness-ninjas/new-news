@@ -26,7 +26,7 @@ const AuthForm = props => {
                 </label>
                 <input placeholder="Password" name="password" type="password" />
               </div>
-              <div>
+              <div style={{width: 60}}>
                 <Button icon type="submit">
                   <Icon name="newspaper outline" />
                   {displayName}

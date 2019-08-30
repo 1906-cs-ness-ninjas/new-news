@@ -34,13 +34,19 @@ class Articles extends Component {
                 <Button>
                   <Transition.Group animation="horizontal flip" duration={1000}>
                     {visible && (
-                      <Card style={{marginTop: 50}}>
+                      <Card style={{marginTop: 50, width: 290, height: 290}}>
                         <Card.Content extra>
                           #{article.category.replace(/\w/, char =>
                             char.toUpperCase()
                           )}
                         </Card.Content>
-                        <Image src={article.imageUrl} wrapped rounded fluid />
+                        <Image
+                          src={article.imageUrl}
+                          wrapped
+                          rounded
+                          fluid
+                          style={{width: 290, height: 163}}
+                        />
                         <Card.Content>
                           <Card.Header>{article.title}</Card.Header>
                         </Card.Content>
