@@ -23,7 +23,7 @@ const Navbar = ({handleClick, isLoggedIn}) => (
         </div>
       )}
     </nav>
-    <div>
+
       <div id="header">
         <h1 className="heading" align="center">
           New News
@@ -32,7 +32,7 @@ const Navbar = ({handleClick, isLoggedIn}) => (
           All of your favorite news articles in one place. Plus something new
         </h3>
       </div>
-    </div>
+
     <hr />
   </div>
 )
