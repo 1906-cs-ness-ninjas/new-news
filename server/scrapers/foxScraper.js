@@ -5,7 +5,6 @@ async function scrapeFoxHeadlines(page) {
   await page.goto('https://www.foxnews.com/', {
     timeout: 0
   })
-
   const html = await page.content()
   const $ = cheerio.load(html)
   let articles = []
@@ -40,10 +39,16 @@ async function scrapeFoxHeadlines(page) {
 }
 async function scrapeFoxArticles(headlines, page) {
   let articles = []
-  for (var i = 0; i < headlines.length; i++) {
-    await page.goto(headlines[i].url, {
-      timeout: 0
-    })
+  for (let i = 0; i < headlines.length; i++) {
+    try {
+      // exception for
+      await page.goto(headlines[i].url, {
+        timeout: 0
+      })
+    } catch (error) {
+      console.log('foxnews url not founded', headlines[i].url)
+    }
+
     const html = await page.content()
     const $ = cheerio.load(html)
     const title = $('.headline').text()

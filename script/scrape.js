@@ -23,30 +23,49 @@ const puppeteer = require('puppeteer')
 
 async function scrape() {
   await db.sync({force: false})
-  // bbcArticles.destroy({
-  //   where: {},
-  //   truncate: true,
-  //   // force: true
-  // })
+  bbcArticles.destroy({
+    where: {},
+    truncate: true
+    // force: true
+  })
   console.log('db synced!')
   const browser = await puppeteer.launch({headless: false})
   try {
     const page = await browser.newPage()
-    /*!NPR Scraper*/
-    const NPRHeadlines = await scrapeNPRHeadlines(page)
-    await scrapeNPRArticles(NPRHeadlines, page)
 
-    /*!Fox Scraper*/
-    const Foxheadlines = await scrapeFoxHeadlines(page)
-    await scrapeFoxArticles(Foxheadlines, page)
+    try {
+      /*!NPR Scraper*/
+      const NPRHeadlines = await scrapeNPRHeadlines(page)
+      await scrapeNPRArticles(NPRHeadlines, page)
+    } catch (error) {
+      console.log('npr failed............')
+    }
 
-    // /*!HUffpost Scraper*/
-    const HPheadlines = await scrapeHuffPostHeadlines(page)
-    await scrapeHuffPostArticles(HPheadlines, page)
+    try {
+      /*!Fox Scraper*/
 
-    // /*!BBC Scraper */
-    const BBCheadlines = await scrapeBBCHeadlines(page)
-    await scrapeBBCArticles(BBCheadlines, page)
+      const Foxheadlines = await scrapeFoxHeadlines(page)
+      await scrapeFoxArticles(Foxheadlines, page)
+    } catch (error) {
+      console.log('fox failed............')
+      console.error(error.message)
+    }
+
+    try {
+      /*!HUffpost Scraper*/
+      const HPheadlines = await scrapeHuffPostHeadlines(page)
+      await scrapeHuffPostArticles(HPheadlines, page)
+    } catch (error) {
+      console.log('huffpost failed..............')
+    }
+
+    try {
+      /*!BBC Scraper */
+      const BBCheadlines = await scrapeBBCHeadlines(page)
+      await scrapeBBCArticles(BBCheadlines, page)
+    } catch (error) {
+      console.log('bbc failed..................')
+    }
   } catch (error) {
     console.log(error)
   } finally {
