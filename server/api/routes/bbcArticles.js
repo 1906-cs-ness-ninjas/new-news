@@ -30,7 +30,8 @@ router.get('/:userId/favArticles', async (req, res, next) => {
       let articles = bbcArticles.findAll({
         where: {
           category: topics,
-          url: {[Op.like]: '%' + element.website.split('.')[1] + '%'}
+          // url: {[Op.like]: '%' + element.website.split('.')[1] + '%'}
+          url: {[Op.regexp]: `\.?${element.website.split('.')[1]}\.`}
         }
       })
       articlesArr = articlesArr.concat(articles)

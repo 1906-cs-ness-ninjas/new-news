@@ -50,10 +50,15 @@ async function scrapeBBCArticles(headlines, page) {
     header.find('p').each((i, element) => {
       let subArr = []
       $(element.children).each((idx, el) => {
-        if (!el.data) {
-          subArr.push(el.children[0].data)
-        } else {
-          subArr.push(el.data)
+        try {
+          // in case el.children[0] is undefined
+          if (!el.data) {
+            subArr.push(el.children[0].data)
+          } else {
+            subArr.push(el.data)
+          }
+        } catch (error) {
+          console.log('bbc p tag error')
         }
       })
       arr.push(subArr.join(' '))

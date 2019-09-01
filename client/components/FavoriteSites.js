@@ -5,7 +5,7 @@ import {
 } from '../store/favoriteSiteStore'
 import {connect} from 'react-redux'
 import {Form, Dropdown} from 'semantic-ui-react'
-import {getFavArticles} from '../store/articles'
+import {getFavArticles, getRecArticles} from '../store/articles'
 
 class FavoriteSites extends Component {
   componentDidMount() {
@@ -30,15 +30,15 @@ class FavoriteSites extends Component {
                     <Form.Field
                       key={topic.id}
                       id={topic.id}
-                      //   onChange={e => this.onChange(e)}
                       label={topic.website.split('.')[1]}
                       name={topic.website.split('.')[1]}
                       control="input"
                       type="button"
                       onClick={async () => {
                         await this.props.delete(topic.id)
-                        this.props.getSelectSiteThunk()
-                        this.props.getFavArticlesThunk()
+                        await this.props.getSelectSiteThunk()
+                        await this.props.getFavArticlesThunk()
+                        await this.props.getRecArticlesThunk()
                       }}
                     />
                   )
@@ -62,7 +62,8 @@ const mapDispatchToProps = dispatch => {
   return {
     getSelectSiteThunk: () => dispatch(getSelectSiteThunk()),
     delete: id => dispatch(removeFavoriteThunk(id)),
-    getFavArticlesThunk: () => dispatch(getFavArticles())
+    getFavArticlesThunk: () => dispatch(getFavArticles()),
+    getRecArticlesThunk: () => dispatch(getRecArticles())
   }
 }
 
