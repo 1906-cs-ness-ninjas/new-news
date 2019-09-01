@@ -52,13 +52,6 @@ router.delete('/', async (req, res, next) => {
       include: [{model: Favorite}]
     })
 
-    // const urlId = await Favorite.findOne({
-    //   where: {
-    //     website: url
-    //   },
-    //   attribute: ['id']
-    // })
-    // console.log(req.body.site)
     await user.removeFavorite(req.body.site)
 
     res.send()

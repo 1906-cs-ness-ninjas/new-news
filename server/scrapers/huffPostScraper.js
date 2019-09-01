@@ -40,12 +40,17 @@ async function scrapeHuffPostArticles(headlines, page) {
       .each((i, tag) => {
         let arr = []
         $(tag.children).each((idx, el) => {
-          // p tag
-          if (!el) {
-            // if it is an <a/> tag
-            arr.push(el.children[0].data)
-          } else {
-            arr.push(el.data)
+          try {
+            // add exception in case fail
+            // p tag
+            if (!el) {
+              // if it is an <a/> tag
+              arr.push(el.children[0].data)
+            } else {
+              arr.push(el.data)
+            }
+          } catch (error) {
+            console.log('huffpost scraper error')
           }
         })
 

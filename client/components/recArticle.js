@@ -11,7 +11,6 @@ export default function RecArticle(props) {
       <Grid.Row
         href={recommendedArticle[index] && recommendedArticle[index].url}
       >
-        {/* <a href={recommendedArticle[index].url}> */}
         <Image
           src={recommendedArticle[index] && recommendedArticle[index].imageUrl}
           wrapped

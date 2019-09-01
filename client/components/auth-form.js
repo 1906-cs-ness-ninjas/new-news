@@ -14,26 +14,22 @@ const AuthForm = props => {
     <div>
       <div className="loginPlaceHolder">
         <div className="loginForm">
-          <Form centered>
-            <form onSubmit={handleSubmit} name={name}>
-              <div>
-                <label htmlFor="email">{/* <label>Email</label> */}</label>
-                <input placeholder="Email" name="email" type="text" />
-              </div>
-              <div>
-                <label htmlFor="password">
-                  {/* <label>Password</label> */}
-                </label>
-                <input placeholder="Password" name="password" type="password" />
-              </div>
-              <div style={{width: 60}}>
-                <Button icon type="submit">
-                  <Icon name="newspaper outline" />
-                  {displayName}
-                </Button>
-              </div>
-              {error && error.response && <div> {error.response.data} </div>}
-            </form>
+          <Form onSubmit={handleSubmit} name={name}>
+            <div>
+              <label htmlFor="email">{/* <label>Email</label> */}</label>
+              <input placeholder="Email" name="email" type="text" />
+            </div>
+            <div>
+              <label htmlFor="password">{/* <label>Password</label> */}</label>
+              <input placeholder="Password" name="password" type="password" />
+            </div>
+            <div style={{width: 60}}>
+              <Button icon type="submit">
+                <Icon name="newspaper outline" />
+                {displayName}
+              </Button>
+            </div>
+            {error && error.response && <div> {error.response.data} </div>}
           </Form>
         </div>
       </div>

@@ -26,7 +26,7 @@ async function scrape() {
   // bbcArticles.destroy({
   //   where: {},
   //   truncate: true,
-  //   force: true
+  //   // force: true
   // })
   console.log('db synced!')
   const browser = await puppeteer.launch({headless: false})
@@ -40,11 +40,11 @@ async function scrape() {
     const Foxheadlines = await scrapeFoxHeadlines(page)
     await scrapeFoxArticles(Foxheadlines, page)
 
-    /*!HUffpost Scraper*/
+    // /*!HUffpost Scraper*/
     const HPheadlines = await scrapeHuffPostHeadlines(page)
     await scrapeHuffPostArticles(HPheadlines, page)
 
-    /*!BBC Scraper */
+    // /*!BBC Scraper */
     const BBCheadlines = await scrapeBBCHeadlines(page)
     await scrapeBBCArticles(BBCheadlines, page)
   } catch (error) {
