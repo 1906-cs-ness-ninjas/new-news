@@ -15,3 +15,6 @@ Scraping from differently formatted websites
 
 STRETCH GOALS
 Launching as a PWA
+
+Watch us demo the application here:
+https://www.youtube.com/watch?v=eyZqJ11_Rkk&feature=share&fbclid=IwAR3NyUz-GH3L62u5wy7aOimVMx7Z0o1nl1qFkN7T5sha2veNbW_aHlY1z_A
